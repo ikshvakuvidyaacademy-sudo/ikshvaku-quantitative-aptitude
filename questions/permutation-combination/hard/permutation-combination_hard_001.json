@@ -1,0 +1,48 @@
+[
+  {
+    "id": "QA-PERMCOMB-000008",
+    "subject": "quantitative_aptitude",
+    "topic": "permutation-combination",
+    "subtopic": "permutations_arrangements",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "In how many ways can 5 boys and 4 girls sit in a row such that no two girls are seated next to each other?",
+    "options": [
+      "14,400",
+      "28,800",
+      "43,200",
+      "86,400"
+    ],
+    "answer": "43,200",
+    "explanation": "Use the Gap Method: First arrange the 5 boys in a row. They can be arranged in 5! = 120 ways. Row of 5 boys creates 6 empty gaps (including the two ends): _ B1 _ B2 _ B3 _ B4 _ B5 _. To ensure no two girls sit together, the 4 girls must be placed into these 6 distinct gaps. Number of ways to place 4 girls in 6 gaps = 6P4 = 6 \u00d7 5 \u00d7 4 \u00d7 3 = 360 ways. Total arrangements = 5! \u00d7 6P4 = 120 \u00d7 360 = 43,200.",
+    "estimated_time_seconds": 75,
+    "tags": [
+      "gap-method",
+      "non-consecutive",
+      "alternating-seating"
+    ]
+  },
+  {
+    "id": "QA-PERMCOMB-000009",
+    "subject": "quantitative_aptitude",
+    "topic": "permutation-combination",
+    "subtopic": "distribution_identical_distinct",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "In how many ways can 10 identical gold coins be distributed among 3 children such that each child receives at least one gold coin?",
+    "options": [
+      "28",
+      "36",
+      "45",
+      "66"
+    ],
+    "answer": "36",
+    "explanation": "Distributing n identical objects into k distinct bins with each receiving at least 1 is given by the Stars and Bars formula: (n - 1)C(k - 1). Here n = 10 and k = 3: Ways = (10 - 1)C(3 - 1) = 9C2 = (9 \u00d7 8) / (2 \u00d7 1) = 36.",
+    "estimated_time_seconds": 60,
+    "tags": [
+      "stars-and-bars",
+      "identical-objects",
+      "integer-partitions"
+    ]
+  }
+]

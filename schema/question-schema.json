@@ -1,0 +1,177 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "IkshvakuAptitudeQuestion",
+  "description": "Standard schema for quantitative aptitude questions in Ikshvaku Aptitude Arena question bank.",
+  "type": "object",
+  "required": [
+    "id",
+    "subject",
+    "topic",
+    "subtopic",
+    "difficulty",
+    "question_type",
+    "question",
+    "options",
+    "answer",
+    "explanation",
+    "estimated_time_seconds",
+    "tags"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^QA-[A-Z0-9]+-[0-9]{6}$",
+      "description": "Unique identifier formatted as QA-[TOPIC_CODE]-[6_DIGIT_SERIAL], e.g., QA-PERCENTAGE-000001."
+    },
+    "subject": {
+      "type": "string",
+      "const": "quantitative_aptitude",
+      "description": "Domain subject of the question."
+    },
+    "topic": {
+      "type": "string",
+      "minLength": 2,
+      "description": "Standardized kebab-case slug of the major aptitude topic."
+    },
+    "subtopic": {
+      "type": "string",
+      "minLength": 2,
+      "description": "Standardized kebab-case or snake-case slug of the specific subtopic."
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["easy", "medium", "hard", "very_hard"],
+      "description": "Calibrated cognitive difficulty level."
+    },
+    "question_type": {
+      "type": "string",
+      "enum": ["single_choice", "multiple_choice", "numerical", "true_false"],
+      "description": "Structural question presentation and evaluation type."
+    },
+    "question": {
+      "type": "string",
+      "minLength": 10,
+      "description": "Full problem statement with unambiguous mathematical conditions."
+    },
+    "options": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of choice options presented to the learner. Empty for numerical type."
+    },
+    "answer": {
+      "description": "The correct answer. String for single_choice/true_false/numerical; array of strings for multiple_choice.",
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      ]
+    },
+    "explanation": {
+      "type": "string",
+      "minLength": 10,
+      "description": "Comprehensive step-by-step mathematical reasoning and shortcut derivation."
+    },
+    "estimated_time_seconds": {
+      "type": "integer",
+      "minimum": 10,
+      "maximum": 600,
+      "description": "Benchmark solution time in seconds under standard exam pacing."
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Semantic keywords for indexing, exam blueprints, and concept mapping."
+    }
+  },
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "question_type": { "const": "single_choice" }
+        }
+      },
+      "then": {
+        "properties": {
+          "options": {
+            "minItems": 3,
+            "maxItems": 6
+          },
+          "answer": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "question_type": { "const": "multiple_choice" }
+        }
+      },
+      "then": {
+        "properties": {
+          "options": {
+            "minItems": 3,
+            "maxItems": 6
+          },
+          "answer": {
+            "type": "array"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "question_type": { "const": "true_false" }
+        }
+      },
+      "then": {
+        "properties": {
+          "options": {
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "answer": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "question_type": { "const": "numerical" }
+        }
+      },
+      "then": {
+        "properties": {
+          "options": {
+            "maxItems": 0
+          },
+          "answer": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "QA-MISC-000010",
+    "subject": "quantitative_aptitude",
+    "topic": "miscellaneous",
+    "subtopic": "set_theory_venn",
+    "difficulty": "very_hard",
+    "question_type": "single_choice",
+    "question": "In a research institute of 120 scientists, each scientist studies at least one of the three languages: Python, R, and Julia. 65 study Python, 55 study R, and 45 study Julia. Exactly 20 scientists study both Python and R, 15 study both R and Julia, and 18 study both Python and Julia. What is the number of scientists who study EXACTLY TWO of these three languages?",
+    "options": [
+      "29",
+      "33",
+      "37",
+      "41"
+    ],
+    "answer": "29",
+    "explanation": "Given n(P \u222a R \u222a J) = 120. By 3-set union formula: 120 = 65 + 55 + 45 - (20 + 15 + 18) + n(all 3) => 120 = 165 - 53 + n(all 3) => n(all 3) = 120 - 112 = 8. The count of scientists studying exactly two languages is given by: Sum of two-set intersections - 3 \u00d7 n(all three) = (20 + 15 + 18) - 3(8) = 53 - 24 = 29.",
+    "estimated_time_seconds": 125,
+    "tags": [
+      "three-set-partition",
+      "exactly-two-sets",
+      "venn-diagram"
+    ]
+  }
+]

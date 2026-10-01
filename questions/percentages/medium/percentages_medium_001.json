@@ -1,0 +1,94 @@
+[
+  {
+    "id": "QA-PERCENTAGE-000004",
+    "subject": "quantitative_aptitude",
+    "topic": "percentages",
+    "subtopic": "expenditure_problems",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "If the price of sugar increases by 25%, by what percentage must a household reduce its consumption so that the total monthly expenditure on sugar remains unchanged?",
+    "options": [
+      "15%",
+      "20%",
+      "22.5%",
+      "25%"
+    ],
+    "answer": "20%",
+    "explanation": "Expenditure = Price \u00d7 Consumption. If initial Price = 100 and Consumption = 100, Expenditure = 10,000. New Price = 125. Required new Consumption = 10,000 / 125 = 80. Reduction = 100 - 80 = 20%. Using shortcut: Reduction % = [r / (100 + r)] \u00d7 100 = [25 / 125] \u00d7 100 = 20%.",
+    "estimated_time_seconds": 50,
+    "tags": [
+      "expenditure",
+      "consumption",
+      "price-elasticity"
+    ]
+  },
+  {
+    "id": "QA-PERCENTAGE-000005",
+    "subject": "quantitative_aptitude",
+    "topic": "percentages",
+    "subtopic": "successive_percentage",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "The salary of an employee is first increased by 20% and subsequently decreased by 15%. What is the net percentage change in the salary?",
+    "options": [
+      "2% increase",
+      "2% decrease",
+      "5% increase",
+      "5% decrease"
+    ],
+    "answer": "2% increase",
+    "explanation": "Net percentage change formula = a + b + (a \u00d7 b)/100. Here a = +20 and b = -15. Net change = 20 - 15 + (20 \u00d7 -15)/100 = 5 - 3 = +2%. A positive result indicates a 2% net increase.",
+    "estimated_time_seconds": 45,
+    "tags": [
+      "successive-percentage",
+      "salary",
+      "net-change"
+    ]
+  },
+  {
+    "id": "QA-PERCENTAGE-000006",
+    "subject": "quantitative_aptitude",
+    "topic": "percentages",
+    "subtopic": "population_problems",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "The population of a town grows at a constant rate of 10% per annum. If the present population is 145,200, what was the population 2 years ago?",
+    "options": [
+      "115,000",
+      "120,000",
+      "125,000",
+      "130,000"
+    ],
+    "answer": "120,000",
+    "explanation": "Let the population 2 years ago be P. Compounded population formula: Present = P \u00d7 (1 + r/100)^2 => 145,200 = P \u00d7 (1.10)^2 = P \u00d7 1.21. Therefore, P = 145,200 / 1.21 = 120,000.",
+    "estimated_time_seconds": 55,
+    "tags": [
+      "population",
+      "compounded-growth",
+      "reverse-percentage"
+    ]
+  },
+  {
+    "id": "QA-PERCENTAGE-000007",
+    "subject": "quantitative_aptitude",
+    "topic": "percentages",
+    "subtopic": "salary_problems",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A person spends 30% of his monthly income on house rent, 25% of the remaining on food, and 20% of the remaining on mutual funds. If his remaining savings amount to \u20b916,800, what is his total monthly income?",
+    "options": [
+      "\u20b936,000",
+      "\u20b940,000",
+      "\u20b942,000",
+      "\u20b945,000"
+    ],
+    "answer": "\u20b940,000",
+    "explanation": "Let income be I. After rent: 70% remains (0.70 I). After food (25% of remaining spent, 75% remains): 0.70 \u00d7 0.75 I = 0.525 I. After mutual funds (20% spent, 80% remains): 0.525 \u00d7 0.80 I = 0.42 I. We are given 0.42 I = 16,800 => I = 16,800 / 0.42 = \u20b940,000.",
+    "estimated_time_seconds": 65,
+    "tags": [
+      "salary",
+      "remaining-percentage",
+      "savings"
+    ]
+  }
+]

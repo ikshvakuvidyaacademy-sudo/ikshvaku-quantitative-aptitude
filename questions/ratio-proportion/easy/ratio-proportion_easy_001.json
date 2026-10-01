@@ -1,0 +1,71 @@
+[
+  {
+    "id": "QA-RATIOPROP-000001",
+    "subject": "quantitative_aptitude",
+    "topic": "ratio-proportion",
+    "subtopic": "ratio_basics",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "If A : B = 3 : 4 and B : C = 8 : 9, what is the compound ratio A : C?",
+    "options": [
+      "1 : 2",
+      "2 : 3",
+      "3 : 4",
+      "4 : 5"
+    ],
+    "answer": "2 : 3",
+    "explanation": "A / C = (A / B) \u00d7 (B / C) = (3 / 4) \u00d7 (8 / 9) = 24 / 36 = 2 / 3. Hence, A : C = 2 : 3.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "ratio-basics",
+      "compound-ratio",
+      "simplification"
+    ]
+  },
+  {
+    "id": "QA-RATIOPROP-000002",
+    "subject": "quantitative_aptitude",
+    "topic": "ratio-proportion",
+    "subtopic": "proportion_variation",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "What is the third proportional to 16 and 24?",
+    "options": [
+      "30",
+      "32",
+      "36",
+      "40"
+    ],
+    "answer": "36",
+    "explanation": "If x is the third proportional to a and b, then a : b = b : x => x = b^2 / a. Here a = 16, b = 24. x = (24 \u00d7 24) / 16 = 576 / 16 = 36.",
+    "estimated_time_seconds": 30,
+    "tags": [
+      "third-proportional",
+      "proportion",
+      "variation"
+    ]
+  },
+  {
+    "id": "QA-RATIOPROP-000003",
+    "subject": "quantitative_aptitude",
+    "topic": "ratio-proportion",
+    "subtopic": "distribution_division",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "An amount of \u20b94,200 is divided among X, Y, and Z in the ratio 2 : 3 : 5. How much does Z receive?",
+    "options": [
+      "\u20b91,260",
+      "\u20b91,800",
+      "\u20b92,100",
+      "\u20b92,400"
+    ],
+    "answer": "\u20b92,100",
+    "explanation": "Total ratio units = 2 + 3 + 5 = 10 units. Value of 1 unit = 4,200 / 10 = \u20b9420. Z's share = 5 units = 5 \u00d7 \u20b9420 = \u20b92,100.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "distribution",
+      "division-ratio",
+      "arithmetic"
+    ]
+  }
+]

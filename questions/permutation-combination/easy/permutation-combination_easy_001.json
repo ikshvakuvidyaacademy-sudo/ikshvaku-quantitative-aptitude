@@ -1,0 +1,71 @@
+[
+  {
+    "id": "QA-PERMCOMB-000001",
+    "subject": "quantitative_aptitude",
+    "topic": "permutation-combination",
+    "subtopic": "permutations_arrangements",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "In how many distinct ways can all the letters of the word 'LEADER' be arranged?",
+    "options": [
+      "120",
+      "240",
+      "360",
+      "720"
+    ],
+    "answer": "360",
+    "explanation": "The word 'LEADER' has 6 letters, where 'E' appears 2 times and all other letters appear once. Total arrangements = 6! / 2! = 720 / 2 = 360.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "permutations",
+      "identical-letters",
+      "anagrams"
+    ]
+  },
+  {
+    "id": "QA-PERMCOMB-000002",
+    "subject": "quantitative_aptitude",
+    "topic": "permutation-combination",
+    "subtopic": "combinations_selections",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "At an executive summit, each of the 12 participants shakes hands exactly once with every other participant. What is the total number of handshakes exchanged?",
+    "options": [
+      "54",
+      "66",
+      "72",
+      "132"
+    ],
+    "answer": "66",
+    "explanation": "A handshake occurs between any pair of 2 persons. Number of handshakes = 12C2 = (12 \u00d7 11) / (2 \u00d7 1) = 6 \u00d7 11 = 66 handshakes.",
+    "estimated_time_seconds": 20,
+    "tags": [
+      "handshake-problem",
+      "combinations",
+      "nC2"
+    ]
+  },
+  {
+    "id": "QA-PERMCOMB-000003",
+    "subject": "quantitative_aptitude",
+    "topic": "permutation-combination",
+    "subtopic": "fundamental_counting_principle",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "How many 3-digit numbers can be formed using the digits 1, 2, 3, 4, and 5 without repeating any digit in the same number?",
+    "options": [
+      "30",
+      "60",
+      "120",
+      "125"
+    ],
+    "answer": "60",
+    "explanation": "By Fundamental Counting Principle: Hundreds place has 5 choices, Tens place has 4 remaining choices, Units place has 3 remaining choices. Total 3-digit numbers = 5 \u00d7 4 \u00d7 3 = 60.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "fundamental-counting",
+      "no-repetition",
+      "digit-formation"
+    ]
+  }
+]

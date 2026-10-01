@@ -1,0 +1,94 @@
+[
+  {
+    "id": "QA-SICI-000004",
+    "subject": "quantitative_aptitude",
+    "topic": "simple-compound-interest",
+    "subtopic": "difference_si_ci",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "The difference between the compound interest and simple interest on a certain sum of money for 2 years at 5% per annum is \u20b945. What is the principal sum?",
+    "options": [
+      "\u20b916,000",
+      "\u20b918,000",
+      "\u20b920,000",
+      "\u20b924,000"
+    ],
+    "answer": "\u20b918,000",
+    "explanation": "For 2 years, Difference = P \u00d7 (R / 100)^2. Here Diff = 45 and R = 5: 45 = P \u00d7 (5 / 100)^2 = P \u00d7 (1 / 20)^2 = P / 400 => P = 45 \u00d7 400 = \u20b918,000.",
+    "estimated_time_seconds": 45,
+    "tags": [
+      "si-ci-difference",
+      "two-years",
+      "principal-derivation"
+    ]
+  },
+  {
+    "id": "QA-SICI-000005",
+    "subject": "quantitative_aptitude",
+    "topic": "simple-compound-interest",
+    "subtopic": "compound_interest_subannual",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "Find the compound interest on \u20b910,000 for 1.5 years at 10% per annum, compounded half-yearly.",
+    "options": [
+      "\u20b91,500.00",
+      "\u20b91,576.25",
+      "\u20b91,625.50",
+      "\u20b91,650.00"
+    ],
+    "answer": "\u20b91,576.25",
+    "explanation": "When compounded half-yearly: Rate r = 10% / 2 = 5% per half-year, and periods n = 1.5 \u00d7 2 = 3 half-years. Amount = 10,000 \u00d7 (1 + 0.05)^3 = 10,000 \u00d7 (1.05)^3 = 10,000 \u00d7 1.157625 = \u20b911,576.25. CI = Amount - Principal = 11,576.25 - 10,000 = \u20b91,576.25.",
+    "estimated_time_seconds": 55,
+    "tags": [
+      "half-yearly-compounding",
+      "subannual",
+      "compound-interest"
+    ]
+  },
+  {
+    "id": "QA-SICI-000006",
+    "subject": "quantitative_aptitude",
+    "topic": "simple-compound-interest",
+    "subtopic": "compound_interest_annual",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A sum of money invested at compound interest doubles itself in 4 years. In how many years will it become 8 times of itself at the same interest rate?",
+    "options": [
+      "8 years",
+      "12 years",
+      "16 years",
+      "20 years"
+    ],
+    "answer": "12 years",
+    "explanation": "Under compound interest, growth is exponential: Amount = P \u00d7 2^(t / 4). We want Amount = 8P = 2^3 P. Thus 2^(t / 4) = 2^3 => t / 4 = 3 => t = 12 years.",
+    "estimated_time_seconds": 40,
+    "tags": [
+      "exponential-growth",
+      "compounding-multipliers",
+      "rule-of-72"
+    ]
+  },
+  {
+    "id": "QA-SICI-000007",
+    "subject": "quantitative_aptitude",
+    "topic": "simple-compound-interest",
+    "subtopic": "simple_interest",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A sum was put at simple interest at a certain rate for 3 years. Had it been put at 2% higher rate, it would have fetched \u20b9540 more. Find the principal sum.",
+    "options": [
+      "\u20b98,000",
+      "\u20b99,000",
+      "\u20b910,000",
+      "\u20b912,000"
+    ],
+    "answer": "\u20b99,000",
+    "explanation": "The additional interest arises entirely from the 2% higher rate over 3 years: Additional Interest = (P \u00d7 \u0394R \u00d7 T) / 100. 540 = (P \u00d7 2 \u00d7 3) / 100 => 540 = 6P / 100 => P = (540 \u00d7 100) / 6 = \u20b99,000.",
+    "estimated_time_seconds": 45,
+    "tags": [
+      "rate-increment",
+      "simple-interest",
+      "direct-variation"
+    ]
+  }
+]

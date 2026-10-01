@@ -1,0 +1,94 @@
+[
+  {
+    "id": "QA-TIMEWORK-000004",
+    "subject": "quantitative_aptitude",
+    "topic": "time-work",
+    "subtopic": "alternate_days",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A can complete a project in 16 days and B can complete it in 12 days. They work on alternate days starting with A on day 1. In how many total days will the project be completed?",
+    "options": [
+      "13(1/3) days",
+      "13(2/3) days",
+      "13(3/4) days",
+      "14 days"
+    ],
+    "answer": "13(3/4) days",
+    "explanation": "Take total work = LCM(16, 12) = 48 units. A's efficiency = 48/16 = 3 units/day; B's efficiency = 48/12 = 4 units/day. In a 2-day cycle (A + B), work done = 3 + 4 = 7 units. Number of complete 2-day cycles: 48 / 7 = 6 cycles (12 days) with 6 \u00d7 7 = 42 units completed. Remaining work = 48 - 42 = 6 units. Day 13: A works and completes 3 units. Remaining work = 6 - 3 = 3 units. Day 14: B works with efficiency 4 units/day, taking 3/4 of a day. Total time = 12 + 1 + 3/4 = 13(3/4) days.",
+    "estimated_time_seconds": 60,
+    "tags": [
+      "alternate-days",
+      "cycle-method",
+      "lcm-approach"
+    ]
+  },
+  {
+    "id": "QA-TIMEWORK-000005",
+    "subject": "quantitative_aptitude",
+    "topic": "time-work",
+    "subtopic": "work_wages",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A, B, and C can complete a piece of work individually in 6, 8, and 12 days respectively. Working together, they complete the work and receive a total payment of \u20b92,700. What is B's share of the wages?",
+    "options": [
+      "\u20b9800",
+      "\u20b9900",
+      "\u20b91,000",
+      "\u20b91,200"
+    ],
+    "answer": "\u20b9900",
+    "explanation": "Wages are distributed in proportion to daily work efficiency: Daily rates ratio = (1/6) : (1/8) : (1/12). Multiply by LCM 24 => 4 : 3 : 2. Total ratio parts = 4 + 3 + 2 = 9 parts. B's share = (3 / 9) \u00d7 \u20b92,700 = (1 / 3) \u00d7 \u20b92,700 = \u20b9900.",
+    "estimated_time_seconds": 45,
+    "tags": [
+      "wages",
+      "efficiency-proportions",
+      "remuneration"
+    ]
+  },
+  {
+    "id": "QA-TIMEWORK-000006",
+    "subject": "quantitative_aptitude",
+    "topic": "time-work",
+    "subtopic": "pipes_and_cisterns",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "Two inlet pipes can fill an empty reservoir in 20 minutes and 30 minutes respectively. When a waste outlet pipe is also opened, the three pipes together fill the reservoir in 15 minutes. How many minutes would the waste pipe alone take to empty the completely filled reservoir?",
+    "options": [
+      "40 minutes",
+      "50 minutes",
+      "60 minutes",
+      "75 minutes"
+    ],
+    "answer": "60 minutes",
+    "explanation": "Let waste pipe empty rate be 1/W. Combined filling rate: 1/20 + 1/30 - 1/W = 1/15. (3 + 2) / 60 - 1/W = 1/15 => 5/60 - 1/15 = 1/W => 5/60 - 4/60 = 1/W => 1/60 = 1/W => W = 60 minutes.",
+    "estimated_time_seconds": 50,
+    "tags": [
+      "pipes-cisterns",
+      "waste-pipe",
+      "reservoir"
+    ]
+  },
+  {
+    "id": "QA-TIMEWORK-000007",
+    "subject": "quantitative_aptitude",
+    "topic": "time-work",
+    "subtopic": "man_days_equivalence",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "12 men or 18 women can harvest a farm in 14 days working 7 hours a day. In how many days can 8 men and 16 women harvest the same farm working 7 hours a day?",
+    "options": [
+      "8 days",
+      "9 days",
+      "10 days",
+      "12 days"
+    ],
+    "answer": "9 days",
+    "explanation": "Work equivalence: 12 Men = 18 Women => 2 Men = 3 Women => 1 Man = 1.5 Women. Convert all workers to Women: 8 Men + 16 Women = 8(1.5) + 16 = 12 + 16 = 28 Women. Using M1 \u00d7 D1 \u00d7 H1 = M2 \u00d7 D2 \u00d7 H2: 18 Women \u00d7 14 days \u00d7 7 hrs = 28 Women \u00d7 D2 \u00d7 7 hrs => 18 \u00d7 14 = 28 \u00d7 D2 => 252 = 28 D2 => D2 = 9 days.",
+    "estimated_time_seconds": 65,
+    "tags": [
+      "man-days",
+      "equivalence",
+      "hours-per-day"
+    ]
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "QA-PROB-000004",
+    "subject": "quantitative_aptitude",
+    "topic": "probability",
+    "subtopic": "dice_cards_coins",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "Two fair six-sided dice are rolled simultaneously. What is the probability that the sum of the numbers appearing on the top faces is greater than 8?",
+    "options": [
+      "5/18",
+      "7/36",
+      "1/4",
+      "11/36"
+    ],
+    "answer": "5/18",
+    "explanation": "Total outcomes = 6 \u00d7 6 = 36. Favorable outcomes where sum > 8: Sum 9: (3,6), (4,5), (5,4), (6,3) [4 pairs]; Sum 10: (4,6), (5,5), (6,4) [3 pairs]; Sum 11: (5,6), (6,5) [2 pairs]; Sum 12: (6,6) [1 pair]. Total favorable pairs = 4 + 3 + 2 + 1 = 10. Probability = 10 / 36 = 5 / 18.",
+    "estimated_time_seconds": 45,
+    "tags": [
+      "two-dice",
+      "sum-of-faces",
+      "combinatorial-probability"
+    ]
+  },
+  {
+    "id": "QA-PROB-000005",
+    "subject": "quantitative_aptitude",
+    "topic": "probability",
+    "subtopic": "independent_events",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A bag contains 5 red, 4 green, and 3 blue balls. If two balls are drawn at random one after another without replacement, what is the probability that both balls are red?",
+    "options": [
+      "5/33",
+      "5/36",
+      "10/33",
+      "25/144"
+    ],
+    "answer": "5/33",
+    "explanation": "Total balls = 5 + 4 + 3 = 12 balls. P(1st ball is Red) = 5 / 12. Since drawing is without replacement, 4 red balls and 11 total balls remain. P(2nd ball is Red | 1st Red) = 4 / 11. Joint probability = (5 / 12) \u00d7 (4 / 11) = 5 / (3 \u00d7 11) = 5 / 33.",
+    "estimated_time_seconds": 40,
+    "tags": [
+      "without-replacement",
+      "urn-balls",
+      "dependent-events"
+    ]
+  },
+  {
+    "id": "QA-PROB-000006",
+    "subject": "quantitative_aptitude",
+    "topic": "probability",
+    "subtopic": "geometric_probability",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "The probability that student A solves a problem is 2/3 and that student B solves it is 3/4. If both attempt the problem independently, what is the probability that the problem is solved?",
+    "options": [
+      "1/2",
+      "11/12",
+      "5/6",
+      "7/12"
+    ],
+    "answer": "11/12",
+    "explanation": "The problem is solved if at least one student solves it. Complementary probability: P(Problem NOT solved) = P(A fails) \u00d7 P(B fails) = (1 - 2/3) \u00d7 (1 - 3/4) = (1/3) \u00d7 (1/4) = 1/12. P(Problem solved) = 1 - P(Problem NOT solved) = 1 - 1/12 = 11/12.",
+    "estimated_time_seconds": 35,
+    "tags": [
+      "independent-events",
+      "at-least-one",
+      "complementary-probability"
+    ]
+  },
+  {
+    "id": "QA-PROB-000007",
+    "subject": "quantitative_aptitude",
+    "topic": "probability",
+    "subtopic": "conditional_probability",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A couple has two children. Assuming boys and girls are equally likely, if it is known that at least one of the children is a boy, what is the conditional probability that both children are boys?",
+    "options": [
+      "1/4",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "answer": "1/3",
+    "explanation": "Sample space: S = {BB, BG, GB, GG} with equal probability 1/4 each. Event A (at least one boy) = {BB, BG, GB} (3 outcomes). Event B (both boys) = {BB} (1 outcome). Conditional probability P(B | A) = P(A \u2229 B) / P(A) = (1/4) / (3/4) = 1/3.",
+    "estimated_time_seconds": 45,
+    "tags": [
+      "conditional-probability",
+      "boy-girl-paradox",
+      "sample-reduction"
+    ]
+  }
+]

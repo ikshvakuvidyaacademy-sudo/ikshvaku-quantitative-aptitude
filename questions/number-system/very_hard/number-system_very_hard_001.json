@@ -1,0 +1,25 @@
+[
+  {
+    "id": "QA-NUMSYS-000010",
+    "subject": "quantitative_aptitude",
+    "topic": "number-system",
+    "subtopic": "base_conversion",
+    "difficulty": "very_hard",
+    "question_type": "single_choice",
+    "question": "A positive integer N, when expressed in base 7, is a three-digit number 'abc'. When expressed in base 9, it is represented by the same digits reversed as 'cba'. What is the value of the integer N in base 10?",
+    "options": [
+      "248",
+      "256",
+      "312",
+      "342"
+    ],
+    "answer": "248",
+    "explanation": "In base 7: N = a \u00d7 7^2 + b \u00d7 7 + c = 49a + 7b + c. In base 9: N = c \u00d7 9^2 + b \u00d7 9 + a = 81c + 9b + a. Since both represent the same integer N: 49a + 7b + c = 81c + 9b + a => 48a - 2b - 80c = 0 => 24a - b - 40c = 0 => b = 24a - 40c = 8(3a - 5c). In base 7, digits a, b, c must satisfy 1 <= a, c <= 6 and 0 <= b <= 6. Since b is a multiple of 8 and 0 <= b <= 6, the only valid integer value for b is 0. If b = 0, then 3a - 5c = 0 => 3a = 5c. Since gcd(3, 5) = 1 and 1 <= a, c <= 6, the only solution is a = 5 and c = 3. Checking: N = 49(5) + 7(0) + 3 = 245 + 3 = 248. Base 9: 81(3) + 9(0) + 5 = 243 + 5 = 248. Both match. Therefore, N = 248.",
+    "estimated_time_seconds": 150,
+    "tags": [
+      "base-conversion",
+      "diophantine-equations",
+      "number-bases"
+    ]
+  }
+]

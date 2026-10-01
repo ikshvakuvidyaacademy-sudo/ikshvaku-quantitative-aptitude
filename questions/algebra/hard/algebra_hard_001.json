@@ -1,0 +1,48 @@
+[
+  {
+    "id": "QA-ALGEBRA-000008",
+    "subject": "quantitative_aptitude",
+    "topic": "algebra",
+    "subtopic": "algebraic_identities",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "If a + b + c = 6 and ab + bc + ca = 11, find the value of a^3 + b^3 + c^3 - 3abc.",
+    "options": [
+      "12",
+      "18",
+      "24",
+      "36"
+    ],
+    "answer": "18",
+    "explanation": "Identity: a^3 + b^3 + c^3 - 3abc = (a + b + c)[(a + b + c)^2 - 3(ab + bc + ca)]. Substitute given values: = 6 \u00d7 [6^2 - 3(11)] = 6 \u00d7 [36 - 33] = 6 \u00d7 3 = 18.",
+    "estimated_time_seconds": 65,
+    "tags": [
+      "algebraic-identities",
+      "three-variables",
+      "symmetric-polynomials"
+    ]
+  },
+  {
+    "id": "QA-ALGEBRA-000009",
+    "subject": "quantitative_aptitude",
+    "topic": "algebra",
+    "subtopic": "inequalities",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "Find the minimum value of the expression f(x, y) = 4x^2 + 9y^2 + 12x - 18y + 25 for all real numbers x and y.",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "12"
+    ],
+    "answer": "7",
+    "explanation": "Complete the square for x and y independently: 4x^2 + 12x = (2x + 3)^2 - 9. 9y^2 - 18y = (3y - 3)^2 - 9. Substituting: f(x, y) = [(2x + 3)^2 - 9] + [(3y - 3)^2 - 9] + 25 = (2x + 3)^2 + (3y - 3)^2 + 7. Since squared real quantities are always >= 0, the minimum value occurs when 2x + 3 = 0 and 3y - 3 = 0. Minimum value = 0 + 0 + 7 = 7.",
+    "estimated_time_seconds": 80,
+    "tags": [
+      "completing-the-square",
+      "multivariate-minima",
+      "inequalities"
+    ]
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "QA-ALGEBRA-000004",
+    "subject": "quantitative_aptitude",
+    "topic": "algebra",
+    "subtopic": "algebraic_identities",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "If x + (1/x) = 4, find the numerical value of x^3 + (1/x^3).",
+    "options": [
+      "48",
+      "52",
+      "56",
+      "64"
+    ],
+    "answer": "52",
+    "explanation": "Identity: (x + 1/x)^3 = x^3 + 1/x^3 + 3(x + 1/x). Substituting x + 1/x = 4: 4^3 = x^3 + 1/x^3 + 3(4) => 64 = x^3 + 1/x^3 + 12 => x^3 + 1/x^3 = 64 - 12 = 52.",
+    "estimated_time_seconds": 40,
+    "tags": [
+      "algebraic-identities",
+      "cubic-expansion",
+      "polynomials"
+    ]
+  },
+  {
+    "id": "QA-ALGEBRA-000005",
+    "subject": "quantitative_aptitude",
+    "topic": "algebra",
+    "subtopic": "quadratic_equations",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "If \u03b1 and \u03b2 are the roots of the equation 2x^2 - 7x + 5 = 0, find the value of (\u03b1/\u03b2) + (\u03b2/\u03b1).",
+    "options": [
+      "29/10",
+      "31/10",
+      "33/10",
+      "37/10"
+    ],
+    "answer": "29/10",
+    "explanation": "Sum of roots \u03b1 + \u03b2 = -(-7)/2 = 7/2. Product of roots \u03b1\u03b2 = 5/2. Expression: (\u03b1/\u03b2) + (\u03b2/\u03b1) = (\u03b1^2 + \u03b2^2) / (\u03b1\u03b2) = [(\u03b1 + \u03b2)^2 - 2\u03b1\u03b2] / (\u03b1\u03b2) = [(7/2)^2 - 2(5/2)] / (5/2) = [49/4 - 5] / (5/2) = (29/4) / (5/2) = (29/4) \u00d7 (2/5) = 29/10.",
+    "estimated_time_seconds": 55,
+    "tags": [
+      "roots-of-equations",
+      "symmetric-functions",
+      "vieta-formulas"
+    ]
+  },
+  {
+    "id": "QA-ALGEBRA-000006",
+    "subject": "quantitative_aptitude",
+    "topic": "algebra",
+    "subtopic": "linear_equations",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "For what value of k will the system of linear equations 3x + ky = 9 and 6x + 8y = 18 have infinitely many solutions?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "4",
+    "explanation": "For infinitely many solutions (coincident lines): a1/a2 = b1/b2 = c1/c2. Here: 3/6 = k/8 = 9/18 => 1/2 = k/8 = 1/2 => k = 8 / 2 = 4.",
+    "estimated_time_seconds": 35,
+    "tags": [
+      "linear-systems",
+      "infinite-solutions",
+      "coincident-lines"
+    ]
+  },
+  {
+    "id": "QA-ALGEBRA-000007",
+    "subject": "quantitative_aptitude",
+    "topic": "algebra",
+    "subtopic": "polynomials_roots",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "When the polynomial P(x) = 2x^3 - 5x^2 + ax - 8 is divided by (x - 2), the remainder is 6. What is the value of the constant a?",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "11"
+    ],
+    "answer": "9",
+    "explanation": "By the Remainder Theorem, the remainder when P(x) is divided by (x - 2) is P(2). P(2) = 2(2^3) - 5(2^2) + a(2) - 8 = 2(8) - 5(4) + 2a - 8 = 16 - 20 + 2a - 8 = 2a - 12. Given P(2) = 6: 2a - 12 = 6 => 2a = 18 => a = 9.",
+    "estimated_time_seconds": 45,
+    "tags": [
+      "remainder-theorem",
+      "polynomials",
+      "factor-theorem"
+    ]
+  }
+]

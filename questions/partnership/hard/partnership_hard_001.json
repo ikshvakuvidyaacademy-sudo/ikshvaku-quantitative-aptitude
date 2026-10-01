@@ -1,0 +1,48 @@
+[
+  {
+    "id": "QA-PARTNER-000008",
+    "subject": "quantitative_aptitude",
+    "topic": "partnership",
+    "subtopic": "capital_adjustment",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "A, B, and C subscribe together \u20b950,000 for a business venture. A subscribes \u20b94,000 more than B, and B subscribes \u20b95,000 more than C. Out of a total profit of \u20b935,000, what is A's share?",
+    "options": [
+      "\u20b912,400",
+      "\u20b914,700",
+      "\u20b915,400",
+      "\u20b916,100"
+    ],
+    "answer": "\u20b914,700",
+    "explanation": "Let C's investment be x. Then B = x + 5,000 and A = (x + 5,000) + 4,000 = x + 9,000. Total: (x + 9,000) + (x + 5,000) + x = 50,000 => 3x + 14,000 = 50,000 => 3x = 36,000 => x = 12,000. Investments: C = \u20b912,000, B = \u20b917,000, A = \u20b921,000. Profit ratio A : B : C = 21 : 17 : 12 (Sum = 50 parts). Total profit = \u20b935,000. A's share = (21 / 50) \u00d7 35,000 = 21 \u00d7 700 = \u20b914,700.",
+    "estimated_time_seconds": 75,
+    "tags": [
+      "relative-capital",
+      "linear-system",
+      "profit-allocation"
+    ]
+  },
+  {
+    "id": "QA-PARTNER-000009",
+    "subject": "quantitative_aptitude",
+    "topic": "partnership",
+    "subtopic": "active_sleeping_partner",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "P and Q invest in a business in the ratio 4 : 5. P is an active partner and receives a fixed monthly salary of \u20b91,000 from the gross profit. At the end of one year, if the total gross profit is \u20b948,000, what is the ratio of P's total annual earnings (salary plus profit share) to Q's total annual earnings?",
+    "options": [
+      "6 : 5",
+      "7 : 5",
+      "8 : 5",
+      "9 : 7"
+    ],
+    "answer": "7 : 5",
+    "explanation": "P's annual managerial salary = 12 \u00d7 \u20b91,000 = \u20b912,000. Remaining profit for dividend distribution = 48,000 - 12,000 = \u20b936,000. Divided in ratio 4 : 5 (total 9 parts). Value of 1 part = 36,000 / 9 = \u20b94,000. P's profit share = 4 \u00d7 4,000 = \u20b916,000. P's total annual earnings = 12,000 + 16,000 = \u20b928,000. Q's total earnings = 5 \u00d7 4,000 = \u20b920,000. Ratio of P's earnings to Q's earnings = 28,000 : 20,000 = 7 : 5.",
+    "estimated_time_seconds": 80,
+    "tags": [
+      "active-partner",
+      "annual-salary",
+      "earnings-ratio"
+    ]
+  }
+]

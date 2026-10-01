@@ -1,0 +1,25 @@
+[
+  {
+    "id": "QA-PARTNER-000010",
+    "subject": "quantitative_aptitude",
+    "topic": "partnership",
+    "subtopic": "capital_adjustment",
+    "difficulty": "very_hard",
+    "question_type": "single_choice",
+    "question": "A, B, and C enter into a partnership with initial investments of \u20b940,000, \u20b950,000, and \u20b960,000 respectively. After 4 months, A invests an additional 25% of his original capital, B withdraws 20% of his capital, and C remains unchanged. After 8 months from the start, C withdraws 50% of his capital, while B adds back the exact amount he withdrew earlier. If the business realizes a total net profit of \u20b986,000 at the end of the year, what is B's total profit share?",
+    "options": [
+      "\u20b926,000",
+      "\u20b928,000",
+      "\u20b930,000",
+      "\u20b932,000"
+    ],
+    "answer": "\u20b928,000",
+    "explanation": "Compute equivalent capital-months for each partner over 12 months: Partner A: Months 1-4: 40k \u00d7 4 = 160k; Months 5-12 (50k for 8 months): 50k \u00d7 8 = 400k. Total A = 560k. Partner B: Months 1-4: 50k \u00d7 4 = 200k; Months 5-8 (40k for 4 months): 40k \u00d7 4 = 160k; Months 9-12 (50k for 4 months): 50k \u00d7 4 = 200k. Total B = 560k. Partner C: Months 1-8: 60k \u00d7 8 = 480k; Months 9-12 (30k for 4 months): 30k \u00d7 4 = 120k. Total C = 600k. Ratio A : B : C = 560 : 560 : 600 = 28 : 28 : 30. Total parts = 28 + 28 + 30 = 86 parts. B's profit share = (28 / 86) \u00d7 \u20b986,000 = \u20b928,000.",
+    "estimated_time_seconds": 140,
+    "tags": [
+      "complex-partnership",
+      "multi-phase-infusion",
+      "capital-months"
+    ]
+  }
+]

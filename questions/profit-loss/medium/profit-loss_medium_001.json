@@ -1,0 +1,94 @@
+[
+  {
+    "id": "QA-PROFITLOSS-000004",
+    "subject": "quantitative_aptitude",
+    "topic": "profit-loss",
+    "subtopic": "cost_selling_price",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "If the cost price of 16 pens is equal to the selling price of 12 pens, what is the profit percentage?",
+    "options": [
+      "25%",
+      "33.33%",
+      "36%",
+      "40%"
+    ],
+    "answer": "33.33%",
+    "explanation": "Given: 16 \u00d7 CP = 12 \u00d7 SP => SP / CP = 16 / 12 = 4 / 3. Profit per unit = SP - CP = 4 - 3 = 1. Profit percentage = (Profit / CP) \u00d7 100 = (1 / 3) \u00d7 100 = 33.33%.",
+    "estimated_time_seconds": 40,
+    "tags": [
+      "articles-equivalence",
+      "cp-sp-ratio",
+      "profit-percentage"
+    ]
+  },
+  {
+    "id": "QA-PROFITLOSS-000005",
+    "subject": "quantitative_aptitude",
+    "topic": "profit-loss",
+    "subtopic": "marked_price_discount",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A merchant marks his goods 40% above the cost price and allows a discount of 15% on the marked price. What is his net profit percentage?",
+    "options": [
+      "18%",
+      "19%",
+      "20%",
+      "22%"
+    ],
+    "answer": "19%",
+    "explanation": "Let Cost Price (CP) = 100. Marked Price (MP) = 140. Selling Price (SP) = MP \u00d7 (1 - Discount/100) = 140 \u00d7 0.85 = 119. Net profit = SP - CP = 119 - 100 = \u20b919. Profit percentage = 19%.",
+    "estimated_time_seconds": 45,
+    "tags": [
+      "markup",
+      "discount",
+      "net-profit"
+    ]
+  },
+  {
+    "id": "QA-PROFITLOSS-000006",
+    "subject": "quantitative_aptitude",
+    "topic": "profit-loss",
+    "subtopic": "dishonest_trader",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A dishonest grocer professes to sell his pulses at cost price, but uses a false weight of 900 grams instead of a standard 1 kilogram weight. What is his actual gain percentage?",
+    "options": [
+      "10%",
+      "11.11%",
+      "12.5%",
+      "15%"
+    ],
+    "answer": "11.11%",
+    "explanation": "Gain % = [Error / (True Value - Error)] \u00d7 100. True value = 1000g, False weight used = 900g, Error = 100g. Gain % = [100 / 900] \u00d7 100 = 1/9 \u00d7 100 = 11.11%.",
+    "estimated_time_seconds": 45,
+    "tags": [
+      "dishonest-trader",
+      "false-weights",
+      "profit-mechanisms"
+    ]
+  },
+  {
+    "id": "QA-PROFITLOSS-000007",
+    "subject": "quantitative_aptitude",
+    "topic": "profit-loss",
+    "subtopic": "cost_selling_price",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A trader sells two laptops for \u20b936,000 each. On the first laptop, he makes a profit of 20%, and on the second laptop, he suffers a loss of 20%. What is his overall gain or loss percentage on the entire transaction?",
+    "options": [
+      "No profit, no loss",
+      "2% loss",
+      "4% loss",
+      "4% profit"
+    ],
+    "answer": "4% loss",
+    "explanation": "When two items are sold at the same selling price, one at a profit of x% and the other at a loss of x%, the net result is always a loss given by: Net Loss % = (x / 10)^2 % = (20 / 10)^2 = 2^2 = 4% loss.",
+    "estimated_time_seconds": 45,
+    "tags": [
+      "identical-selling-price",
+      "net-loss",
+      "symmetry"
+    ]
+  }
+]

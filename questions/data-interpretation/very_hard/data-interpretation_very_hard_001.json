@@ -1,0 +1,25 @@
+[
+  {
+    "id": "QA-DI-000010",
+    "subject": "quantitative_aptitude",
+    "topic": "data-interpretation",
+    "subtopic": "mixed_graphs_caselets",
+    "difficulty": "very_hard",
+    "question_type": "single_choice",
+    "question": "A caselet outlines the financial metrics of an enterprise: Gross revenue in Year 1 was \u20b9500 million with an Operating Profit Margin (OPM) of 20%. In Year 2, gross revenue grew by 20%, while direct operating expenses increased by 30% due to supply chain inflation. By what percentage did the absolute operating profit change in Year 2 compared to Year 1?",
+    "options": [
+      "10% decrease",
+      "15% decrease",
+      "20% decrease",
+      "25% decrease"
+    ],
+    "answer": "20% decrease",
+    "explanation": "Year 1: Revenue R1 = \u20b9500M. Operating Profit P1 = 20% of 500M = \u20b9100M. Operating Expenses E1 = Revenue - Profit = 500M - 100M = \u20b9400M. Year 2: Revenue R2 = 500M \u00d7 1.20 = \u20b9600M. Operating Expenses E2 = 400M \u00d7 1.30 = \u20b9520M. Operating Profit P2 = R2 - E2 = 600M - 520M = \u20b980M. Absolute change in profit = 80M - 100M = -\u20b920M (decrease). Percentage change = (-20 / 100) \u00d7 100 = -20% (20% decrease).",
+    "estimated_time_seconds": 120,
+    "tags": [
+      "caselet-di",
+      "operating-profit-margin",
+      "revenue-expenses"
+    ]
+  }
+]

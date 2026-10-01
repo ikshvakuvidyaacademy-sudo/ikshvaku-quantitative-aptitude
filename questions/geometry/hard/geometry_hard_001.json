@@ -1,0 +1,48 @@
+[
+  {
+    "id": "QA-GEOMETRY-000008",
+    "subject": "quantitative_aptitude",
+    "topic": "geometry",
+    "subtopic": "triangles_properties",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "In a right-angled triangle ABC with \u2220B = 90\u00b0, AB = 15 cm and BC = 20 cm. An altitude BD is drawn from vertex B perpendicular to hypotenuse AC. What is the length of segment BD?",
+    "options": [
+      "10 cm",
+      "11.5 cm",
+      "12 cm",
+      "12.5 cm"
+    ],
+    "answer": "12 cm",
+    "explanation": "Hypotenuse AC = sqrt(AB^2 + BC^2) = sqrt(15^2 + 20^2) = sqrt(225 + 400) = sqrt(625) = 25 cm. The area of triangle ABC can be expressed in two ways: Area = (1/2) \u00d7 AB \u00d7 BC = (1/2) \u00d7 AC \u00d7 BD => 15 \u00d7 20 = 25 \u00d7 BD => 300 = 25 \u00d7 BD => BD = 300 / 25 = 12 cm.",
+    "estimated_time_seconds": 65,
+    "tags": [
+      "altitude-to-hypotenuse",
+      "right-triangle",
+      "area-duality"
+    ]
+  },
+  {
+    "id": "QA-GEOMETRY-000009",
+    "subject": "quantitative_aptitude",
+    "topic": "geometry",
+    "subtopic": "circles_tangents",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "Two circles of radii 8 cm and 3 cm have their centers 13 cm apart. What is the length of their direct common tangent?",
+    "options": [
+      "10 cm",
+      "11 cm",
+      "12 cm",
+      "12.5 cm"
+    ],
+    "answer": "12 cm",
+    "explanation": "Length of Direct Common Tangent (DCT) = sqrt(d^2 - (r1 - r2)^2), where d = distance between centers = 13 cm, r1 = 8 cm, and r2 = 3 cm. DCT = sqrt(13^2 - (8 - 3)^2) = sqrt(169 - 5^2) = sqrt(169 - 25) = sqrt(144) = 12 cm.",
+    "estimated_time_seconds": 60,
+    "tags": [
+      "direct-common-tangent",
+      "two-circles",
+      "tangent-length"
+    ]
+  }
+]

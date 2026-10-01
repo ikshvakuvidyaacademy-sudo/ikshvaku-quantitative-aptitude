@@ -1,0 +1,272 @@
+{
+  "repository": "ikshvaku-quantitative-aptitude",
+  "system": "Ikshvaku Aptitude Arena Question Bank",
+  "total_questions": 170,
+  "difficulty_distribution": {
+    "easy": 51,
+    "hard": 34,
+    "medium": 68,
+    "very_hard": 17
+  },
+  "question_type_distribution": {
+    "single_choice": 170
+  },
+  "topic_distribution": {
+    "algebra": 10,
+    "averages": 10,
+    "data-interpretation": 10,
+    "geometry": 10,
+    "mensuration": 10,
+    "miscellaneous": 10,
+    "mixtures-alligation": 10,
+    "number-system": 10,
+    "partnership": 10,
+    "percentages": 10,
+    "permutation-combination": 10,
+    "probability": 10,
+    "profit-loss": 10,
+    "ratio-proportion": 10,
+    "simple-compound-interest": 10,
+    "time-speed-distance": 10,
+    "time-work": 10
+  },
+  "topic_difficulty_matrix": {
+    "algebra": {
+      "easy": 3,
+      "hard": 2,
+      "medium": 4,
+      "very_hard": 1
+    },
+    "averages": {
+      "easy": 3,
+      "hard": 2,
+      "medium": 4,
+      "very_hard": 1
+    },
+    "data-interpretation": {
+      "easy": 3,
+      "hard": 2,
+      "medium": 4,
+      "very_hard": 1
+    },
+    "geometry": {
+      "easy": 3,
+      "hard": 2,
+      "medium": 4,
+      "very_hard": 1
+    },
+    "mensuration": {
+      "easy": 3,
+      "hard": 2,
+      "medium": 4,
+      "very_hard": 1
+    },
+    "miscellaneous": {
+      "easy": 3,
+      "hard": 2,
+      "medium": 4,
+      "very_hard": 1
+    },
+    "mixtures-alligation": {
+      "easy": 3,
+      "hard": 2,
+      "medium": 4,
+      "very_hard": 1
+    },
+    "number-system": {
+      "easy": 3,
+      "hard": 2,
+      "medium": 4,
+      "very_hard": 1
+    },
+    "partnership": {
+      "easy": 3,
+      "hard": 2,
+      "medium": 4,
+      "very_hard": 1
+    },
+    "percentages": {
+      "easy": 3,
+      "hard": 2,
+      "medium": 4,
+      "very_hard": 1
+    },
+    "permutation-combination": {
+      "easy": 3,
+      "hard": 2,
+      "medium": 4,
+      "very_hard": 1
+    },
+    "probability": {
+      "easy": 3,
+      "hard": 2,
+      "medium": 4,
+      "very_hard": 1
+    },
+    "profit-loss": {
+      "easy": 3,
+      "hard": 2,
+      "medium": 4,
+      "very_hard": 1
+    },
+    "ratio-proportion": {
+      "easy": 3,
+      "hard": 2,
+      "medium": 4,
+      "very_hard": 1
+    },
+    "simple-compound-interest": {
+      "easy": 3,
+      "hard": 2,
+      "medium": 4,
+      "very_hard": 1
+    },
+    "time-speed-distance": {
+      "easy": 3,
+      "hard": 2,
+      "medium": 4,
+      "very_hard": 1
+    },
+    "time-work": {
+      "easy": 3,
+      "hard": 2,
+      "medium": 4,
+      "very_hard": 1
+    }
+  },
+  "subtopic_distribution": {
+    "algebra": {
+      "linear_equations": 2,
+      "quadratic_equations": 3,
+      "algebraic_identities": 3,
+      "inequalities": 1,
+      "polynomials_roots": 1
+    },
+    "averages": {
+      "basic_averages": 3,
+      "replacement_addition_removal": 3,
+      "batting_bowling_averages": 2,
+      "weighted_average": 1,
+      "average_speed_groups": 1
+    },
+    "data-interpretation": {
+      "pie_charts": 2,
+      "bar_graphs": 2,
+      "tabular_di": 3,
+      "mixed_graphs_caselets": 2,
+      "line_graphs": 1
+    },
+    "geometry": {
+      "triangles_properties": 3,
+      "polygons_quadrilaterals": 2,
+      "circles_tangents": 3,
+      "similarity_triangles": 1,
+      "coordinate_geometry": 1
+    },
+    "mensuration": {
+      "2d_perimeter_area": 3,
+      "cylinder_cone_sphere": 3,
+      "shape_melting_recasting": 2,
+      "3d_surface_area_volume": 2
+    },
+    "miscellaneous": {
+      "clock_problems": 3,
+      "calendar_problems": 3,
+      "set_theory_venn": 3,
+      "cryptarithmetic_puzzles": 1
+    },
+    "mixtures-alligation": {
+      "rule_of_alligation": 3,
+      "simple_mixtures": 2,
+      "successive_replacement": 2,
+      "multi_component_mixtures": 3
+    },
+    "number-system": {
+      "divisibility_rules": 1,
+      "unit_digit_cyclicity": 1,
+      "factors_multiples": 2,
+      "remainders_modular_arithmetic": 2,
+      "hcf_lcm": 1,
+      "surds_indices": 1,
+      "series_progressions": 1,
+      "base_conversion": 1
+    },
+    "partnership": {
+      "simple_partnership": 2,
+      "compound_partnership": 3,
+      "capital_adjustment": 3,
+      "active_sleeping_partner": 2
+    },
+    "percentages": {
+      "percentage_increase": 1,
+      "percentage_basics": 1,
+      "percentage_decrease": 1,
+      "marks_problems": 2,
+      "expenditure_problems": 2,
+      "successive_percentage": 1,
+      "population_problems": 1,
+      "salary_problems": 1
+    },
+    "permutation-combination": {
+      "permutations_arrangements": 4,
+      "combinations_selections": 3,
+      "fundamental_counting_principle": 1,
+      "distribution_identical_distinct": 1,
+      "circular_permutations": 1
+    },
+    "probability": {
+      "dice_cards_coins": 4,
+      "conditional_probability": 3,
+      "independent_events": 2,
+      "geometric_probability": 1
+    },
+    "profit-loss": {
+      "profit_loss_percentage": 1,
+      "cost_selling_price": 4,
+      "successive_discount": 1,
+      "marked_price_discount": 2,
+      "dishonest_trader": 2
+    },
+    "ratio-proportion": {
+      "ratio_basics": 2,
+      "proportion_variation": 3,
+      "distribution_division": 3,
+      "coin_currency_problems": 1,
+      "age_problems": 1
+    },
+    "simple-compound-interest": {
+      "simple_interest": 3,
+      "compound_interest_annual": 4,
+      "installment_schemes": 1,
+      "difference_si_ci": 1,
+      "compound_interest_subannual": 1
+    },
+    "time-speed-distance": {
+      "basic_speed": 2,
+      "trains": 2,
+      "average_speed": 1,
+      "circular_tracks": 1,
+      "boats_and_streams": 1,
+      "relative_speed": 2,
+      "races_and_games": 1
+    },
+    "time-work": {
+      "combined_work": 2,
+      "pipes_and_cisterns": 3,
+      "individual_efficiency": 1,
+      "alternate_days": 1,
+      "work_wages": 1,
+      "man_days_equivalence": 2
+    }
+  },
+  "time_metrics": {
+    "total_estimated_seconds": 9500,
+    "average_estimated_seconds_overall": 55.9,
+    "average_estimated_seconds_by_difficulty": {
+      "easy": 27.0,
+      "hard": 76.0,
+      "medium": 49.6,
+      "very_hard": 127.4
+    }
+  }
+}

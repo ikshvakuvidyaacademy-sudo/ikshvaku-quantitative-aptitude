@@ -1,0 +1,25 @@
+[
+  {
+    "id": "QA-MENSUR-000010",
+    "subject": "quantitative_aptitude",
+    "topic": "mensuration",
+    "subtopic": "3d_surface_area_volume",
+    "difficulty": "very_hard",
+    "question_type": "single_choice",
+    "question": "A bucket is in the form of a frustum of a right circular cone. The radii of its top and bottom circular ends are 28 cm and 7 cm respectively, and its vertical depth is 20 cm. What is the total surface area of sheet metal required to manufacture this bucket (having a closed circular base and an open top)? (Use \u03c0 = 22/7)",
+    "options": [
+      "3,190 cm^2",
+      "3,344 cm^2",
+      "3,450 cm^2",
+      "3,612 cm^2"
+    ],
+    "answer": "3,344 cm^2",
+    "explanation": "Slant height l = sqrt(h^2 + (R - r)^2) = sqrt(20^2 + (28 - 7)^2) = sqrt(400 + 21^2) = sqrt(400 + 441) = sqrt(841) = 29 cm. Curved surface area of frustum = \u03c0 (R + r) l = (22 / 7) \u00d7 (28 + 7) \u00d7 29 = (22 / 7) \u00d7 35 \u00d7 29 = 22 \u00d7 5 \u00d7 29 = 110 \u00d7 29 = 3,190 cm^2. Area of closed bottom circular base = \u03c0 r^2 = (22 / 7) \u00d7 7 \u00d7 7 = 154 cm^2. Total metal sheet area required = Curved Surface Area + Base Area = 3,190 + 154 = 3,344 cm^2.",
+    "estimated_time_seconds": 120,
+    "tags": [
+      "frustum",
+      "bucket-surface-area",
+      "slant-height"
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "QA-SICI-000001",
+    "subject": "quantitative_aptitude",
+    "topic": "simple-compound-interest",
+    "subtopic": "simple_interest",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "A sum of \u20b912,000 is invested at an annual simple interest rate of 8% for 3 years. What is the total simple interest earned?",
+    "options": [
+      "\u20b92,400",
+      "\u20b92,680",
+      "\u20b92,880",
+      "\u20b93,120"
+    ],
+    "answer": "\u20b92,880",
+    "explanation": "Simple Interest formula: SI = (P \u00d7 R \u00d7 T) / 100. SI = (12,000 \u00d7 8 \u00d7 3) / 100 = 120 \u00d7 24 = \u20b92,880.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "simple-interest",
+      "direct-formula",
+      "basic-finance"
+    ]
+  },
+  {
+    "id": "QA-SICI-000002",
+    "subject": "quantitative_aptitude",
+    "topic": "simple-compound-interest",
+    "subtopic": "compound_interest_annual",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "What is the compound interest on a principal of \u20b98,000 at 10% per annum for 2 years, compounded annually?",
+    "options": [
+      "\u20b91,600",
+      "\u20b91,680",
+      "\u20b91,720",
+      "\u20b91,760"
+    ],
+    "answer": "\u20b91,680",
+    "explanation": "Amount A = P(1 + R/100)^T = 8,000 \u00d7 (1.10)^2 = 8,000 \u00d7 1.21 = \u20b99,680. Compound Interest CI = A - P = 9,680 - 8,000 = \u20b91,680.",
+    "estimated_time_seconds": 30,
+    "tags": [
+      "compound-interest",
+      "annual-compounding",
+      "interest"
+    ]
+  },
+  {
+    "id": "QA-SICI-000003",
+    "subject": "quantitative_aptitude",
+    "topic": "simple-compound-interest",
+    "subtopic": "simple_interest",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "At what rate of simple interest per annum will a sum of money double itself in 8 years?",
+    "options": [
+      "10%",
+      "12%",
+      "12.5%",
+      "15%"
+    ],
+    "answer": "12.5%",
+    "explanation": "For a sum to double, the interest SI equals principal P: SI = P. Formula: P = (P \u00d7 R \u00d7 T) / 100 => 1 = (R \u00d7 8) / 100 => R = 100 / 8 = 12.5% per annum.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "doubling-time",
+      "simple-interest",
+      "interest-rate"
+    ]
+  }
+]

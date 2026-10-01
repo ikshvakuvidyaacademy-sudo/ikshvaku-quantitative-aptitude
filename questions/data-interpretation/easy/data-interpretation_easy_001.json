@@ -1,0 +1,71 @@
+[
+  {
+    "id": "QA-DI-000001",
+    "subject": "quantitative_aptitude",
+    "topic": "data-interpretation",
+    "subtopic": "pie_charts",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "In a pie chart representing a university's total annual budget of \u20b972 crores, the sector for Academic Research corresponds to a central angle of 54\u00b0. What is the budget allocated for Academic Research?",
+    "options": [
+      "\u20b98.4 crores",
+      "\u20b99.6 crores",
+      "\u20b910.8 crores",
+      "\u20b912.0 crores"
+    ],
+    "answer": "\u20b910.8 crores",
+    "explanation": "Total central angle in a circle is 360\u00b0. Proportion for Academic Research = 54\u00b0 / 360\u00b0 = 3/20 = 15%. Allocation = (54 / 360) \u00d7 \u20b972 crores = (3 / 20) \u00d7 72 = 10.8 crores.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "pie-chart",
+      "central-angle",
+      "budget-allocation"
+    ]
+  },
+  {
+    "id": "QA-DI-000002",
+    "subject": "quantitative_aptitude",
+    "topic": "data-interpretation",
+    "subtopic": "bar_graphs",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "A tech firm's annual sales over three years are: Year 1: \u20b9400 million, Year 2: \u20b9480 million, Year 3: \u20b9600 million. What is the percentage increase in sales from Year 1 to Year 3?",
+    "options": [
+      "40%",
+      "45%",
+      "50%",
+      "55%"
+    ],
+    "answer": "50%",
+    "explanation": "Absolute increase from Year 1 to Year 3 = 600 - 400 = \u20b9200 million. Percentage increase = (200 / 400) \u00d7 100 = 50%.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "bar-chart",
+      "growth-percentage",
+      "multi-year-trend"
+    ]
+  },
+  {
+    "id": "QA-DI-000003",
+    "subject": "quantitative_aptitude",
+    "topic": "data-interpretation",
+    "subtopic": "tabular_di",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "A table shows production of cars by Company X: Sedan: 120, SUV: 180, Hatchback: 150, EV: 50. What percentage of total car production is represented by Hatchbacks?",
+    "options": [
+      "25%",
+      "30%",
+      "33.33%",
+      "35%"
+    ],
+    "answer": "30%",
+    "explanation": "Total cars produced = 120 + 180 + 150 + 50 = 500 cars. Hatchback percentage = (150 / 500) \u00d7 100 = 30%.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "table-data",
+      "percentage-share",
+      "production"
+    ]
+  }
+]

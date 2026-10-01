@@ -1,0 +1,71 @@
+[
+  {
+    "id": "QA-MISC-000001",
+    "subject": "quantitative_aptitude",
+    "topic": "miscellaneous",
+    "subtopic": "clock_problems",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "What is the angle between the hour hand and the minute hand of an analog clock at 3:30?",
+    "options": [
+      "65\u00b0",
+      "75\u00b0",
+      "80\u00b0",
+      "85\u00b0"
+    ],
+    "answer": "75\u00b0",
+    "explanation": "Angle formula: |30H - 5.5M| where H = 3 and M = 30. Angle = |30(3) - 5.5(30)| = |90 - 165| = |-75| = 75\u00b0.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "clocks",
+      "hand-angle",
+      "clock-formula"
+    ]
+  },
+  {
+    "id": "QA-MISC-000002",
+    "subject": "quantitative_aptitude",
+    "topic": "miscellaneous",
+    "subtopic": "calendar_problems",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "If January 1, 2024 fell on a Monday, on which day of the week did January 1, 2025 fall?",
+    "options": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "answer": "Wednesday",
+    "explanation": "The year 2024 is a leap year (divisible by 4) and contains 366 days. Number of odd days in a leap year = 366 mod 7 = 2 odd days. Moving 1 full year ahead from Jan 1, 2024 to Jan 1, 2025 adds 2 days to Monday: Monday + 2 days = Wednesday.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "calendar",
+      "leap-year",
+      "odd-days"
+    ]
+  },
+  {
+    "id": "QA-MISC-000003",
+    "subject": "quantitative_aptitude",
+    "topic": "miscellaneous",
+    "subtopic": "set_theory_venn",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "In a group of 50 students, 30 play Football and 25 play Cricket. If 10 students play neither sport, how many students play both Football and Cricket?",
+    "options": [
+      "10",
+      "12",
+      "15",
+      "18"
+    ],
+    "answer": "15",
+    "explanation": "Total students playing at least one sport = Total - Neither = 50 - 10 = 40. By Principle of Inclusion-Exclusion: n(F \u222a C) = n(F) + n(C) - n(F \u2229 C) => 40 = 30 + 25 - n(F \u2229 C) => 40 = 55 - n(F \u2229 C) => n(F \u2229 C) = 55 - 40 = 15.",
+    "estimated_time_seconds": 30,
+    "tags": [
+      "venn-diagram",
+      "inclusion-exclusion",
+      "two-sets"
+    ]
+  }
+]

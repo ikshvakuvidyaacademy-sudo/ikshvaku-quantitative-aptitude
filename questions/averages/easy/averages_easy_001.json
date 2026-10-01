@@ -1,0 +1,71 @@
+[
+  {
+    "id": "QA-AVERAGES-000001",
+    "subject": "quantitative_aptitude",
+    "topic": "averages",
+    "subtopic": "basic_averages",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "What is the average of all prime numbers between 20 and 40?",
+    "options": [
+      "29.5",
+      "30.0",
+      "30.5",
+      "31.0"
+    ],
+    "answer": "30.0",
+    "explanation": "The prime numbers between 20 and 40 are 23, 29, 31, and 37. Sum = 23 + 29 + 31 + 37 = 120. Total count = 4. Average = 120 / 4 = 30.0.",
+    "estimated_time_seconds": 30,
+    "tags": [
+      "primes",
+      "arithmetic-mean",
+      "basic-averages"
+    ]
+  },
+  {
+    "id": "QA-AVERAGES-000002",
+    "subject": "quantitative_aptitude",
+    "topic": "averages",
+    "subtopic": "replacement_addition_removal",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "The average weight of a class of 24 students is 45 kg. If the teacher's weight is included, the average weight increases by 1 kg. What is the teacher's weight?",
+    "options": [
+      "68 kg",
+      "70 kg",
+      "72 kg",
+      "75 kg"
+    ],
+    "answer": "70 kg",
+    "explanation": "Initial sum of weights = 24 \u00d7 45 = 1,080 kg. With teacher included, total persons = 25 and new average = 46 kg. New total sum = 25 \u00d7 46 = 1,150 kg. Teacher's weight = 1,150 - 1,080 = 70 kg. Shortcut: Teacher = New Avg + (Initial Persons \u00d7 Increase) = 46 + 24(1) = 70 kg.",
+    "estimated_time_seconds": 35,
+    "tags": [
+      "averages",
+      "addition",
+      "weight"
+    ]
+  },
+  {
+    "id": "QA-AVERAGES-000003",
+    "subject": "quantitative_aptitude",
+    "topic": "averages",
+    "subtopic": "basic_averages",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "The average of 5 consecutive odd numbers is 27. What is the product of the smallest and largest of these numbers?",
+    "options": [
+      "675",
+      "713",
+      "725",
+      "741"
+    ],
+    "answer": "713",
+    "explanation": "In an odd number of consecutive terms in AP, the average is the middle term. Middle (3rd) term = 27. The 5 consecutive odd numbers are 23, 25, 27, 29, 31. Smallest = 23, Largest = 31. Product = 23 \u00d7 31 = 713.",
+    "estimated_time_seconds": 30,
+    "tags": [
+      "consecutive-numbers",
+      "middle-term",
+      "odd-integers"
+    ]
+  }
+]

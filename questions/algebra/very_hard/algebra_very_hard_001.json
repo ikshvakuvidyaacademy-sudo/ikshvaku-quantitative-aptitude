@@ -1,0 +1,25 @@
+[
+  {
+    "id": "QA-ALGEBRA-000010",
+    "subject": "quantitative_aptitude",
+    "topic": "algebra",
+    "subtopic": "quadratic_equations",
+    "difficulty": "very_hard",
+    "question_type": "single_choice",
+    "question": "Find the number of integral values of m for which the quadratic equation (m - 2)x^2 - (m + 4)x + 2m - 1 = 0 has both roots strictly greater than 1.",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": "1",
+    "explanation": "For (m - 2)x^2 - (m + 4)x + (2m - 1) = 0 to have both roots strictly greater than 1: (1) Discriminant D >= 0: -7m^2 + 28m + 8 >= 0 => m in [-0.27, 4.27]. (2) (m - 2)f(1) > 0: (m - 2)(2m - 7) > 0 => m < 2 or m > 3.5. (3) Axis of symmetry -b/(2a) > 1: (m + 4)/[2(m - 2)] > 1 => for m > 2, m + 4 > 2m - 4 => m < 8; for m < 2, m + 4 < 2m - 4 => m > 8 (impossible). Testing integers in [-0.27, 4.27]: {0, 1, 2, 3, 4}. Integers 0 and 1 fail vertex condition; 2 makes it linear; 3 fails condition 2. Only m = 4 satisfies all conditions (roots of 2x^2 - 8x + 7 = 0 are 2.707 and 1.293, both > 1). Thus, exactly 1 integral value exists.",
+    "estimated_time_seconds": 150,
+    "tags": [
+      "location-of-roots",
+      "quadratic-inequalities",
+      "discriminant"
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "QA-PROB-000008",
+    "subject": "quantitative_aptitude",
+    "topic": "probability",
+    "subtopic": "conditional_probability",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "Bag A contains 4 white and 3 black balls. Bag B contains 2 white and 2 black balls. One ball is transferred at random from Bag A to Bag B, and then a ball is drawn from Bag B. What is the probability that the ball drawn from Bag B is white?",
+    "options": [
+      "16/35",
+      "17/35",
+      "18/35",
+      "19/35"
+    ],
+    "answer": "18/35",
+    "explanation": "Case 1: Transferred ball is White (Probability = 4/7). Bag B now has 3 white and 2 black balls (total 5). P(White drawn | White transferred) = 3/5. Joint probability = (4/7) \u00d7 (3/5) = 12/35. Case 2: Transferred ball is Black (Probability = 3/7). Bag B now has 2 white and 3 black balls (total 5). P(White drawn | Black transferred) = 2/5. Joint probability = (3/7) \u00d7 (2/5) = 6/35. By the Law of Total Probability: P(White from B) = 12/35 + 6/35 = 18/35.",
+    "estimated_time_seconds": 75,
+    "tags": [
+      "total-probability",
+      "ball-transfer",
+      "two-bags"
+    ]
+  },
+  {
+    "id": "QA-PROB-000009",
+    "subject": "quantitative_aptitude",
+    "topic": "probability",
+    "subtopic": "independent_events",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "A speaks the truth in 75% of cases and B in 80% of cases. In what percentage of cases are they likely to contradict each other in narrating the same incident?",
+    "options": [
+      "30%",
+      "35%",
+      "40%",
+      "45%"
+    ],
+    "answer": "35%",
+    "explanation": "P(A speaks truth) = 3/4, P(A lies) = 1/4. P(B speaks truth) = 4/5, P(B lies) = 1/5. They contradict each other when one speaks the truth and the other lies. Case 1: A speaks truth and B lies: P = (3/4) \u00d7 (1/5) = 3/20. Case 2: A lies and B speaks truth: P = (1/4) \u00d7 (4/5) = 4/20. Total contradiction probability = 3/20 + 4/20 = 7/20. In percentage = (7 / 20) \u00d7 100 = 35%.",
+    "estimated_time_seconds": 65,
+    "tags": [
+      "contradiction",
+      "truth-telling",
+      "independent-events"
+    ]
+  }
+]

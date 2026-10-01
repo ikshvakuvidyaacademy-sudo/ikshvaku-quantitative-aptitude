@@ -1,0 +1,71 @@
+[
+  {
+    "id": "QA-TIMEWORK-000001",
+    "subject": "quantitative_aptitude",
+    "topic": "time-work",
+    "subtopic": "combined_work",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "A can complete a piece of work in 12 days, and B can complete the same work in 24 days. Working together, in how many days will they complete the work?",
+    "options": [
+      "6 days",
+      "8 days",
+      "9 days",
+      "10 days"
+    ],
+    "answer": "8 days",
+    "explanation": "Combined rate = 1/12 + 1/24 = (2 + 1) / 24 = 3 / 24 = 1/8 work per day. Hence, working together they finish in 8 days.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "combined-work",
+      "reciprocal-rates",
+      "basic-work"
+    ]
+  },
+  {
+    "id": "QA-TIMEWORK-000002",
+    "subject": "quantitative_aptitude",
+    "topic": "time-work",
+    "subtopic": "pipes_and_cisterns",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "Pipe A can fill a tank in 15 hours, while Pipe B can empty the full tank in 20 hours. If both pipes are opened simultaneously in an empty tank, how many hours will it take to fill the tank completely?",
+    "options": [
+      "45 hours",
+      "50 hours",
+      "60 hours",
+      "75 hours"
+    ],
+    "answer": "60 hours",
+    "explanation": "Net rate per hour = 1/15 - 1/20 = (4 - 3) / 60 = 1/60 tank per hour. Therefore, the tank fills in 60 hours.",
+    "estimated_time_seconds": 30,
+    "tags": [
+      "pipes-cisterns",
+      "inlet-outlet",
+      "drainage"
+    ]
+  },
+  {
+    "id": "QA-TIMEWORK-000003",
+    "subject": "quantitative_aptitude",
+    "topic": "time-work",
+    "subtopic": "individual_efficiency",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "P is twice as efficient as Q. If Q alone takes 18 days to finish a task, how many days will P and Q take working together?",
+    "options": [
+      "4 days",
+      "6 days",
+      "8 days",
+      "9 days"
+    ],
+    "answer": "6 days",
+    "explanation": "Since P is twice as efficient as Q, P takes half the time of Q = 18 / 2 = 9 days. Together, rate = 1/9 + 1/18 = (2 + 1) / 18 = 3 / 18 = 1/6 task per day. Time required = 6 days.",
+    "estimated_time_seconds": 30,
+    "tags": [
+      "efficiency-ratio",
+      "time-work",
+      "comparative-efficiency"
+    ]
+  }
+]

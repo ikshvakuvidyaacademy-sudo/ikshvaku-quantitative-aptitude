@@ -1,0 +1,48 @@
+[
+  {
+    "id": "QA-MISC-000008",
+    "subject": "quantitative_aptitude",
+    "topic": "miscellaneous",
+    "subtopic": "cryptarithmetic_puzzles",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "In the cryptarithmetic addition puzzle SEND + MORE = MONEY, where distinct letters represent distinct digits from 0 to 9 and leading digits cannot be 0, what digit does the letter 'M' represent?",
+    "options": [
+      "1",
+      "2",
+      "8",
+      "9"
+    ],
+    "answer": "1",
+    "explanation": "SEND and MORE are four-digit numbers, while MONEY is a five-digit number. The sum of two four-digit numbers is at most 9999 + 9999 = 19998. Therefore, the carry into the ten-thousands place can only be 1. Since M is the leading digit of MONEY, M must be 1.",
+    "estimated_time_seconds": 65,
+    "tags": [
+      "cryptarithmetic",
+      "carry-forward",
+      "deductive-logic"
+    ]
+  },
+  {
+    "id": "QA-MISC-000009",
+    "subject": "quantitative_aptitude",
+    "topic": "miscellaneous",
+    "subtopic": "calendar_problems",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "Which year among the following will have a calendar completely identical to that of the calendar year 2017?",
+    "options": [
+      "2022",
+      "2023",
+      "2028",
+      "2034"
+    ],
+    "answer": "2023",
+    "explanation": "For an ordinary year, its calendar repeats after: +6 years if the preceding year is a leap year; +11 years if the preceding year is an ordinary year. The year preceding 2017 is 2016, which is a leap year. Therefore, the calendar repeats in 2017 + 6 = 2023. Let's verify odd days from 2017 to 2022: 2017(1) + 2018(1) + 2019(1) + 2020(2, leap) + 2021(1) + 2022(1) = 7 odd days \u2261 0 mod 7. Both 2017 and 2023 start on the same day and both are ordinary years (365 days). Hence, their calendars are identical.",
+    "estimated_time_seconds": 70,
+    "tags": [
+      "repetition-of-calendar",
+      "calendar-cycles",
+      "ordinary-years"
+    ]
+  }
+]

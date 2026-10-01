@@ -1,0 +1,48 @@
+[
+  {
+    "id": "QA-DI-000008",
+    "subject": "quantitative_aptitude",
+    "topic": "data-interpretation",
+    "subtopic": "mixed_graphs_caselets",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "In a mixed dataset, an engineering firm allocates 40% of its budget to Software, 35% to Hardware, and 25% to Infrastructure. 20% of Software budget is funded by venture debt, while 30% of Hardware budget is funded by venture debt. If venture debt across Software and Hardware totals \u20b918.5 million, what is the firm's total overall budget?",
+    "options": [
+      "\u20b980 million",
+      "\u20b990 million",
+      "\u20b9100 million",
+      "\u20b9120 million"
+    ],
+    "answer": "\u20b9100 million",
+    "explanation": "Let total budget be B. Software budget = 0.40 B; Venture debt in software = 0.20 \u00d7 0.40 B = 0.08 B. Hardware budget = 0.35 B; Venture debt in hardware = 0.30 \u00d7 0.35 B = 0.105 B. Total venture debt = 0.08 B + 0.105 B = 0.185 B. Given total debt = \u20b918.5 million: 0.185 B = 18.5 => B = 18.5 / 0.185 = \u20b9100 million.",
+    "estimated_time_seconds": 75,
+    "tags": [
+      "mixed-caselet",
+      "weighted-debt",
+      "financial-di"
+    ]
+  },
+  {
+    "id": "QA-DI-000009",
+    "subject": "quantitative_aptitude",
+    "topic": "data-interpretation",
+    "subtopic": "tabular_di",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "A production table indicates that Factory Alpha has an operating efficiency of 85% and produces 12,000 units with 4% defectives, while Factory Beta has an operating efficiency of 90% and produces 18,000 units with 6% defectives. What is the overall percentage of non-defective units produced across both factories combined?",
+    "options": [
+      "94.2%",
+      "94.8%",
+      "95.2%",
+      "95.6%"
+    ],
+    "answer": "94.8%",
+    "explanation": "Defective units in Alpha = 4% of 12,000 = 480. Defective units in Beta = 6% of 18,000 = 1,080. Total defective units = 480 + 1,080 = 1,560 units. Total units produced = 12,000 + 18,000 = 30,000 units. Total non-defective units = 30,000 - 1,560 = 28,440 units. Overall non-defective percentage = (28,440 / 30,000) \u00d7 100 = 94.8%.",
+    "estimated_time_seconds": 70,
+    "tags": [
+      "quality-control",
+      "weighted-defectives",
+      "tabular-di"
+    ]
+  }
+]

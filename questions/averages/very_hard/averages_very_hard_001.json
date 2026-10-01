@@ -1,0 +1,25 @@
+[
+  {
+    "id": "QA-AVERAGES-000010",
+    "subject": "quantitative_aptitude",
+    "topic": "averages",
+    "subtopic": "basic_averages",
+    "difficulty": "very_hard",
+    "question_type": "single_choice",
+    "question": "In a group of N students, the average score on a mathematics assessment was 64. If the top 20% highest scoring students had an average score of 88, and the bottom 25% lowest scoring students had an average score of 40, what was the average score of the remaining 55% of the students?",
+    "options": [
+      "63.5",
+      "65.0",
+      "66.2",
+      "67.8"
+    ],
+    "answer": "66.2",
+    "explanation": "Assume a benchmark cohort of 100 students (sum of scores = 100 \u00d7 64 = 6,400). Top 20% (20 students) total = 20 \u00d7 88 = 1,760. Bottom 25% (25 students) total = 25 \u00d7 40 = 1,000. Subtotal of extreme cohorts = 1,760 + 1,000 = 2,760 for 45 students. Total score of remaining 55% (55 students) = 6,400 - 2,760 = 3,640. Average score of remaining students = 3,640 / 55 = 66.1818... \u2248 66.2.",
+    "estimated_time_seconds": 120,
+    "tags": [
+      "percentile-averages",
+      "partitioning",
+      "weighted-deviation"
+    ]
+  }
+]

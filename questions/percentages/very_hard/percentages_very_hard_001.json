@@ -1,0 +1,25 @@
+[
+  {
+    "id": "QA-PERCENTAGE-000010",
+    "subject": "quantitative_aptitude",
+    "topic": "percentages",
+    "subtopic": "marks_problems",
+    "difficulty": "very_hard",
+    "question_type": "single_choice",
+    "question": "In an election between two candidates A and B, 10% of voters in the electoral roll did not cast their votes, and 60 votes were declared invalid. Candidate A secured 47% of the total voters on the electoral roll and won by a margin of 308 votes over B. How many total voters were enrolled on the electoral roll?",
+    "options": [
+      "5,400",
+      "5,800",
+      "6,200",
+      "6,500"
+    ],
+    "answer": "6,200",
+    "explanation": "Let the total number of voters on the electoral roll be 100x. Total votes cast = 90% of 100x = 90x. Valid votes = 90x - 60. Votes secured by A = 47% of 100x = 47x. Votes secured by B = Valid votes - Votes of A = (90x - 60) - 47x = 43x - 60. A's victory margin = A's votes - B's votes = 47x - (43x - 60) = 4x + 60. Given margin is 308: 4x + 60 = 308 => 4x = 248 => x = 62. Total voters on electoral roll = 100x = 100 \u00d7 62 = 6,200.",
+    "estimated_time_seconds": 140,
+    "tags": [
+      "elections",
+      "voters-roll",
+      "invalid-votes"
+    ]
+  }
+]

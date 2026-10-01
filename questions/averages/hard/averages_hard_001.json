@@ -1,0 +1,48 @@
+[
+  {
+    "id": "QA-AVERAGES-000008",
+    "subject": "quantitative_aptitude",
+    "topic": "averages",
+    "subtopic": "replacement_addition_removal",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "The average of 25 numbers is 18. The average of the first 12 numbers is 14 and that of the last 12 numbers is 17. What is the value of the 13th number?",
+    "options": [
+      "72",
+      "78",
+      "82",
+      "88"
+    ],
+    "answer": "78",
+    "explanation": "Sum of all 25 numbers = 25 \u00d7 18 = 450. Sum of the first 12 numbers = 12 \u00d7 14 = 168. Sum of the last 12 numbers = 12 \u00d7 17 = 204. The 13th number is the remaining single element: 13th number = Total Sum - (Sum of first 12 + Sum of last 12) = 450 - (168 + 204) = 450 - 372 = 78.",
+    "estimated_time_seconds": 75,
+    "tags": [
+      "missing-number",
+      "sum-partition",
+      "averages"
+    ]
+  },
+  {
+    "id": "QA-AVERAGES-000009",
+    "subject": "quantitative_aptitude",
+    "topic": "averages",
+    "subtopic": "batting_bowling_averages",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "A bowler's bowling average is 12.4 runs per wicket. In his next match, he takes 5 wickets for 26 runs, and thereby his average improves by 0.4 runs per wicket. What was the total number of wickets taken by him before this match?",
+    "options": [
+      "75",
+      "80",
+      "85",
+      "90"
+    ],
+    "answer": "85",
+    "explanation": "Let initial wickets be W. Initial runs conceded = 12.4 W. An 'improved' bowling average means a lower runs-per-wicket average: New average = 12.4 - 0.4 = 12.0. Total wickets now = W + 5, total runs = 12.4 W + 26. Equation: (12.4 W + 26) / (W + 5) = 12.0 => 12.4 W + 26 = 12 W + 60 => 0.4 W = 34 => W = 34 / 0.4 = 85 wickets.",
+    "estimated_time_seconds": 80,
+    "tags": [
+      "bowling-average",
+      "sports-statistics",
+      "alligation-averages"
+    ]
+  }
+]

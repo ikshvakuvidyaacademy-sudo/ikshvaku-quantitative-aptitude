@@ -1,0 +1,94 @@
+[
+  {
+    "id": "QA-MENSUR-000004",
+    "subject": "quantitative_aptitude",
+    "topic": "mensuration",
+    "subtopic": "shape_melting_recasting",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A solid metallic sphere of radius 6 cm is melted and recast into small spherical balls of radius 2 cm each. How many such small balls can be formed?",
+    "options": [
+      "9",
+      "18",
+      "27",
+      "36"
+    ],
+    "answer": "27",
+    "explanation": "Number of balls = Volume of original sphere / Volume of one small sphere = [(4/3)\u03c0 R^3] / [(4/3)\u03c0 r^3] = (R / r)^3 = (6 / 2)^3 = 3^3 = 27 balls.",
+    "estimated_time_seconds": 35,
+    "tags": [
+      "melting-recasting",
+      "sphere-volume",
+      "conservation-of-volume"
+    ]
+  },
+  {
+    "id": "QA-MENSUR-000005",
+    "subject": "quantitative_aptitude",
+    "topic": "mensuration",
+    "subtopic": "cylinder_cone_sphere",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "The radius of the base and the slant height of a right circular cone are in the ratio 4 : 7. If its curved surface area is 792 cm^2, find its base radius. (Use \u03c0 = 22/7)",
+    "options": [
+      "10 cm",
+      "12 cm",
+      "14 cm",
+      "16 cm"
+    ],
+    "answer": "12 cm",
+    "explanation": "Let radius r = 4x and slant height l = 7x. Curved Surface Area (CSA) = \u03c0 r l = (22/7) \u00d7 4x \u00d7 7x = 22 \u00d7 4x^2 = 88x^2. Given CSA = 792 => 88x^2 = 792 => x^2 = 792 / 88 = 9 => x = 3. Base radius = 4x = 4 \u00d7 3 = 12 cm.",
+    "estimated_time_seconds": 45,
+    "tags": [
+      "cone",
+      "curved-surface-area",
+      "slant-height"
+    ]
+  },
+  {
+    "id": "QA-MENSUR-000006",
+    "subject": "quantitative_aptitude",
+    "topic": "mensuration",
+    "subtopic": "3d_surface_area_volume",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "The dimensions of a rectangular cuboid are in the ratio 3 : 2 : 1 and its total surface area is 352 cm^2. What is the volume of the cuboid?",
+    "options": [
+      "320 cm^3",
+      "360 cm^3",
+      "384 cm^3",
+      "420 cm^3"
+    ],
+    "answer": "384 cm^3",
+    "explanation": "Let dimensions be l = 3x, b = 2x, h = x. Total Surface Area = 2(lb + bh + hl) = 2(6x^2 + 2x^2 + 3x^2) = 2(11x^2) = 22x^2. Given 22x^2 = 352 => x^2 = 352 / 22 = 16 => x = 4. Dimensions are 12 cm, 8 cm, and 4 cm. Volume = l \u00d7 b \u00d7 h = 12 \u00d7 8 \u00d7 4 = 384 cm^3.",
+    "estimated_time_seconds": 50,
+    "tags": [
+      "cuboid",
+      "surface-area",
+      "volume"
+    ]
+  },
+  {
+    "id": "QA-MENSUR-000007",
+    "subject": "quantitative_aptitude",
+    "topic": "mensuration",
+    "subtopic": "2d_perimeter_area",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A rectangular lawn 60 meters long and 40 meters wide is surrounded on the outside by a gravel path of uniform width 2.5 meters. What is the area of the gravel path?",
+    "options": [
+      "475 m^2",
+      "500 m^2",
+      "525 m^2",
+      "550 m^2"
+    ],
+    "answer": "525 m^2",
+    "explanation": "Inner dimensions: Length = 60 m, Breadth = 40 m. Inner Area = 60 \u00d7 40 = 2,400 m^2. Outer dimensions including 2.5 m path on both sides: Outer Length = 60 + 2(2.5) = 65 m; Outer Breadth = 40 + 2(2.5) = 45 m. Outer Area = 65 \u00d7 45 = 2,925 m^2. Area of path = Outer Area - Inner Area = 2,925 - 2,400 = 525 m^2.",
+    "estimated_time_seconds": 45,
+    "tags": [
+      "pathway-area",
+      "uniform-path",
+      "rectangle"
+    ]
+  }
+]

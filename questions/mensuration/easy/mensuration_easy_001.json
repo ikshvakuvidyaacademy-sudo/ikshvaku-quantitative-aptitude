@@ -1,0 +1,71 @@
+[
+  {
+    "id": "QA-MENSUR-000001",
+    "subject": "quantitative_aptitude",
+    "topic": "mensuration",
+    "subtopic": "2d_perimeter_area",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "The diagonal of a square is 10\u221a2 cm. What is the area of the square?",
+    "options": [
+      "50 cm^2",
+      "100 cm^2",
+      "150 cm^2",
+      "200 cm^2"
+    ],
+    "answer": "100 cm^2",
+    "explanation": "Diagonal of square d = a\u221a2. Here 10\u221a2 = a\u221a2 => side a = 10 cm. Area = a^2 = 10^2 = 100 cm^2. (Alternatively, Area = d^2 / 2 = (10\u221a2)^2 / 2 = 200 / 2 = 100 cm^2).",
+    "estimated_time_seconds": 20,
+    "tags": [
+      "square",
+      "diagonal",
+      "2d-area"
+    ]
+  },
+  {
+    "id": "QA-MENSUR-000002",
+    "subject": "quantitative_aptitude",
+    "topic": "mensuration",
+    "subtopic": "cylinder_cone_sphere",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "What is the volume of a right circular cylinder having a base radius of 7 cm and a height of 10 cm? (Use \u03c0 = 22/7)",
+    "options": [
+      "1,440 cm^3",
+      "1,540 cm^3",
+      "1,620 cm^3",
+      "1,760 cm^3"
+    ],
+    "answer": "1,540 cm^3",
+    "explanation": "Volume of cylinder = \u03c0 r^2 h = (22 / 7) \u00d7 7 \u00d7 7 \u00d7 10 = 22 \u00d7 7 \u00d7 10 = 1,540 cm^3.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "cylinder",
+      "volume",
+      "3d-mensuration"
+    ]
+  },
+  {
+    "id": "QA-MENSUR-000003",
+    "subject": "quantitative_aptitude",
+    "topic": "mensuration",
+    "subtopic": "2d_perimeter_area",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "If the circumference of a circle is 88 cm, what is its area? (Use \u03c0 = 22/7)",
+    "options": [
+      "588 cm^2",
+      "616 cm^2",
+      "644 cm^2",
+      "672 cm^2"
+    ],
+    "answer": "616 cm^2",
+    "explanation": "Circumference = 2\u03c0r = 88 => 2 \u00d7 (22/7) \u00d7 r = 88 => (44/7) r = 88 => r = 14 cm. Area = \u03c0 r^2 = (22/7) \u00d7 14 \u00d7 14 = 22 \u00d7 2 \u00d7 14 = 616 cm^2.",
+    "estimated_time_seconds": 30,
+    "tags": [
+      "circle",
+      "circumference",
+      "area"
+    ]
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "QA-PERMCOMB-000004",
+    "subject": "quantitative_aptitude",
+    "topic": "permutation-combination",
+    "subtopic": "combinations_selections",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A committee of 5 members is to be formed from a group of 6 men and 4 women. In how many ways can this committee be chosen if it must include exactly 2 women?",
+    "options": [
+      "90",
+      "120",
+      "144",
+      "180"
+    ],
+    "answer": "120",
+    "explanation": "The committee requires 2 women and therefore 5 - 2 = 3 men. Number of ways to choose 2 women from 4 = 4C2 = 6. Number of ways to choose 3 men from 6 = 6C3 = 20. Total ways = 4C2 \u00d7 6C3 = 6 \u00d7 20 = 120.",
+    "estimated_time_seconds": 45,
+    "tags": [
+      "committee-formation",
+      "restricted-selection",
+      "combinations"
+    ]
+  },
+  {
+    "id": "QA-PERMCOMB-000005",
+    "subject": "quantitative_aptitude",
+    "topic": "permutation-combination",
+    "subtopic": "permutations_arrangements",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "In how many different ways can the letters of the word 'CORPORATION' be arranged so that all the vowels always come together?",
+    "options": [
+      "43,200",
+      "50,400",
+      "57,600",
+      "60,480"
+    ],
+    "answer": "50,400",
+    "explanation": "Word: 'CORPORATION' (11 letters). Vowels: O, O, A, I, O (5 vowels: three O's, one A, one I). Consonants: C, R, P, R, T, N (6 consonants: two R's, one C, P, T, N). Treat the 5 vowels as 1 single block. Total entities = 6 consonants + 1 vowel block = 7 entities with 2 R's. Entities can be arranged in 7! / 2! ways. Inside the vowel block, the 5 vowels (with three O's) can be arranged in 5! / 3! ways. Total arrangements = (7! / 2!) \u00d7 (5! / 3!) = (5040 / 2) \u00d7 (120 / 6) = 2520 \u00d7 20 = 50,400.",
+    "estimated_time_seconds": 65,
+    "tags": [
+      "vowels-together",
+      "string-block-method",
+      "permutations"
+    ]
+  },
+  {
+    "id": "QA-PERMCOMB-000006",
+    "subject": "quantitative_aptitude",
+    "topic": "permutation-combination",
+    "subtopic": "circular_permutations",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "In how many ways can 6 delegates be seated around a circular conference table?",
+    "options": [
+      "60",
+      "120",
+      "360",
+      "720"
+    ],
+    "answer": "120",
+    "explanation": "Number of circular permutations of n distinct objects is (n - 1)!. For 6 delegates: (6 - 1)! = 5! = 5 \u00d7 4 \u00d7 3 \u00d7 2 \u00d7 1 = 120 ways.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "circular-permutations",
+      "round-table",
+      "seating"
+    ]
+  },
+  {
+    "id": "QA-PERMCOMB-000007",
+    "subject": "quantitative_aptitude",
+    "topic": "permutation-combination",
+    "subtopic": "combinations_selections",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "How many diagonals does a regular decagon (10-sided polygon) have?",
+    "options": [
+      "30",
+      "35",
+      "40",
+      "45"
+    ],
+    "answer": "35",
+    "explanation": "Number of diagonals in an n-sided polygon = n(n - 3) / 2. For n = 10: Diagonals = 10(10 - 3) / 2 = 10 \u00d7 7 / 2 = 35. (Alternatively: 10C2 - 10 = 45 - 10 = 35).",
+    "estimated_time_seconds": 35,
+    "tags": [
+      "diagonals-polygon",
+      "decagon",
+      "geometric-combinations"
+    ]
+  }
+]

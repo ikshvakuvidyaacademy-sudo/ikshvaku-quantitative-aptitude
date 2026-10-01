@@ -1,0 +1,94 @@
+[
+  {
+    "id": "QA-NUMSYS-000004",
+    "subject": "quantitative_aptitude",
+    "topic": "number-system",
+    "subtopic": "hcf_lcm",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "The HCF and LCM of two two-digit positive integers are 16 and 480 respectively. What is the sum of these two numbers?",
+    "options": [
+      "144",
+      "176",
+      "192",
+      "208"
+    ],
+    "answer": "176",
+    "explanation": "Let the two numbers be 16a and 16b, where a and b are co-prime integers. Product of numbers = HCF \u00d7 LCM => 16a \u00d7 16b = 16 \u00d7 480 => a \u00d7 b = 480 / 16 = 30. The co-prime pairs for (a, b) multiplying to 30 are (1, 30), (2, 15), (3, 10), and (5, 6). Since both numbers are two-digit integers: if (a, b) = (5, 6), the numbers are 16 \u00d7 5 = 80 and 16 \u00d7 6 = 96 (both two digits). Sum = 80 + 96 = 176.",
+    "estimated_time_seconds": 60,
+    "tags": [
+      "hcf-lcm",
+      "co-prime",
+      "two-digit-numbers"
+    ]
+  },
+  {
+    "id": "QA-NUMSYS-000005",
+    "subject": "quantitative_aptitude",
+    "topic": "number-system",
+    "subtopic": "remainders_modular_arithmetic",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "What is the remainder when (2^100) is divided by 101?",
+    "options": [
+      "1",
+      "2",
+      "50",
+      "100"
+    ],
+    "answer": "1",
+    "explanation": "101 is a prime number, and 2 is coprime to 101. By Fermat's Little Theorem, a^(p - 1) \u2261 1 (mod p) for any prime p and integer a coprime to p. Here p = 101 and a = 2, so 2^(101 - 1) = 2^100 \u2261 1 (mod 101). Remainder is 1.",
+    "estimated_time_seconds": 45,
+    "tags": [
+      "remainders",
+      "fermats-theorem",
+      "modular-arithmetic"
+    ]
+  },
+  {
+    "id": "QA-NUMSYS-000006",
+    "subject": "quantitative_aptitude",
+    "topic": "number-system",
+    "subtopic": "surds_indices",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "Which of the following values is the greatest among 2^(1/2), 3^(1/3), 4^(1/4), and 6^(1/6)?",
+    "options": [
+      "2^(1/2)",
+      "3^(1/3)",
+      "4^(1/4)",
+      "6^(1/6)"
+    ],
+    "answer": "3^(1/3)",
+    "explanation": "The LCM of the denominators of the powers (2, 3, 4, 6) is 12. Raising each number to the 12th power: (2^(1/2))^12 = 2^6 = 64; (3^(1/3))^12 = 3^4 = 81; (4^(1/4))^12 = 4^3 = 64; (6^(1/6))^12 = 6^2 = 36. Comparing the values: 81 > 64 = 64 > 36. Thus, 3^(1/3) is the greatest.",
+    "estimated_time_seconds": 55,
+    "tags": [
+      "surds",
+      "indices",
+      "comparison"
+    ]
+  },
+  {
+    "id": "QA-NUMSYS-000007",
+    "subject": "quantitative_aptitude",
+    "topic": "number-system",
+    "subtopic": "series_progressions",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "The 4th term of an Arithmetic Progression is 14 and the 12th term is 70. What is the sum of the first 20 terms of this AP?",
+    "options": [
+      "1150",
+      "1190",
+      "1230",
+      "1270"
+    ],
+    "answer": "1190",
+    "explanation": "Let the first term be a and the common difference be d. Given T4 = a + 3d = 14 and T12 = a + 11d = 70. Subtracting the first equation from the second: 8d = 56 => d = 7. Then a = 14 - 3(7) = 14 - 21 = -7. The sum of the first 20 terms is S20 = (20/2) \u00d7 [2(-7) + (20 - 1)(7)] = 10 \u00d7 [-14 + 133] = 10 \u00d7 119 = 1190.",
+    "estimated_time_seconds": 65,
+    "tags": [
+      "ap",
+      "arithmetic-progression",
+      "series"
+    ]
+  }
+]

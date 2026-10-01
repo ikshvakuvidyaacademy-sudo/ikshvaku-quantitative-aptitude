@@ -1,0 +1,94 @@
+[
+  {
+    "id": "QA-GEOMETRY-000004",
+    "subject": "quantitative_aptitude",
+    "topic": "geometry",
+    "subtopic": "similarity_triangles",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "Two triangles ABC and DEF are similar such that Area(ABC) = 64 cm^2 and Area(DEF) = 121 cm^2. If the side BC = 16 cm, what is the length of corresponding side EF?",
+    "options": [
+      "20 cm",
+      "22 cm",
+      "24 cm",
+      "26 cm"
+    ],
+    "answer": "22 cm",
+    "explanation": "For similar triangles, the ratio of their areas is equal to the square of the ratio of their corresponding sides: Area(ABC) / Area(DEF) = (BC / EF)^2 => 64 / 121 = (16 / EF)^2. Taking square root: 8 / 11 = 16 / EF => 8 EF = 16 \u00d7 11 = 176 => EF = 22 cm.",
+    "estimated_time_seconds": 40,
+    "tags": [
+      "similar-triangles",
+      "area-ratio",
+      "corresponding-sides"
+    ]
+  },
+  {
+    "id": "QA-GEOMETRY-000005",
+    "subject": "quantitative_aptitude",
+    "topic": "geometry",
+    "subtopic": "coordinate_geometry",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "Find the distance between the parallel lines 3x - 4y + 7 = 0 and 3x - 4y - 13 = 0.",
+    "options": [
+      "3 units",
+      "4 units",
+      "5 units",
+      "6 units"
+    ],
+    "answer": "4 units",
+    "explanation": "Distance between parallel lines Ax + By + C1 = 0 and Ax + By + C2 = 0 is d = |C1 - C2| / sqrt(A^2 + B^2). Here A = 3, B = -4, C1 = 7, C2 = -13: d = |7 - (-13)| / sqrt(3^2 + (-4)^2) = |20| / sqrt(9 + 16) = 20 / 5 = 4 units.",
+    "estimated_time_seconds": 35,
+    "tags": [
+      "coordinate-geometry",
+      "parallel-lines",
+      "perpendicular-distance"
+    ]
+  },
+  {
+    "id": "QA-GEOMETRY-000006",
+    "subject": "quantitative_aptitude",
+    "topic": "geometry",
+    "subtopic": "circles_tangents",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "In a circle of radius 13 cm, a chord is drawn at a perpendicular distance of 5 cm from the center. What is the length of the chord?",
+    "options": [
+      "18 cm",
+      "20 cm",
+      "24 cm",
+      "26 cm"
+    ],
+    "answer": "24 cm",
+    "explanation": "Perpendicular from center bisects the chord. In the right triangle formed by radius r, distance d, and half-chord L/2: (L / 2)^2 = r^2 - d^2 = 13^2 - 5^2 = 169 - 25 = 144 => L / 2 = 12 cm. Length of chord L = 2 \u00d7 12 = 24 cm.",
+    "estimated_time_seconds": 35,
+    "tags": [
+      "chord-properties",
+      "circle-radius",
+      "perpendicular-bisector"
+    ]
+  },
+  {
+    "id": "QA-GEOMETRY-000007",
+    "subject": "quantitative_aptitude",
+    "topic": "geometry",
+    "subtopic": "polygons_quadrilaterals",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "The diagonals of a rhombus are 24 cm and 10 cm in length. What is the perimeter of the rhombus?",
+    "options": [
+      "48 cm",
+      "52 cm",
+      "56 cm",
+      "60 cm"
+    ],
+    "answer": "52 cm",
+    "explanation": "Diagonals of a rhombus bisect each other at right angles (90\u00b0). Half lengths of diagonals: d1/2 = 12 cm and d2/2 = 5 cm. Side of rhombus s = sqrt((d1/2)^2 + (d2/2)^2) = sqrt(12^2 + 5^2) = sqrt(144 + 25) = sqrt(169) = 13 cm. Perimeter = 4 \u00d7 s = 4 \u00d7 13 = 52 cm.",
+    "estimated_time_seconds": 45,
+    "tags": [
+      "rhombus",
+      "diagonals",
+      "perimeter"
+    ]
+  }
+]

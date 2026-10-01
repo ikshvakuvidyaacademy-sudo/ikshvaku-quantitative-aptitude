@@ -1,0 +1,25 @@
+[
+  {
+    "id": "QA-PROFITLOSS-000010",
+    "subject": "quantitative_aptitude",
+    "topic": "profit-loss",
+    "subtopic": "cost_selling_price",
+    "difficulty": "very_hard",
+    "question_type": "single_choice",
+    "question": "A publisher produces 2,000 copies of an engineering textbook at a total cost of \u20b93,50,000. He distributes 400 copies free of cost to university libraries as promotional complimentary specimens. On the remaining copies, he offers a discount of 20% on the catalog price. If each book is catalog-priced at \u20b9350, and he must pay a transportation and logistics royalty of 5% on the gross revenue earned from sales, what is his net percentage return on total capital invested?",
+    "options": [
+      "18.4%",
+      "21.6%",
+      "25.2%",
+      "28.0%"
+    ],
+    "answer": "21.6%",
+    "explanation": "Total books produced = 2,000, Total Investment = \u20b93,50,000. Complimentary copies = 400. Books available for sale = 2,000 - 400 = 1,600 copies. Catalog price = \u20b9350. Discount = 20% => Selling Price per copy = 350 \u00d7 0.80 = \u20b9280. Gross Sales Revenue = 1,600 \u00d7 280 = \u20b94,48,000. Logistics royalty deduction = 5% of gross revenue = 0.05 \u00d7 4,48,000 = \u20b922,400. Net Revenue realized = 4,48,000 - 22,400 = \u20b94,25,600. Net Profit = Net Revenue - Total Investment = 4,25,600 - 3,50,000 = \u20b975,600. Percentage return on capital = (75,600 / 3,50,000) \u00d7 100 = 21.6%.",
+    "estimated_time_seconds": 130,
+    "tags": [
+      "capital-return",
+      "promotional-costs",
+      "commercial-enterprise"
+    ]
+  }
+]

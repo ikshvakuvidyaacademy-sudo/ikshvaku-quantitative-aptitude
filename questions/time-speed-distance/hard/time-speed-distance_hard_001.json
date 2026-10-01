@@ -1,0 +1,48 @@
+[
+  {
+    "id": "QA-TSD-000008",
+    "subject": "quantitative_aptitude",
+    "topic": "time-speed-distance",
+    "subtopic": "basic_speed",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "Walking at (5/6)th of his usual speed, a man reaches his office 15 minutes late. What is his usual time to reach the office?",
+    "options": [
+      "60 minutes",
+      "75 minutes",
+      "80 minutes",
+      "90 minutes"
+    ],
+    "answer": "75 minutes",
+    "explanation": "Since distance is constant, speed and time are inversely proportional. Speed ratio = 5/6 => Time ratio = 6/5. Let usual time be T. New time = (6/5) T. Delay = (6/5) T - T = (1/5) T. Given delay = 15 minutes: (1/5) T = 15 => T = 75 minutes.",
+    "estimated_time_seconds": 70,
+    "tags": [
+      "speed-ratio",
+      "inverse-proportionality",
+      "punctuality"
+    ]
+  },
+  {
+    "id": "QA-TSD-000009",
+    "subject": "quantitative_aptitude",
+    "topic": "time-speed-distance",
+    "subtopic": "circular_tracks",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "Two athletes run in the same direction on a circular track of circumference 600 meters at speeds of 15 m/s and 25 m/s respectively from the same starting line. After how many seconds from the start will they meet again for the first time at the starting line itself?",
+    "options": [
+      "60 seconds",
+      "120 seconds",
+      "180 seconds",
+      "240 seconds"
+    ],
+    "answer": "120 seconds",
+    "explanation": "Time taken by Athlete 1 to complete one full lap = 600 / 15 = 40 seconds. Time taken by Athlete 2 to complete one full lap = 600 / 25 = 24 seconds. They will be at the starting line together at multiples of their individual lap times. First meeting at the starting point = LCM(40, 24). Prime factorization: 40 = 2^3 \u00d7 5; 24 = 2^3 \u00d7 3. LCM = 2^3 \u00d7 3 \u00d7 5 = 120 seconds.",
+    "estimated_time_seconds": 80,
+    "tags": [
+      "circular-track",
+      "lcm-lap-time",
+      "starting-point"
+    ]
+  }
+]

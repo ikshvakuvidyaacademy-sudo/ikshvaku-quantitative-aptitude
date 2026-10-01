@@ -1,0 +1,48 @@
+[
+  {
+    "id": "QA-PERCENTAGE-000008",
+    "subject": "quantitative_aptitude",
+    "topic": "percentages",
+    "subtopic": "marks_problems",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "In a competitive exam, a candidate who gets 32% marks fails by 28 marks, while another candidate who gets 48% marks gets 36 marks more than the minimum passing marks. What is the minimum passing percentage for the exam?",
+    "options": [
+      "37.5%",
+      "39%",
+      "40%",
+      "41.5%"
+    ],
+    "answer": "39%",
+    "explanation": "Let M be the maximum marks and P be the passing marks. Candidate 1: P = 0.32M + 28. Candidate 2: P = 0.48M - 36. Equating both: 0.32M + 28 = 0.48M - 36 => 0.16M = 64 => M = 64 / 0.16 = 400 marks. Now find passing marks P = 0.32(400) + 28 = 128 + 28 = 156. Passing percentage = (156 / 400) \u00d7 100 = 39%.",
+    "estimated_time_seconds": 80,
+    "tags": [
+      "marks",
+      "passing-percentage",
+      "linear-system"
+    ]
+  },
+  {
+    "id": "QA-PERCENTAGE-000009",
+    "subject": "quantitative_aptitude",
+    "topic": "percentages",
+    "subtopic": "expenditure_problems",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "The price of petrol increases by 20%. A motorist decides to increase his total expenditure on petrol by only 8%. By what percentage will his petrol consumption decrease?",
+    "options": [
+      "8%",
+      "10%",
+      "12%",
+      "15%"
+    ],
+    "answer": "10%",
+    "explanation": "Expenditure = Price \u00d7 Consumption => Consumption = Expenditure / Price. Let initial Price = 100, Consumption = 100, Expenditure = 10,000. New Price = 120. New Expenditure = 108% of 10,000 = 10,800. New Consumption = 10,800 / 120 = 90. Percentage decrease in consumption = 100 - 90 = 10%.",
+    "estimated_time_seconds": 85,
+    "tags": [
+      "expenditure",
+      "consumption",
+      "petrol-price"
+    ]
+  }
+]

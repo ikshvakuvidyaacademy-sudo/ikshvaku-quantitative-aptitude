@@ -1,0 +1,48 @@
+[
+  {
+    "id": "QA-NUMSYS-000008",
+    "subject": "quantitative_aptitude",
+    "topic": "number-system",
+    "subtopic": "factors_multiples",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "Find the number of integral divisors of the integer N = 2^4 \u00d7 3^5 \u00d7 5^3 that are perfect squares and are strictly greater than 1.",
+    "options": [
+      "17",
+      "18",
+      "23",
+      "24"
+    ],
+    "answer": "17",
+    "explanation": "A divisor is a perfect square if all the exponents in its prime factorization are even. The prime factorization is N = 2^4 \u00d7 3^5 \u00d7 5^3. Possible even exponents: For 2: {0, 2, 4} (3 choices); For 3: {0, 2, 4} (3 choices); For 5: {0, 2} (2 choices). Total perfect square divisors = 3 \u00d7 3 \u00d7 2 = 18. Since the problem specifies divisors strictly greater than 1, we exclude 1 (which corresponds to all exponents equal to 0). Total divisors = 18 - 1 = 17.",
+    "estimated_time_seconds": 85,
+    "tags": [
+      "factors",
+      "perfect-squares",
+      "combinatorics"
+    ]
+  },
+  {
+    "id": "QA-NUMSYS-000009",
+    "subject": "quantitative_aptitude",
+    "topic": "number-system",
+    "subtopic": "remainders_modular_arithmetic",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "Find the remainder when (32^32)^32 is divided by 7.",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "6"
+    ],
+    "answer": "4",
+    "explanation": "Expression is (32^32)^32 = 32^(32 \u00d7 32) = 32^1024. First reduce the base modulo 7: 32 \u2261 4 (mod 7). So we need 4^1024 (mod 7). By Euler's Totient Theorem, since 7 is prime, \u03c6(7) = 6. Also 4^3 = 64 \u2261 1 (mod 7), so powers of 4 have cyclicity 3 modulo 7. Now calculate 1024 mod 3: 1024 = 3 \u00d7 341 + 1, so 1024 \u2261 1 (mod 3). Therefore, 4^1024 \u2261 4^1 = 4 (mod 7). The remainder is 4.",
+    "estimated_time_seconds": 95,
+    "tags": [
+      "modular-arithmetic",
+      "cyclicity",
+      "powers-of-powers"
+    ]
+  }
+]

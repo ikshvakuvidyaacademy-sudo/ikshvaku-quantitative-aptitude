@@ -1,0 +1,25 @@
+[
+  {
+    "id": "QA-MIXALLIG-000010",
+    "subject": "quantitative_aptitude",
+    "topic": "mixtures-alligation",
+    "subtopic": "multi_component_mixtures",
+    "difficulty": "very_hard",
+    "question_type": "single_choice",
+    "question": "A tea connoisseur blends three varieties of Darjeeling tea costing \u20b9300/kg, \u20b9360/kg, and \u20b9480/kg in the proportion 2 : 3 : x. If the blended tea is sold at \u20b9440 per kg yielding a net profit of 10%, what is the value of x?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "4",
+    "explanation": "Selling price of blend = \u20b9440/kg at 10% profit => Mean Cost Price = 440 / 1.10 = \u20b9400/kg. Weighted average cost equation: [2(300) + 3(360) + x(480)] / (2 + 3 + x) = 400 => [600 + 1080 + 480x] / (5 + x) = 400 => 1680 + 480x = 2000 + 400x => 80x = 320 => x = 4.",
+    "estimated_time_seconds": 115,
+    "tags": [
+      "three-component-blend",
+      "weighted-cost",
+      "alligation-algebra"
+    ]
+  }
+]

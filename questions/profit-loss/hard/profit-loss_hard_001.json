@@ -1,0 +1,48 @@
+[
+  {
+    "id": "QA-PROFITLOSS-000008",
+    "subject": "quantitative_aptitude",
+    "topic": "profit-loss",
+    "subtopic": "marked_price_discount",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "A manufacturer sells an item to a wholesale distributor at a profit of 15%. The distributor sells it to a retailer at a profit of 20%, and the retailer sells it to a consumer for \u20b91,794, earning a profit of 30%. What was the manufacturing cost of the item?",
+    "options": [
+      "\u20b91,000",
+      "\u20b91,050",
+      "\u20b91,100",
+      "\u20b91,150"
+    ],
+    "answer": "\u20b91,000",
+    "explanation": "Let original manufacturing cost be C. Chain of transactions: C \u00d7 (1 + 0.15) \u00d7 (1 + 0.20) \u00d7 (1 + 0.30) = 1,794 => C \u00d7 1.15 \u00d7 1.20 \u00d7 1.30 = 1,794 => C \u00d7 (23/20) \u00d7 (6/5) \u00d7 (13/10) = 1,794 => C \u00d7 (1794 / 1000) = 1,794 => C = \u20b91,000.",
+    "estimated_time_seconds": 75,
+    "tags": [
+      "chain-transactions",
+      "multi-tier-profit",
+      "manufacturing-cost"
+    ]
+  },
+  {
+    "id": "QA-PROFITLOSS-000009",
+    "subject": "quantitative_aptitude",
+    "topic": "profit-loss",
+    "subtopic": "dishonest_trader",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "A dishonest dealer marks up his goods by 25% above the cost price and gives a discount of 10% to the customer. Additionally, he cheats by using a balance that reads 1,000 grams for 800 grams while selling. What is his total overall profit percentage?",
+    "options": [
+      "35%",
+      "40.625%",
+      "42.5%",
+      "45%"
+    ],
+    "answer": "40.625%",
+    "explanation": "Let cost price of 1,000g be \u20b9100 (\u20b90.10/g). Dealer marks it up by 25% => MP = \u20b9125 for 1000g. After 10% discount, customer pays SP = 125 \u00d7 0.90 = \u20b9112.50 for what the customer thinks is 1,000g. However, dealer only gives 800g. Cost to dealer for 800g = 800 \u00d7 \u20b90.10 = \u20b980. Profit = SP - CP = 112.50 - 80 = \u20b932.50. Profit % = (32.50 / 80) \u00d7 100 = 40.625%.",
+    "estimated_time_seconds": 85,
+    "tags": [
+      "dishonest-trader",
+      "compound-fraud",
+      "markup-and-weight"
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "QA-ALGEBRA-000001",
+    "subject": "quantitative_aptitude",
+    "topic": "algebra",
+    "subtopic": "linear_equations",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "Solve for x: 3(2x - 5) + 4 = 2(x + 7) + 1.",
+    "options": [
+      "5",
+      "6",
+      "6.5",
+      "7"
+    ],
+    "answer": "6.5",
+    "explanation": "Expand both sides: 6x - 15 + 4 = 2x + 14 + 1 => 6x - 11 = 2x + 15 => 4x = 26 => x = 26 / 4 = 6.5.",
+    "estimated_time_seconds": 30,
+    "tags": [
+      "linear-equations",
+      "single-variable",
+      "simplification"
+    ]
+  },
+  {
+    "id": "QA-ALGEBRA-000002",
+    "subject": "quantitative_aptitude",
+    "topic": "algebra",
+    "subtopic": "quadratic_equations",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "What is the positive root of the quadratic equation x^2 - 11x + 28 = 0?",
+    "options": [
+      "4",
+      "7",
+      "Both 4 and 7",
+      "11"
+    ],
+    "answer": "Both 4 and 7",
+    "explanation": "Factoring the quadratic equation: x^2 - 11x + 28 = (x - 4)(x - 7) = 0. The roots are x = 4 and x = 7. Since both are positive integers, both 4 and 7 are positive roots.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "quadratic-roots",
+      "factorization",
+      "algebra-basics"
+    ]
+  },
+  {
+    "id": "QA-ALGEBRA-000003",
+    "subject": "quantitative_aptitude",
+    "topic": "algebra",
+    "subtopic": "algebraic_identities",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "If x + (1/x) = 5, what is the value of x^2 + (1/x^2)?",
+    "options": [
+      "21",
+      "23",
+      "25",
+      "27"
+    ],
+    "answer": "23",
+    "explanation": "Square both sides: (x + 1/x)^2 = 5^2 => x^2 + 2(x)(1/x) + 1/x^2 = 25 => x^2 + 2 + 1/x^2 = 25 => x^2 + 1/x^2 = 25 - 2 = 23.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "algebraic-identities",
+      "reciprocal-powers",
+      "expansion"
+    ]
+  }
+]

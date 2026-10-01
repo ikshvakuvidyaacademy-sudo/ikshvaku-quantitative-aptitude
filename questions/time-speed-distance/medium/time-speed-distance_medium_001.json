@@ -1,0 +1,94 @@
+[
+  {
+    "id": "QA-TSD-000004",
+    "subject": "quantitative_aptitude",
+    "topic": "time-speed-distance",
+    "subtopic": "trains",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A 240-meter long train passes a railway platform 360 meters long in 30 seconds. What is the speed of the train in km/h?",
+    "options": [
+      "64 km/h",
+      "72 km/h",
+      "80 km/h",
+      "90 km/h"
+    ],
+    "answer": "72 km/h",
+    "explanation": "Total distance to clear platform = Train length + Platform length = 240 + 360 = 600 meters. Speed in m/s = Total Distance / Time = 600 / 30 = 20 m/s. Convert to km/h: 20 \u00d7 (18 / 5) = 4 \u00d7 18 = 72 km/h.",
+    "estimated_time_seconds": 45,
+    "tags": [
+      "trains",
+      "platform-crossing",
+      "speed-conversion"
+    ]
+  },
+  {
+    "id": "QA-TSD-000005",
+    "subject": "quantitative_aptitude",
+    "topic": "time-speed-distance",
+    "subtopic": "boats_and_streams",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A motorboat can travel at 15 km/h in still water. If the river current flows at 3 km/h, how much time will it take to travel 36 km downstream and return upstream to the starting dock?",
+    "options": [
+      "4.5 hours",
+      "5 hours",
+      "5.5 hours",
+      "6 hours"
+    ],
+    "answer": "5 hours",
+    "explanation": "Downstream speed = Boat speed + Stream speed = 15 + 3 = 18 km/h. Downstream time = 36 / 18 = 2 hours. Upstream speed = Boat speed - Stream speed = 15 - 3 = 12 km/h. Upstream time = 36 / 12 = 3 hours. Total round trip time = 2 + 3 = 5 hours.",
+    "estimated_time_seconds": 50,
+    "tags": [
+      "boats-and-streams",
+      "upstream-downstream",
+      "round-trip"
+    ]
+  },
+  {
+    "id": "QA-TSD-000006",
+    "subject": "quantitative_aptitude",
+    "topic": "time-speed-distance",
+    "subtopic": "relative_speed",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "Two cars start simultaneously towards each other from two cities 330 km apart. Car A travels at 50 km/h and Car B at 60 km/h. After how many hours will they pass each other?",
+    "options": [
+      "2.5 hours",
+      "3 hours",
+      "3.2 hours",
+      "3.5 hours"
+    ],
+    "answer": "3 hours",
+    "explanation": "Relative speed in opposite directions = Speed A + Speed B = 50 + 60 = 110 km/h. Time to meet = Total distance / Relative speed = 330 / 110 = 3 hours.",
+    "estimated_time_seconds": 35,
+    "tags": [
+      "relative-speed",
+      "opposite-direction",
+      "meeting-point"
+    ]
+  },
+  {
+    "id": "QA-TSD-000007",
+    "subject": "quantitative_aptitude",
+    "topic": "time-speed-distance",
+    "subtopic": "races_and_games",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "In a 1,000 meter sprint, Runner A beats Runner B by 50 meters or 10 seconds. What is Runner A's time to finish the race?",
+    "options": [
+      "180 seconds",
+      "190 seconds",
+      "200 seconds",
+      "210 seconds"
+    ],
+    "answer": "190 seconds",
+    "explanation": "Runner B covers the remaining 50 meters in 10 seconds. Speed of Runner B = 50 m / 10 s = 5 m/s. Total time taken by B to run the entire 1,000 meters = 1,000 / 5 = 200 seconds. Since A beats B by 10 seconds, A's finishing time = 200 - 10 = 190 seconds.",
+    "estimated_time_seconds": 55,
+    "tags": [
+      "races",
+      "headstart",
+      "time-margin"
+    ]
+  }
+]

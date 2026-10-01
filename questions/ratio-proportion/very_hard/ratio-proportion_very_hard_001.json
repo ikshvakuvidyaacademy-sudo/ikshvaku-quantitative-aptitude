@@ -1,0 +1,25 @@
+[
+  {
+    "id": "QA-RATIOPROP-000010",
+    "subject": "quantitative_aptitude",
+    "topic": "ratio-proportion",
+    "subtopic": "ratio_basics",
+    "difficulty": "very_hard",
+    "question_type": "single_choice",
+    "question": "The ratio of the total weight of three metal alloys A, B, and C is 3 : 4 : 5. The percentages of copper in A, B, and C are 40%, 50%, and 60% respectively, and the remaining portion in each alloy consists of zinc and tin in the ratio 2 : 1. If all three alloys are melted together into a single master ingot, what is the ratio of copper to tin in the final master ingot?",
+    "options": [
+      "93 : 29",
+      "85 : 27",
+      "91 : 30",
+      "97 : 31"
+    ],
+    "answer": "93 : 29",
+    "explanation": "Let weights of alloys A, B, and C be 30 kg, 40 kg, and 50 kg respectively (total weight = 120 kg). In Alloy A: Copper = 40% of 30 = 12 kg. Non-copper = 18 kg. Tin = 1/(2+1) \u00d7 18 = 6 kg. In Alloy B: Copper = 50% of 40 = 20 kg. Non-copper = 20 kg. Tin = 1/3 \u00d7 20 = 20/3 kg. In Alloy C: Copper = 60% of 50 = 30 kg. Non-copper = 20 kg. Tin = 1/3 \u00d7 20 = 20/3 kg. Total Copper = 12 + 20 + 30 = 62 kg. Total Tin = 6 + 20/3 + 20/3 = 6 + 40/3 = 58/3 kg. Ratio Copper : Tin = 62 / (58/3) = (62 \u00d7 3) / 58 = 186 / 58 = 93 / 29 = 93 : 29.",
+    "estimated_time_seconds": 135,
+    "tags": [
+      "alloys",
+      "multi-tier-ratio",
+      "weighted-alligation"
+    ]
+  }
+]

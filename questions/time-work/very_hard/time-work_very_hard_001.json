@@ -1,0 +1,25 @@
+[
+  {
+    "id": "QA-TIMEWORK-000010",
+    "subject": "quantitative_aptitude",
+    "topic": "time-work",
+    "subtopic": "man_days_equivalence",
+    "difficulty": "very_hard",
+    "question_type": "single_choice",
+    "question": "A contractor undertook to construct a 12 km long highway in 350 days and initially employed 45 workers. After 200 days, only 4.5 km of the highway was completed. How many additional workers must he employ now so that the entire highway project is completed strictly on schedule?",
+    "options": [
+      "45 workers",
+      "55 workers",
+      "65 workers",
+      "75 workers"
+    ],
+    "answer": "55 workers",
+    "explanation": "General formula: (M1 \u00d7 D1) / W1 = (M2 \u00d7 D2) / W2. Initially: M1 = 45 workers, D1 = 200 days, W1 = 4.5 km. Remaining: Target time remaining D2 = 350 - 200 = 150 days. Remaining highway W2 = 12 - 4.5 = 7.5 km. Let M2 be total workers required for the second phase. Equation: (45 \u00d7 200) / 4.5 = (M2 \u00d7 150) / 7.5. Simplifying left side: (45 \u00d7 200) / 4.5 = 10 \u00d7 200 = 2,000. Right side: (M2 \u00d7 150) / 7.5 = M2 \u00d7 20. Equating: 20 M2 = 2,000 => M2 = 100 workers. Additional workers needed = M2 - M1 = 100 - 45 = 55 additional workers.",
+    "estimated_time_seconds": 120,
+    "tags": [
+      "contractor-schedule",
+      "additional-manpower",
+      "m1-d1-w1"
+    ]
+  }
+]

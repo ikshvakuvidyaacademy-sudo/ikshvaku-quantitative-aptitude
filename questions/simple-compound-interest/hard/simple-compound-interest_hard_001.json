@@ -1,0 +1,48 @@
+[
+  {
+    "id": "QA-SICI-000008",
+    "subject": "quantitative_aptitude",
+    "topic": "simple-compound-interest",
+    "subtopic": "compound_interest_annual",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "A financier lends a sum of money under compound interest compounded annually. In the 2nd year, the interest accrued is ₹880, and in the 3rd year, the interest accrued is ₹968. What was the original principal sum lent?",
+    "options": [
+      "₹7,200",
+      "₹8,000",
+      "₹8,800",
+      "₹9,600"
+    ],
+    "answer": "₹8,000",
+    "explanation": "In compound interest, the interest accrued in any year earns interest in the subsequent year. The increment in interest between Year 2 and Year 3 = 968 - 880 = ₹88. This ₹88 is the interest on ₹880 for 1 year: Rate R = (88 / 880) × 100 = 10% per annum. Interest in Year 1 = (Interest in Year 2) / (1 + R/100) = 880 / 1.10 = ₹800. Since Year 1 interest is purely on the principal: P × (10 / 100) = 800 => P = ₹8,000.",
+    "estimated_time_seconds": 75,
+    "tags": [
+      "consecutive-year-interest",
+      "ci-growth",
+      "principal-derivation"
+    ]
+  },
+  {
+    "id": "QA-SICI-000009",
+    "subject": "quantitative_aptitude",
+    "topic": "simple-compound-interest",
+    "subtopic": "installment_schemes",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "A loan of ₹25,500 is to be paid back in two equal annual installments at an interest rate of 4% per annum compounded annually. What is the value of each installment?",
+    "options": [
+      "₹13,240",
+      "₹13,520",
+      "₹13,800",
+      "₹14,040"
+    ],
+    "answer": "₹13,520",
+    "explanation": "Let each annual installment be x. The present value of the two installments must equal the loan principal: P = x / (1 + r/100) + x / (1 + r/100)^2. Here r = 4%, so (1 + r/100) = 1.04 = 26/25. 25,500 = x × (25 / 26) + x × (25 / 26)^2 = x × (25 / 26) × [1 + 25 / 26] = x × (25 / 26) × (51 / 26) = x × (1275 / 676). Thus, x = (25,500 × 676) / 1275 = 20 × 676 = ₹13,520.",
+    "estimated_time_seconds": 90,
+    "tags": [
+      "installments",
+      "loan-amortization",
+      "compound-interest"
+    ]
+  }
+]

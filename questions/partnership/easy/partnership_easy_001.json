@@ -1,0 +1,71 @@
+[
+  {
+    "id": "QA-PARTNER-000001",
+    "subject": "quantitative_aptitude",
+    "topic": "partnership",
+    "subtopic": "simple_partnership",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "A and B invest \u20b930,000 and \u20b945,000 respectively in a business for one year. If the total annual profit is \u20b915,000, what is A's share of the profit?",
+    "options": [
+      "\u20b95,000",
+      "\u20b96,000",
+      "\u20b97,500",
+      "\u20b99,000"
+    ],
+    "answer": "\u20b96,000",
+    "explanation": "Since the time period is identical, profit is shared in the ratio of their investments: A : B = 30,000 : 45,000 = 2 : 3. Total ratio parts = 2 + 3 = 5. A's profit share = (2 / 5) \u00d7 \u20b915,000 = \u20b96,000.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "simple-partnership",
+      "capital-ratio",
+      "profit-sharing"
+    ]
+  },
+  {
+    "id": "QA-PARTNER-000002",
+    "subject": "quantitative_aptitude",
+    "topic": "partnership",
+    "subtopic": "compound_partnership",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "P invests \u20b920,000 for 6 months and Q invests \u20b915,000 for 8 months. What is the ratio of their profit shares at the end of the year?",
+    "options": [
+      "1 : 1",
+      "3 : 4",
+      "4 : 3",
+      "5 : 4"
+    ],
+    "answer": "1 : 1",
+    "explanation": "Profit ratio = (Capital_P \u00d7 Time_P) : (Capital_Q \u00d7 Time_Q) = (20,000 \u00d7 6) : (15,000 \u00d7 8) = 120,000 : 120,000 = 1 : 1.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "compound-partnership",
+      "capital-time-product",
+      "ratio"
+    ]
+  },
+  {
+    "id": "QA-PARTNER-000003",
+    "subject": "quantitative_aptitude",
+    "topic": "partnership",
+    "subtopic": "simple_partnership",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "Three partners X, Y, and Z share profits in the ratio 4 : 5 : 7. If Z receives \u20b92,800 as his share, what was the total profit earned by the partnership?",
+    "options": [
+      "\u20b95,600",
+      "\u20b96,400",
+      "\u20b97,200",
+      "\u20b98,000"
+    ],
+    "answer": "\u20b96,400",
+    "explanation": "Total ratio units = 4 + 5 + 7 = 16 units. Z's share corresponds to 7 units = \u20b92,800 => 1 unit = 2,800 / 7 = \u20b9400. Total profit = 16 units = 16 \u00d7 \u20b9400 = \u20b96,400.",
+    "estimated_time_seconds": 30,
+    "tags": [
+      "profit-units",
+      "partnership-shares",
+      "basic-ratio"
+    ]
+  }
+]

@@ -1,0 +1,234 @@
+{
+  "system": "Ikshvaku Quantitative Aptitude Taxonomy",
+  "version": "1.0.0",
+  "total_topics": 17,
+  "topics": [
+    {
+      "slug": "number-system",
+      "code": "NUMSYS",
+      "name": "Number System",
+      "description": "Properties of real numbers, divisibility tests, factors, multiples, prime factorization, unit digits, remainders, and bases.",
+      "subtopics": [
+        { "slug": "divisibility_rules", "name": "Divisibility Rules", "description": "Divisibility tests for single and composite numbers, missing digits." },
+        { "slug": "factors_multiples", "name": "Factors & Multiples", "description": "Number of factors, sum of factors, odd/even factors, and prime factors." },
+        { "slug": "hcf_lcm", "name": "HCF & LCM", "description": "Properties of HCF and LCM, bells tolling, circular tracks, and fractional HCF/LCM." },
+        { "slug": "unit_digit_cyclicity", "name": "Unit Digit & Cyclicity", "description": "Cyclicity patterns of exponents, last two digits." },
+        { "slug": "remainders_modular_arithmetic", "name": "Remainders & Modular Arithmetic", "description": "Euler's theorem, Fermat's little theorem, Wilson's theorem, and remainder theorems." },
+        { "slug": "surds_indices", "name": "Surds & Indices", "description": "Laws of exponents, rationalizing surds, comparison of surds." },
+        { "slug": "base_conversion", "name": "Base Conversion", "description": "Binary, octal, decimal, and hexadecimal representations and arithmetic." },
+        { "slug": "series_progressions", "name": "Series & Progressions", "description": "Arithmetic Progression (AP), Geometric Progression (GP), and Harmonic Progression (HP)." }
+      ]
+    },
+    {
+      "slug": "percentages",
+      "code": "PERCENTAGE",
+      "name": "Percentages",
+      "description": "Base percentage calculation, percentage increase/decrease, successive percentage changes, and real-world percentage modeling.",
+      "subtopics": [
+        { "slug": "percentage_basics", "name": "Percentage Basics", "description": "Fraction to percentage conversion, fundamental percentage evaluation." },
+        { "slug": "percentage_increase", "name": "Percentage Increase", "description": "Absolute and relative percentage growth." },
+        { "slug": "percentage_decrease", "name": "Percentage Decrease", "description": "Depreciation, decline, and negative percentage increments." },
+        { "slug": "successive_percentage", "name": "Successive Percentage", "description": "Net percentage change across sequential increases and decreases." },
+        { "slug": "population_problems", "name": "Population Problems", "description": "Demographic growth, compounded annual growth rates in census." },
+        { "slug": "salary_problems", "name": "Salary & Income Problems", "description": "Income, expenditure, savings, tax deductions, and disposable income." },
+        { "slug": "expenditure_problems", "name": "Expenditure & Consumption", "description": "Price elasticity of consumption to maintain constant expenditure." },
+        { "slug": "marks_problems", "name": "Marks & Examination", "description": "Passing marks, maximum marks, percentage cutoffs, and percentile distributions." }
+      ]
+    },
+    {
+      "slug": "ratio-proportion",
+      "code": "RATIOPROP",
+      "name": "Ratio & Proportion",
+      "description": "Comparison of quantities, compound ratios, direct and inverse proportion, variations, and ratio distributions.",
+      "subtopics": [
+        { "slug": "ratio_basics", "name": "Ratio Basics", "description": "Simplification, equivalent ratios, duplicate/triplicate ratios." },
+        { "slug": "proportion_variation", "name": "Proportion & Variation", "description": "Mean proportional, third/fourth proportional, direct and inverse variation." },
+        { "slug": "coin_currency_problems", "name": "Coin & Currency Problems", "description": "Denomination ratios, total value, and count calculations." },
+        { "slug": "age_problems", "name": "Age Problems", "description": "Past, present, and future age ratio equations." },
+        { "slug": "distribution_division", "name": "Distribution & Division", "description": "Dividing amounts among multiple entities according to linear ratios." }
+      ]
+    },
+    {
+      "slug": "averages",
+      "code": "AVERAGES",
+      "name": "Averages",
+      "description": "Arithmetic mean, weighted average, deviation method, changes upon addition, removal, and replacement of data points.",
+      "subtopics": [
+        { "slug": "basic_averages", "name": "Basic Averages", "description": "Simple arithmetic mean of sets of integers and continuous sequences." },
+        { "slug": "weighted_average", "name": "Weighted Average", "description": "Combining multiple groups with different population sizes." },
+        { "slug": "replacement_addition_removal", "name": "Replacement, Addition & Removal", "description": "Effect on group average when a member leaves, joins, or is replaced." },
+        { "slug": "batting_bowling_averages", "name": "Sports & Performance Averages", "description": "Batting average, bowling average, innings calculations." },
+        { "slug": "average_speed_groups", "name": "Average Speed & Rates", "description": "Harmonic and weighted average speeds over varied distances." }
+      ]
+    },
+    {
+      "slug": "profit-loss",
+      "code": "PROFITLOSS",
+      "name": "Profit & Loss",
+      "description": "Commercial arithmetic involving cost price, selling price, marked price, discounts, margins, and dishonest merchant scenarios.",
+      "subtopics": [
+        { "slug": "cost_selling_price", "name": "Cost & Selling Price", "description": "Fundamental calculations connecting CP, SP, profit, and loss." },
+        { "slug": "profit_loss_percentage", "name": "Profit & Loss Percentage", "description": "Percentage profit or loss calculated on cost price or selling price." },
+        { "slug": "marked_price_discount", "name": "Marked Price & Discount", "description": "Catalog pricing, single trade discount, cash discount, markup percentage." },
+        { "slug": "successive_discount", "name": "Successive Discounts", "description": "Equivalent single discount for series of promotional rebates." },
+        { "slug": "dishonest_trader", "name": "Dishonest Trader & Faulty Weights", "description": "False balances, under-weight goods, mixing and selling at cost price." }
+      ]
+    },
+    {
+      "slug": "simple-compound-interest",
+      "code": "SICI",
+      "name": "Simple & Compound Interest",
+      "description": "Time value of money, annual and non-annual compounding periods, difference between CI and SI, equal installments.",
+      "subtopics": [
+        { "slug": "simple_interest", "name": "Simple Interest", "description": "Flat interest rate over tenure, finding principal, rate, time, and amount." },
+        { "slug": "compound_interest_annual", "name": "Compound Interest (Annual)", "description": "Interest compounding on principal plus accumulated interest annually." },
+        { "slug": "compound_interest_subannual", "name": "Sub-Annual Compounding", "description": "Half-yearly, quarterly, and monthly compounding frequencies." },
+        { "slug": "difference_si_ci", "name": "Difference Between SI & CI", "description": "Two-year and three-year delta formulas and principal derivation." },
+        { "slug": "installment_schemes", "name": "Installments & Equated Payments", "description": "Loan amortization, EMI, and deferred payment schemes under SI and CI." }
+      ]
+    },
+    {
+      "slug": "time-work",
+      "code": "TIMEWORK",
+      "name": "Time & Work",
+      "description": "Work rates, efficiency, man-days equivalence, alternate-day working schedules, pipes and filling/emptying cisterns.",
+      "subtopics": [
+        { "slug": "individual_efficiency", "name": "Individual Efficiency", "description": "Reciprocal work rate per person, comparative efficiency percentages." },
+        { "slug": "combined_work", "name": "Combined Work", "description": "Joint work completion times and team cooperation." },
+        { "slug": "alternate_days", "name": "Alternate Days Work", "description": "Sequential work shifts with distinct individual efficiencies." },
+        { "slug": "work_wages", "name": "Work & Wages", "description": "Equitable distribution of remuneration proportional to work done." },
+        { "slug": "pipes_and_cisterns", "name": "Pipes & Cisterns", "description": "Inlet pipes, drainage leaks, simultaneous filling and emptying rates." },
+        { "slug": "man_days_equivalence", "name": "Man-Days Equivalence", "description": "Men, women, and children equivalence relations (M1 D1 H1 / W1)." }
+      ]
+    },
+    {
+      "slug": "time-speed-distance",
+      "code": "TSD",
+      "name": "Time, Speed & Distance",
+      "description": "Uniform velocity, relative speed of converging/diverging bodies, trains crossing objects, boats in currents, and races.",
+      "subtopics": [
+        { "slug": "basic_speed", "name": "Basic Speed & Distance", "description": "Conversions (km/h to m/s), time-distance-speed relations, delayed journeys." },
+        { "slug": "average_speed", "name": "Average Speed", "description": "Harmonic mean speed over equal distance segments and weighted speed over intervals." },
+        { "slug": "relative_speed", "name": "Relative Speed", "description": "Meeting points, overtakes, opposite vs same direction motions." },
+        { "slug": "trains", "name": "Trains", "description": "Crossing stationary poles, platforms, tunnels, and moving trains." },
+        { "slug": "boats_and_streams", "name": "Boats & Streams", "description": "Upstream, downstream, still water speed, and stream velocity." },
+        { "slug": "circular_tracks", "name": "Circular Tracks", "description": "First meeting point, starting point meetings, lap laps, and relative angular speed." },
+        { "slug": "races_and_games", "name": "Races & Games of Skill", "description": "Head starts (distance vs time), dead heats, beating margins." }
+      ]
+    },
+    {
+      "slug": "mixtures-alligation",
+      "code": "MIXALLIG",
+      "name": "Mixtures & Alligation",
+      "description": "Rule of alligation, combining solutions of differing concentrations, successive dilutions, and multi-component balances.",
+      "subtopics": [
+        { "slug": "simple_mixtures", "name": "Simple Mixtures", "description": "Ratio changes upon adding or removing pure solute/solvent." },
+        { "slug": "rule_of_alligation", "name": "Rule of Alligation", "description": "Finding mixing ratios to attain target blend prices or concentrations." },
+        { "slug": "successive_replacement", "name": "Successive Replacement & Dilution", "description": "Repeated removal of liquid and substitution with pure water formula." },
+        { "slug": "multi_component_mixtures", "name": "Multi-Component Mixtures", "description": "Combining three or more ingredients with distinct grades/ratios." }
+      ]
+    },
+    {
+      "slug": "partnership",
+      "code": "PARTNER",
+      "name": "Partnership",
+      "description": "Business ventures, capital investment, variable investment duration, active vs sleeping partner remuneration, and profit distribution.",
+      "subtopics": [
+        { "slug": "simple_partnership", "name": "Simple Partnership", "description": "Partners investing different capitals for identical durations." },
+        { "slug": "compound_partnership", "name": "Compound Partnership", "description": "Variable capital amounts invested for unequal time intervals." },
+        { "slug": "active_sleeping_partner", "name": "Active vs Sleeping Partner", "description": "Managerial allowances, salary deductions prior to dividend division." },
+        { "slug": "capital_adjustment", "name": "Capital Adjustments & Withdrawals", "description": "Mid-term infusions and withdrawals affecting profit shares." }
+      ]
+    },
+    {
+      "slug": "algebra",
+      "code": "ALGEBRA",
+      "name": "Algebra",
+      "description": "Linear and quadratic equations, roots of polynomials, symmetric algebraic identities, inequalities, and functions.",
+      "subtopics": [
+        { "slug": "linear_equations", "name": "Linear Equations", "description": "Single and multivariable systems, consistency, unique/infinite/no solutions." },
+        { "slug": "quadratic_equations", "name": "Quadratic Equations", "description": "Discriminant analysis, sum/product of roots, sign of roots." },
+        { "slug": "algebraic_identities", "name": "Algebraic Identities", "description": "Manipulations of (a+b+c)^2, a^3+b^3+c^3 - 3abc, symmetric polynomials." },
+        { "slug": "inequalities", "name": "Inequalities", "description": "AM-GM inequality, quadratic inequalities, sign schemes, and boundary conditions." },
+        { "slug": "polynomials_roots", "name": "Polynomials & Roots", "description": "Remainder theorem, factor theorem, synthetic division." }
+      ]
+    },
+    {
+      "slug": "geometry",
+      "code": "GEOMETRY",
+      "name": "Geometry",
+      "description": "Euclidean geometry: lines, angles, triangles, circles, chords, tangents, quadrilaterals, polygons, and coordinate geometry.",
+      "subtopics": [
+        { "slug": "lines_and_angles", "name": "Lines & Angles", "description": "Parallel lines, transversals, alternate and corresponding angles." },
+        { "slug": "triangles_properties", "name": "Triangles & Congruence", "description": "Angle sum, medians, altitudes, incenters, circumcenters, orthocenters." },
+        { "slug": "similarity_triangles", "name": "Triangle Similarity", "description": "Thales theorem, ratio of areas, similarity criteria (AA, SAS, SSS)." },
+        { "slug": "circles_tangents", "name": "Circles & Tangents", "description": "Secant-tangent theorem, cyclic quadrilaterals, chord properties, alternate segment theorem." },
+        { "slug": "polygons_quadrilaterals", "name": "Polygons & Quadrilaterals", "description": "Interior/exterior angle sums, cyclic quadrilaterals, trapeziums, rhombuses." },
+        { "slug": "coordinate_geometry", "name": "Coordinate Geometry", "description": "Distance, section formula, slope, equation of lines, area of triangle." }
+      ]
+    },
+    {
+      "slug": "mensuration",
+      "code": "MENSUR",
+      "name": "Mensuration",
+      "description": "2D and 3D geometric measurements: perimeters, surface areas, volumes of prisms, cylinders, cones, spheres, and recasting solids.",
+      "subtopics": [
+        { "slug": "2d_perimeter_area", "name": "2D Perimeter & Area", "description": "Triangles, circles, sectors, segments, parallelograms, and shaded regions." },
+        { "slug": "3d_surface_area_volume", "name": "3D Surface Area & Volume", "description": "Cubes, cuboids, prisms, pyramids, and frustums." },
+        { "slug": "cylinder_cone_sphere", "name": "Cylinder, Cone & Sphere", "description": "Curved surface areas, total surface areas, and hollow shells." },
+        { "slug": "shape_melting_recasting", "name": "Melting & Recasting", "description": "Conservation of volume upon melting solid spheres into wires or cylinders." }
+      ]
+    },
+    {
+      "slug": "probability",
+      "code": "PROB",
+      "name": "Probability",
+      "description": "Theoretical and empirical probability, sample spaces, mutually exclusive and independent events, conditional probability, and odds.",
+      "subtopics": [
+        { "slug": "classical_probability", "name": "Classical Probability", "description": "Favorable outcomes over total outcomes in discrete uniform sample spaces." },
+        { "slug": "dice_cards_coins", "name": "Dice, Cards & Coins", "description": "Sum of faces, standard 52-card decks, coin tosses, and streak properties." },
+        { "slug": "independent_events", "name": "Independent & Dependent Events", "description": "Multiplication rule of probability, drawing with/without replacement." },
+        { "slug": "conditional_probability", "name": "Conditional Probability & Bayes", "description": "P(A|B), law of total probability, and Bayesian updating." },
+        { "slug": "geometric_probability", "name": "Geometric & At-Least-One", "description": "Complementary events ('at least one' rule) and continuous intervals." }
+      ]
+    },
+    {
+      "slug": "permutation-combination",
+      "code": "PERMCOMB",
+      "name": "Permutation & Combination",
+      "description": "Principles of counting, linear and circular permutations, combinations, selections with restrictions, identical object distributions.",
+      "subtopics": [
+        { "slug": "fundamental_counting_principle", "name": "Fundamental Counting Principle", "description": "Rule of sum and rule of product in sequential decisions." },
+        { "slug": "permutations_arrangements", "name": "Permutations & Arrangements", "description": "Arranging n distinct and identical items, dictionary rank of words." },
+        { "slug": "combinations_selections", "name": "Combinations & Selections", "description": "Forming committees, handshakes, geometry points, lines, and diagonals." },
+        { "slug": "circular_permutations", "name": "Circular Permutations", "description": "Seating around round tables, necklaces, and clockwise/anticlockwise symmetries." },
+        { "slug": "distribution_identical_distinct", "name": "Distribution & Partitioning", "description": "Stars and bars, dividing identical objects among distinct persons." }
+      ]
+    },
+    {
+      "slug": "data-interpretation",
+      "code": "DI",
+      "name": "Data Interpretation",
+      "description": "Quantitative analysis of structured data representations: tables, bar graphs, line charts, pie charts, radar plots, and mixed caselets.",
+      "subtopics": [
+        { "slug": "tabular_di", "name": "Tabular Data Interpretation", "description": "Cross-tabulation, percentage distributions, indexing, and tabular ratios." },
+        { "slug": "bar_graphs", "name": "Bar Graphs", "description": "Simple, stacked, and clustered bar charts comparing categorical metrics." },
+        { "slug": "line_graphs", "name": "Line Graphs", "description": "Time-series trend analysis, growth rates, and slope comparisons." },
+        { "slug": "pie_charts", "name": "Pie Charts", "description": "Degree and percentage breakdowns of total allocations." },
+        { "slug": "mixed_graphs_caselets", "name": "Mixed Graphs & Caselets", "description": "Combining pie chart with table/bar, text-heavy numerical scenarios." }
+      ]
+    },
+    {
+      "slug": "miscellaneous",
+      "code": "MISC",
+      "name": "Miscellaneous Aptitude",
+      "description": "Specialized reasoning topics: calendar arithmetic, clock hands and angle calculations, Venn diagrams, cryptarithmetic, and logical puzzles.",
+      "subtopics": [
+        { "slug": "calendar_problems", "name": "Calendar Problems", "description": "Odd days calculation, leap year rules, day of the week determination." },
+        { "slug": "clock_problems", "name": "Clock Problems", "description": "Angle between hands, coincidences, right angles, and fast/slow clocks." },
+        { "slug": "set_theory_venn", "name": "Set Theory & Venn Diagrams", "description": "2-set and 3-set Venn intersections, principle of inclusion-exclusion." },
+        { "slug": "cryptarithmetic_puzzles", "name": "Cryptarithmetic & Logic", "description": "Letter-digit substitution puzzles and logical constraint elimination." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "QA-GEOMETRY-000001",
+    "subject": "quantitative_aptitude",
+    "topic": "geometry",
+    "subtopic": "triangles_properties",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "The three angles of a triangle are in the ratio 2 : 3 : 4. What is the measure of the largest angle?",
+    "options": [
+      "60\u00b0",
+      "75\u00b0",
+      "80\u00b0",
+      "90\u00b0"
+    ],
+    "answer": "80\u00b0",
+    "explanation": "The sum of interior angles of a triangle is 180\u00b0. Total ratio parts = 2 + 3 + 4 = 9. Value of 1 unit = 180\u00b0 / 9 = 20\u00b0. The largest angle corresponds to 4 units = 4 \u00d7 20\u00b0 = 80\u00b0.",
+    "estimated_time_seconds": 20,
+    "tags": [
+      "angle-sum",
+      "triangles",
+      "basic-geometry"
+    ]
+  },
+  {
+    "id": "QA-GEOMETRY-000002",
+    "subject": "quantitative_aptitude",
+    "topic": "geometry",
+    "subtopic": "polygons_quadrilaterals",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "What is the measure of each interior angle of a regular octagon?",
+    "options": [
+      "120\u00b0",
+      "135\u00b0",
+      "140\u00b0",
+      "144\u00b0"
+    ],
+    "answer": "135\u00b0",
+    "explanation": "Interior angle formula for regular polygon with n sides: Interior = [(n - 2) \u00d7 180\u00b0] / n. For an octagon, n = 8: Interior = [(8 - 2) \u00d7 180\u00b0] / 8 = (6 \u00d7 180\u00b0) / 8 = 1080\u00b0 / 8 = 135\u00b0.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "regular-polygons",
+      "octagon",
+      "interior-angles"
+    ]
+  },
+  {
+    "id": "QA-GEOMETRY-000003",
+    "subject": "quantitative_aptitude",
+    "topic": "geometry",
+    "subtopic": "circles_tangents",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "A tangent PT is drawn from an external point P to a circle of radius 6 cm. If the distance from P to the center O of the circle is 10 cm, find the length of tangent PT.",
+    "options": [
+      "7 cm",
+      "8 cm",
+      "8.5 cm",
+      "9 cm"
+    ],
+    "answer": "8 cm",
+    "explanation": "The radius to the point of tangency is perpendicular to the tangent line: \u2220OTP = 90\u00b0. In right-angled triangle OTP: PT = sqrt(OP^2 - OT^2) = sqrt(10^2 - 6^2) = sqrt(100 - 36) = sqrt(64) = 8 cm.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "tangent-properties",
+      "pythagoras",
+      "circles"
+    ]
+  }
+]

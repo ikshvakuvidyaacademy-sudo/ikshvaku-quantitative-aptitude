@@ -1,0 +1,94 @@
+[
+  {
+    "id": "QA-PARTNER-000004",
+    "subject": "quantitative_aptitude",
+    "topic": "partnership",
+    "subtopic": "active_sleeping_partner",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A and B enter into a joint venture. A is an active partner and receives 10% of the total profit as a managerial salary. The remaining profit is divided between A and B in the ratio of their investments 3 : 2. If the total profit is \u20b950,000, what is the total amount received by A?",
+    "options": [
+      "\u20b927,000",
+      "\u20b930,000",
+      "\u20b932,000",
+      "\u20b935,000"
+    ],
+    "answer": "\u20b932,000",
+    "explanation": "Managerial salary to A = 10% of 50,000 = \u20b95,000. Remaining profit = 50,000 - 5,000 = \u20b945,000. A's investment profit share = (3 / 5) \u00d7 45,000 = \u20b927,000. Total amount received by A = Salary + Profit Share = 5,000 + 27,000 = \u20b932,000.",
+    "estimated_time_seconds": 50,
+    "tags": [
+      "active-partner",
+      "managerial-salary",
+      "remaining-profit"
+    ]
+  },
+  {
+    "id": "QA-PARTNER-000005",
+    "subject": "quantitative_aptitude",
+    "topic": "partnership",
+    "subtopic": "compound_partnership",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A started a retail business with \u20b921,000 and was joined later by B with \u20b936,000. If the annual profits were divided between A and B in equal parts, after how many months did B join the business?",
+    "options": [
+      "4 months",
+      "5 months",
+      "7 months",
+      "8 months"
+    ],
+    "answer": "5 months",
+    "explanation": "Let B have been in the business for m months. A was in the business for the full 12 months. Profit ratio = (21,000 \u00d7 12) : (36,000 \u00d7 m) = 1 : 1. (21 \u00d7 12) / (36 \u00d7 m) = 1 => 252 / (36m) = 1 => 36m = 252 => m = 7 months. Since B remained in business for 7 months, B joined after 12 - 7 = 5 months from the start.",
+    "estimated_time_seconds": 55,
+    "tags": [
+      "delayed-entry",
+      "investment-duration",
+      "partnership"
+    ]
+  },
+  {
+    "id": "QA-PARTNER-000006",
+    "subject": "quantitative_aptitude",
+    "topic": "partnership",
+    "subtopic": "capital_adjustment",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A and B invest in a business in the ratio 3 : 5. After 4 months, A increases his capital by 50%, while B withdraws (1/5)th of his capital. At the end of the year, what is the ratio of A's profit share to B's profit share?",
+    "options": [
+      "10 : 13",
+      "12 : 13",
+      "14 : 17",
+      "16 : 19"
+    ],
+    "answer": "12 : 13",
+    "explanation": "Let initial capitals be A = 3x and B = 5x. For the first 4 months: A's capital-time = 3x \u00d7 4 = 12x; B's capital-time = 5x \u00d7 4 = 20x. For the remaining 8 months: A increases by 50% => 3x + 1.5x = 4.5x. Capital-time = 4.5x \u00d7 8 = 36x. B withdraws 1/5 => 5x - 1x = 4x. Capital-time = 4x \u00d7 8 = 32x. Total capital-months: A = 12x + 36x = 48x. B = 20x + 32x = 52x. Ratio A : B = 48 : 52 = 12 : 13.",
+    "estimated_time_seconds": 60,
+    "tags": [
+      "capital-adjustment",
+      "withdrawal-infusion",
+      "monthly-products"
+    ]
+  },
+  {
+    "id": "QA-PARTNER-000007",
+    "subject": "quantitative_aptitude",
+    "topic": "partnership",
+    "subtopic": "compound_partnership",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A, B, and C rent a pasture for grazing sheep. A puts 10 sheep for 7 months, B puts 12 sheep for 5 months, and C puts 15 sheep for 3 months. If the total rent of the pasture is \u20b91,750, how much must B pay?",
+    "options": [
+      "\u20b9500",
+      "\u20b9600",
+      "\u20b9700",
+      "\u20b9750"
+    ],
+    "answer": "\u20b9600",
+    "explanation": "Rent is shared proportional to sheep-months: A = 10 \u00d7 7 = 70; B = 12 \u00d7 5 = 60; C = 15 \u00d7 3 = 45. Ratio A : B : C = 70 : 60 : 45 = 14 : 12 : 9. Sum of ratio parts = 14 + 12 + 9 = 35. Total rent = \u20b91,750. 1 unit = 1,750 / 35 = \u20b950. B's share = 12 \u00d7 \u20b950 = \u20b9600.",
+    "estimated_time_seconds": 45,
+    "tags": [
+      "pasture-rent",
+      "sheep-months",
+      "proportional-sharing"
+    ]
+  }
+]

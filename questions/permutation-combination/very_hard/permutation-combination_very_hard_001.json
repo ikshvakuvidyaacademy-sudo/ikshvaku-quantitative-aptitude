@@ -1,0 +1,25 @@
+[
+  {
+    "id": "QA-PERMCOMB-000010",
+    "subject": "quantitative_aptitude",
+    "topic": "permutation-combination",
+    "subtopic": "permutations_arrangements",
+    "difficulty": "very_hard",
+    "question_type": "single_choice",
+    "question": "What is the dictionary rank of the word 'ZENITH' when all its permutations are listed in alphabetical order?",
+    "options": [
+      "612",
+      "615",
+      "616",
+      "620"
+    ],
+    "answer": "616",
+    "explanation": "Letters in alphabetical order: E, H, I, N, T, Z (6 distinct letters). Words starting with: E: 5! = 120; H: 5! = 120; I: 5! = 120; N: 5! = 120; T: 5! = 120. Total words before Z = 5 \u00d7 120 = 600 words. Now words starting with Z: Next letters available: E, H, I, N, T. The target word has 'E' as 2nd letter, matching the first available letter! Next letter is 'N': Words starting with ZE: Letters available: H, I, N, T. ZEH...: 3! = 6; ZEI...: 3! = 6. Now ZEN... (matches target 'ZEN'). Next letters available: H, I, T. Target has 'I' as 4th letter: ZENH...: 2! = 2. Now ZENI... (matches target 'ZENI'). Remaining letters: H, T. First word starting with ZENI is ZENIHT (1 word). Next word is ZENITH (1 word). Sum of all preceding words = 600 + 6 + 6 + 2 + 1 = 615 words. Therefore, rank of 'ZENITH' = 615 + 1 = 616.",
+    "estimated_time_seconds": 135,
+    "tags": [
+      "dictionary-rank",
+      "lexicographical-order",
+      "combinatorics"
+    ]
+  }
+]

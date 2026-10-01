@@ -1,0 +1,25 @@
+[
+  {
+    "id": "QA-GEOMETRY-000010",
+    "subject": "quantitative_aptitude",
+    "topic": "geometry",
+    "subtopic": "triangles_properties",
+    "difficulty": "very_hard",
+    "question_type": "single_choice",
+    "question": "In triangle ABC, side AB = 13 cm, BC = 14 cm, and CA = 15 cm. A circle is inscribed touching the sides BC, CA, and AB at points D, E, and F respectively. What is the length of the segment BD?",
+    "options": [
+      "5 cm",
+      "6 cm",
+      "7 cm",
+      "8 cm"
+    ],
+    "answer": "6 cm",
+    "explanation": "Let semi-perimeter s = (AB + BC + CA) / 2 = (13 + 14 + 15) / 2 = 42 / 2 = 21 cm. By standard incircle tangent property: the lengths of tangents from vertex B to the incircle are equal: BD = BF = s - b, where b is the side opposite to vertex B (side CA = 15 cm). Therefore, BD = s - CA = 21 - 15 = 6 cm.",
+    "estimated_time_seconds": 95,
+    "tags": [
+      "incircle",
+      "tangent-segments",
+      "semiperimeter"
+    ]
+  }
+]

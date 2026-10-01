@@ -1,0 +1,25 @@
+[
+  {
+    "id": "QA-PROB-000010",
+    "subject": "quantitative_aptitude",
+    "topic": "probability",
+    "subtopic": "conditional_probability",
+    "difficulty": "very_hard",
+    "question_type": "single_choice",
+    "question": "Factory X produces 60% of all microchips for a brand, and Factory Y produces 40%. The defective rate of Factory X is 2% and that of Factory Y is 5%. A randomly chosen microchip from the inventory is tested and found to be defective. What is the probability that this defective chip was manufactured by Factory X?",
+    "options": [
+      "3/8",
+      "12/31",
+      "3/7",
+      "15/32"
+    ],
+    "answer": "3/8",
+    "explanation": "By Bayes' Theorem: P(X) = 0.60, P(Y) = 0.40. P(Defective | X) = 0.02, P(Defective | Y) = 0.05. Total probability of defect P(D) = P(X)P(D|X) + P(Y)P(D|Y) = (0.60 \u00d7 0.02) + (0.40 \u00d7 0.05) = 0.012 + 0.020 = 0.032. Posterior probability P(X | D) = [P(X)P(D|X)] / P(D) = 0.012 / 0.032 = 12 / 32 = 3 / 8 = 37.5%.",
+    "estimated_time_seconds": 110,
+    "tags": [
+      "bayes-theorem",
+      "defective-manufacturing",
+      "posterior-probability"
+    ]
+  }
+]

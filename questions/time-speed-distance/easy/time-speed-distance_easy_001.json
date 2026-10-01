@@ -1,0 +1,71 @@
+[
+  {
+    "id": "QA-TSD-000001",
+    "subject": "quantitative_aptitude",
+    "topic": "time-speed-distance",
+    "subtopic": "basic_speed",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "Express a speed of 54 km/h in meters per second (m/s).",
+    "options": [
+      "12 m/s",
+      "15 m/s",
+      "18 m/s",
+      "20 m/s"
+    ],
+    "answer": "15 m/s",
+    "explanation": "To convert km/h to m/s, multiply by 5/18: Speed = 54 \u00d7 (5 / 18) = 3 \u00d7 5 = 15 m/s.",
+    "estimated_time_seconds": 20,
+    "tags": [
+      "unit-conversion",
+      "speed-distance",
+      "basic-physics"
+    ]
+  },
+  {
+    "id": "QA-TSD-000002",
+    "subject": "quantitative_aptitude",
+    "topic": "time-speed-distance",
+    "subtopic": "trains",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "A train 180 meters long is traveling at a speed of 72 km/h. How many seconds will it take to pass a stationary telegraph pole completely?",
+    "options": [
+      "7 seconds",
+      "8 seconds",
+      "9 seconds",
+      "10 seconds"
+    ],
+    "answer": "9 seconds",
+    "explanation": "Speed of train in m/s = 72 \u00d7 (5/18) = 20 m/s. Distance to pass a point pole = Length of train = 180 meters. Time = Distance / Speed = 180 / 20 = 9 seconds.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "trains",
+      "stationary-pole",
+      "crossing-time"
+    ]
+  },
+  {
+    "id": "QA-TSD-000003",
+    "subject": "quantitative_aptitude",
+    "topic": "time-speed-distance",
+    "subtopic": "average_speed",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "A cyclist travels from Town A to Town B at 20 km/h and returns from Town B to Town A along the same route at 30 km/h. What is his average speed for the round trip?",
+    "options": [
+      "24 km/h",
+      "25 km/h",
+      "26 km/h",
+      "27 km/h"
+    ],
+    "answer": "24 km/h",
+    "explanation": "For equal forward and return distances, Average speed = 2xy / (x + y). Avg speed = (2 \u00d7 20 \u00d7 30) / (20 + 30) = 1200 / 50 = 24 km/h.",
+    "estimated_time_seconds": 30,
+    "tags": [
+      "average-speed",
+      "round-trip",
+      "harmonic-mean"
+    ]
+  }
+]

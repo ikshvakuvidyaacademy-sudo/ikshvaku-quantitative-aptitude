@@ -1,0 +1,71 @@
+[
+  {
+    "id": "QA-PROFITLOSS-000001",
+    "subject": "quantitative_aptitude",
+    "topic": "profit-loss",
+    "subtopic": "profit_loss_percentage",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "An article bought for \u20b9450 is sold for \u20b9540. What is the profit percentage earned on the transaction?",
+    "options": [
+      "15%",
+      "18%",
+      "20%",
+      "25%"
+    ],
+    "answer": "20%",
+    "explanation": "Profit = Selling Price - Cost Price = 540 - 450 = \u20b990. Profit percentage = (Profit / Cost Price) \u00d7 100 = (90 / 450) \u00d7 100 = 1/5 \u00d7 100 = 20%.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "profit-percentage",
+      "commercial-math",
+      "basic-profit"
+    ]
+  },
+  {
+    "id": "QA-PROFITLOSS-000002",
+    "subject": "quantitative_aptitude",
+    "topic": "profit-loss",
+    "subtopic": "cost_selling_price",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "By selling a watch for \u20b91,440, a shopkeeper incurs a loss of 10%. At what price must he sell it to gain 10%?",
+    "options": [
+      "\u20b91,600",
+      "\u20b91,720",
+      "\u20b91,760",
+      "\u20b91,800"
+    ],
+    "answer": "\u20b91,760",
+    "explanation": "Selling price at 10% loss corresponds to 90% of Cost Price (CP). 0.90 CP = 1,440 => CP = 1,440 / 0.90 = \u20b91,600. To gain 10%, desired Selling Price = 1.10 \u00d7 CP = 1.10 \u00d7 1,600 = \u20b91,760.",
+    "estimated_time_seconds": 35,
+    "tags": [
+      "cost-price",
+      "loss-to-gain",
+      "selling-price"
+    ]
+  },
+  {
+    "id": "QA-PROFITLOSS-000003",
+    "subject": "quantitative_aptitude",
+    "topic": "profit-loss",
+    "subtopic": "successive_discount",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "What is the single equivalent discount corresponding to two successive discounts of 20% and 10%?",
+    "options": [
+      "28%",
+      "30%",
+      "32%",
+      "35%"
+    ],
+    "answer": "28%",
+    "explanation": "Equivalent single discount = d1 + d2 - (d1 \u00d7 d2)/100 = 20 + 10 - (20 \u00d7 10)/100 = 30 - 2 = 28%.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "successive-discount",
+      "equivalent-rebate",
+      "marked-price"
+    ]
+  }
+]

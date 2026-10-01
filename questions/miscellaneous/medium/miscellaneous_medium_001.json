@@ -1,0 +1,94 @@
+[
+  {
+    "id": "QA-MISC-000004",
+    "subject": "quantitative_aptitude",
+    "topic": "miscellaneous",
+    "subtopic": "clock_problems",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "At what exact time between 4 o'clock and 5 o'clock will the hands of an analog clock coincide together?",
+    "options": [
+      "4:20:00",
+      "4:21(9/11)",
+      "4:22(8/11)",
+      "4:24(5/11)"
+    ],
+    "answer": "4:21(9/11)",
+    "explanation": "At 4 o'clock, the minute hand is 20 minute-spaces behind the hour hand. Relative speed of minute hand over hour hand = 55 minute-spaces per 60 minutes = 11/12 space/min. Time for minute hand to gain 20 minute-spaces = 20 / (11/12) = 20 \u00d7 (12/11) = 240 / 11 = 21(9/11) minutes past 4.",
+    "estimated_time_seconds": 45,
+    "tags": [
+      "clocks",
+      "coincidence-of-hands",
+      "relative-angular-speed"
+    ]
+  },
+  {
+    "id": "QA-MISC-000005",
+    "subject": "quantitative_aptitude",
+    "topic": "miscellaneous",
+    "subtopic": "calendar_problems",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "What day of the week was August 15, 1947?",
+    "options": [
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "answer": "Friday",
+    "explanation": "Count odd days up to Aug 15, 1947: (1) 1600 years = 0 odd days. (2) 300 years (1601-1900) = 1 odd day. (3) 46 completed years (1901-1946): 46/4 = 11 leap years and 35 ordinary years. Odd days = (11 \u00d7 2 + 35 \u00d7 1) = 22 + 35 = 57 odd days \u2261 57 mod 7 = 1 odd day. Total odd days up to 1946 = 1 + 1 = 2 odd days. (4) In year 1947 (ordinary year): Jan(3) + Feb(0) + Mar(3) + Apr(2) + May(3) + Jun(2) + Jul(3) + Aug(15) = 31 days \u2261 31 mod 7 = 3 odd days. Total odd days = 2 + 3 = 5 odd days. Day code: 0=Sun, 1=Mon, 2=Tue, 3=Wed, 4=Thu, 5=Fri, 6=Sat. 5 corresponds to Friday.",
+    "estimated_time_seconds": 60,
+    "tags": [
+      "calendar",
+      "historical-date",
+      "odd-days-algorithm"
+    ]
+  },
+  {
+    "id": "QA-MISC-000006",
+    "subject": "quantitative_aptitude",
+    "topic": "miscellaneous",
+    "subtopic": "set_theory_venn",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "In a survey of 100 investors: 50 invest in Stocks, 40 in Mutual Funds, and 30 in Real Estate. 20 invest in both Stocks and Mutual Funds, 15 in both Mutual Funds and Real Estate, and 10 in both Stocks and Real Estate. If 5 invest in all three asset classes, how many investors invest in NONE of these three asset classes?",
+    "options": [
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "answer": "20",
+    "explanation": "By 3-set Principle of Inclusion-Exclusion: n(S \u222a M \u222a R) = n(S) + n(M) + n(R) - [n(S\u2229M) + n(M\u2229R) + n(S\u2229R)] + n(S\u2229M\u2229R) = 50 + 40 + 30 - [20 + 15 + 10] + 5 = 120 - 45 + 5 = 80 investors. Investors in none = Total - n(S \u222a M \u222a R) = 100 - 80 = 20.",
+    "estimated_time_seconds": 55,
+    "tags": [
+      "three-set-venn",
+      "inclusion-exclusion",
+      "set-theory"
+    ]
+  },
+  {
+    "id": "QA-MISC-000007",
+    "subject": "quantitative_aptitude",
+    "topic": "miscellaneous",
+    "subtopic": "clock_problems",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A mechanical watch gains 5 minutes every 24 hours. It is set correctly at 12:00 noon on Monday. What time will the watch indicate when the true time is 6:00 PM on the following Wednesday?",
+    "options": [
+      "6:11:15 PM",
+      "6:12:30 PM",
+      "6:15:00 PM",
+      "6:18:45 PM"
+    ],
+    "answer": "6:11:15 PM",
+    "explanation": "Elapsed true time from Monday 12:00 noon to Wednesday 6:00 PM: Monday 12:00 noon to Wednesday 12:00 noon = 48 hours. Wednesday 12:00 noon to 6:00 PM = 6 hours. Total elapsed true time = 48 + 6 = 54 hours. Rate of gain = 5 minutes per 24 hours = 5/24 min/hour. Total gain in 54 hours = 54 \u00d7 (5 / 24) = (9 \u00d7 5) / 4 = 45 / 4 = 11.25 minutes = 11 minutes and 15 seconds. Indicated time = 6:00 PM + 11 mins 15 secs = 6:11:15 PM.",
+    "estimated_time_seconds": 60,
+    "tags": [
+      "faulty-clocks",
+      "gain-loss-clock",
+      "time-drift"
+    ]
+  }
+]

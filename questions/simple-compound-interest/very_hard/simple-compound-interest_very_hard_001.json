@@ -1,0 +1,25 @@
+[
+  {
+    "id": "QA-SICI-000010",
+    "subject": "quantitative_aptitude",
+    "topic": "simple-compound-interest",
+    "subtopic": "compound_interest_annual",
+    "difficulty": "very_hard",
+    "question_type": "single_choice",
+    "question": "A sum of \u20b984,100 is divided between two brothers aged 16 and 18 years in such a manner that their shares, when invested at 5% per annum compound interest, yield exactly equal amounts when each reaches the age of 21 years. What is the present share allocated to the younger brother?",
+    "options": [
+      "\u20b939,800",
+      "\u20b940,000",
+      "\u20b942,000",
+      "\u20b944,100"
+    ],
+    "answer": "\u20b940,000",
+    "explanation": "Let younger brother's share be Y (current age 16, time to 21 = 5 years) and elder brother's share be E (current age 18, time to 21 = 3 years). Given: Y \u00d7 (1.05)^5 = E \u00d7 (1.05)^3 => Y \u00d7 (1.05)^2 = E => E / Y = (1.05)^2 = (21 / 20)^2 = 441 / 400. Total ratio parts = 400 + 441 = 841 parts. Total sum = \u20b984,100. Value of 1 part = 84,100 / 841 = \u20b9100. Younger brother's share = 400 parts = 400 \u00d7 \u20b9100 = \u20b940,000.",
+    "estimated_time_seconds": 125,
+    "tags": [
+      "equal-maturity-amount",
+      "age-partitioning",
+      "compound-interest"
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "QA-RATIOPROP-000008",
+    "subject": "quantitative_aptitude",
+    "topic": "ratio-proportion",
+    "subtopic": "distribution_division",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "The ratio of annual incomes of A and B is 5 : 4, and the ratio of their annual expenditures is 3 : 2. If at the end of the year, each of them saves \u20b91,600, what is the annual income of A?",
+    "options": [
+      "\u20b93,200",
+      "\u20b94,000",
+      "\u20b94,800",
+      "\u20b95,200"
+    ],
+    "answer": "\u20b94,000",
+    "explanation": "Since savings are equal (\u20b91,600), difference between income ratio and expenditure ratio: Income ratio = 5 : 4 (difference = 1 unit); Expenditure ratio = 3 : 2 (difference = 1 unit). Notice that for both A and B, Income - Expenditure = 5 - 3 = 2 units and 4 - 2 = 2 units. 2 units = \u20b91,600 => 1 unit = \u20b9800. Therefore, A's annual income = 5 units = 5 \u00d7 \u20b9800 = \u20b94,000.",
+    "estimated_time_seconds": 75,
+    "tags": [
+      "income-expenditure",
+      "cross-multiplication",
+      "savings"
+    ]
+  },
+  {
+    "id": "QA-RATIOPROP-000009",
+    "subject": "quantitative_aptitude",
+    "topic": "ratio-proportion",
+    "subtopic": "proportion_variation",
+    "difficulty": "hard",
+    "question_type": "single_choice",
+    "question": "What number must be subtracted from each of the numbers 21, 38, 55, and 106 so that the remainders are in continued proportion?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "9"
+    ],
+    "answer": "4",
+    "explanation": "Let the number to subtract be x. Then (21 - x) / (38 - x) = (55 - x) / (106 - x). Cross-multiplying: (21 - x)(106 - x) = (38 - x)(55 - x) => 2226 - 127x + x^2 = 2090 - 93x + x^2. Canceling x^2: 2226 - 2090 = 127x - 93x => 136 = 34x => x = 136 / 34 = 4. Checking: 21-4 = 17, 38-4 = 34, 55-4 = 51, 106-4 = 102. Ratios: 17/34 = 1/2 and 51/102 = 1/2. Perfectly proportional.",
+    "estimated_time_seconds": 80,
+    "tags": [
+      "proportion",
+      "cross-multiplication",
+      "continued-proportion"
+    ]
+  }
+]

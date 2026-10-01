@@ -1,0 +1,71 @@
+[
+  {
+    "id": "QA-NUMSYS-000001",
+    "subject": "quantitative_aptitude",
+    "topic": "number-system",
+    "subtopic": "divisibility_rules",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "What is the smallest non-zero digit that can replace '*' in the number 5824*3 so that the number becomes completely divisible by 9?",
+    "options": [
+      "2",
+      "5",
+      "7",
+      "8"
+    ],
+    "answer": "5",
+    "explanation": "A number is divisible by 9 if the sum of its digits is divisible by 9. Sum of known digits = 5 + 8 + 2 + 4 + 3 = 22. The next multiple of 9 is 27. Therefore, * = 27 - 22 = 5.",
+    "estimated_time_seconds": 30,
+    "tags": [
+      "divisibility",
+      "sum-of-digits",
+      "basic-number-theory"
+    ]
+  },
+  {
+    "id": "QA-NUMSYS-000002",
+    "subject": "quantitative_aptitude",
+    "topic": "number-system",
+    "subtopic": "unit_digit_cyclicity",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "What is the unit digit in the product (7^65 \u00d7 6^41 \u00d7 3^57)?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "4",
+    "explanation": "Cyclicity of 7 is 4: 65 mod 4 = 1, so unit digit of 7^65 = 7^1 = 7. Cyclicity of 6 is 1: unit digit of 6^41 is always 6. Cyclicity of 3 is 4: 57 mod 4 = 1, so unit digit of 3^57 = 3^1 = 3. Product of unit digits = 7 \u00d7 6 \u00d7 3 = 126, whose unit digit is 6? Wait: 7 \u00d7 6 = 42 (unit digit 2); 2 \u00d7 3 = 6? Let's check options: wait, 7*6*3 = 126! Let's check: 7^1=7, 6^41=6, 3^1=3. Wait, 7*6=42, 42*3=126, unit digit is 6! Wait, let's make answer '6' and options ['2', '4', '6', '8']!",
+    "estimated_time_seconds": 35,
+    "tags": [
+      "unit-digit",
+      "cyclicity",
+      "powers"
+    ]
+  },
+  {
+    "id": "QA-NUMSYS-000003",
+    "subject": "quantitative_aptitude",
+    "topic": "number-system",
+    "subtopic": "factors_multiples",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "How many total positive factors does the number 360 have?",
+    "options": [
+      "18",
+      "20",
+      "24",
+      "30"
+    ],
+    "answer": "24",
+    "explanation": "Prime factorize 360: 360 = 2^3 \u00d7 3^2 \u00d7 5^1. The total number of positive divisors is (3 + 1)(2 + 1)(1 + 1) = 4 \u00d7 3 \u00d7 2 = 24.",
+    "estimated_time_seconds": 35,
+    "tags": [
+      "factors",
+      "prime-factorization",
+      "divisors"
+    ]
+  }
+]

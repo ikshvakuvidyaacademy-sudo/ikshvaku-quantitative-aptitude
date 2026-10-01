@@ -1,0 +1,70 @@
+{
+  "system": "Ikshvaku Cognitive Difficulty Framework (ICDF)",
+  "version": "1.0.0",
+  "levels": {
+    "easy": {
+      "level": "easy",
+      "display_name": "Easy",
+      "description": "Direct concept recall and standard formula application with clear numerical values.",
+      "reasoning_steps": "1 - 2 steps",
+      "calculation_complexity": "Low; direct arithmetic or basic algebraic substitution.",
+      "concept_complexity": "Single foundational concept without tricky constraints.",
+      "required_interpretation": "Minimal text processing; straightforward question structure.",
+      "time_pressure": "Quick solve; 30 to 45 seconds.",
+      "distractor_difficulty": "Distinct distractors based on basic arithmetic errors or sign flips.",
+      "target_time_seconds": {
+        "min": 15,
+        "max": 45,
+        "benchmark": 30
+      }
+    },
+    "medium": {
+      "level": "medium",
+      "display_name": "Medium",
+      "description": "Multi-step reasoning combining 2 to 3 related concepts or requiring moderate algebraic modeling.",
+      "reasoning_steps": "2 - 3 sequential steps",
+      "calculation_complexity": "Moderate; fractions, decimals, or simultaneous linear relationships.",
+      "concept_complexity": "Integration of two core subtopics (e.g., percentage change linked with profit/loss).",
+      "required_interpretation": "Moderate word problem requiring identification of invariants or target unknowns.",
+      "time_pressure": "Standard exam speed; 45 to 75 seconds.",
+      "distractor_difficulty": "Plausible distractors reflecting intermediate calculation steps or inverted ratios.",
+      "target_time_seconds": {
+        "min": 40,
+        "max": 80,
+        "benchmark": 60
+      }
+    },
+    "hard": {
+      "level": "hard",
+      "display_name": "Hard",
+      "description": "Advanced problem solving requiring non-obvious variable elimination, geometric visualization, or constrained case-checking.",
+      "reasoning_steps": "3 - 5 steps with branching logic or algebraic transformations",
+      "calculation_complexity": "High; multi-stage arithmetic, quadratic roots, or fractional ratios.",
+      "concept_complexity": "Deep conceptual synthesis across subtopics or edge-case constraints.",
+      "required_interpretation": "Subtle phrasing, conditional dependencies, or secondary question clauses.",
+      "time_pressure": "Challenging pacing; 75 to 120 seconds.",
+      "distractor_difficulty": "Trap-heavy distractors reflecting standard cognitive biases and incomplete conditions.",
+      "target_time_seconds": {
+        "min": 70,
+        "max": 130,
+        "benchmark": 90
+      }
+    },
+    "very_hard": {
+      "level": "very_hard",
+      "display_name": "Very Hard",
+      "description": "Elite Olympiad/CAT 99th-percentile calibre problems requiring modular shortcuts, geometric invariants, or multi-case Diophantine deduction.",
+      "reasoning_steps": "5+ steps or elegant non-standard mathematical insight",
+      "calculation_complexity": "Intense manual calculation or sophisticated algebraic factoring/modulo analysis.",
+      "concept_complexity": "Exhaustive boundary testing, extreme-case analysis, or abstract properties.",
+      "required_interpretation": "High cognitive load; problem statement embeds subtle mathematical traps.",
+      "time_pressure": "Time-intensive; 120 to 240 seconds.",
+      "distractor_difficulty": "Sophisticated distractors targeting near-miss mathematical derivations.",
+      "target_time_seconds": {
+        "min": 110,
+        "max": 240,
+        "benchmark": 150
+      }
+    }
+  }
+}

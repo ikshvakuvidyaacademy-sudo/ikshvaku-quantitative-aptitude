@@ -1,0 +1,71 @@
+[
+  {
+    "id": "QA-MIXALLIG-000001",
+    "subject": "quantitative_aptitude",
+    "topic": "mixtures-alligation",
+    "subtopic": "rule_of_alligation",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "In what ratio must rice at \u20b945 per kg be mixed with rice at \u20b960 per kg so that the resulting blend is worth \u20b950 per kg?",
+    "options": [
+      "1 : 2",
+      "2 : 1",
+      "2 : 3",
+      "3 : 2"
+    ],
+    "answer": "2 : 1",
+    "explanation": "By Rule of Alligation: Quantity of Cheaper / Quantity of Dearer = (Price of Dearer - Mean Price) / (Mean Price - Price of Cheaper) = (60 - 50) / (50 - 45) = 10 / 5 = 2 / 1. Hence, the ratio is 2 : 1.",
+    "estimated_time_seconds": 25,
+    "tags": [
+      "rule-of-alligation",
+      "mean-price",
+      "blending"
+    ]
+  },
+  {
+    "id": "QA-MIXALLIG-000002",
+    "subject": "quantitative_aptitude",
+    "topic": "mixtures-alligation",
+    "subtopic": "simple_mixtures",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "A 60-liter solution of milk and water contains 75% milk. How many liters of pure water must be added to reduce the milk concentration to 50%?",
+    "options": [
+      "20 liters",
+      "25 liters",
+      "30 liters",
+      "35 liters"
+    ],
+    "answer": "30 liters",
+    "explanation": "Milk volume in initial solution = 75% of 60 = 45 liters. Water volume = 15 liters. In the new solution, milk must be 50%, meaning milk and water volumes are equal. Since no milk is added, milk remains 45 liters, so water must also become 45 liters. Water to be added = 45 - 15 = 30 liters.",
+    "estimated_time_seconds": 30,
+    "tags": [
+      "dilution",
+      "milk-water",
+      "percentage-mixtures"
+    ]
+  },
+  {
+    "id": "QA-MIXALLIG-000003",
+    "subject": "quantitative_aptitude",
+    "topic": "mixtures-alligation",
+    "subtopic": "simple_mixtures",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "A container contains 40 liters of a mixture of acid and water in the ratio 3 : 1. How much pure acid should be added to this mixture so that the ratio of acid to water becomes 4 : 1?",
+    "options": [
+      "8 liters",
+      "10 liters",
+      "12 liters",
+      "15 liters"
+    ],
+    "answer": "10 liters",
+    "explanation": "Initial volume = 40 liters. Acid = (3/4) \u00d7 40 = 30 liters. Water = (1/4) \u00d7 40 = 10 liters. To have ratio 4 : 1 with 10 liters of water, required acid = 4 \u00d7 10 = 40 liters. Acid to add = 40 - 30 = 10 liters.",
+    "estimated_time_seconds": 30,
+    "tags": [
+      "acid-water",
+      "ratio-invariants",
+      "mixtures"
+    ]
+  }
+]

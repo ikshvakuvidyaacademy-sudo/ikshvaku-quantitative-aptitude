@@ -1,0 +1,25 @@
+[
+  {
+    "id": "QA-TSD-000010",
+    "subject": "quantitative_aptitude",
+    "topic": "time-speed-distance",
+    "subtopic": "relative_speed",
+    "difficulty": "very_hard",
+    "question_type": "single_choice",
+    "question": "Two express trains A and B start simultaneously from Stations X and Y toward Y and X respectively along parallel tracks. After crossing each other, Train A takes 4 hours 48 minutes to reach Station Y, and Train B takes 3 hours 20 minutes to reach Station X. If Train A travels at 45 km/h, what is the speed of Train B?",
+    "options": [
+      "50 km/h",
+      "54 km/h",
+      "60 km/h",
+      "64 km/h"
+    ],
+    "answer": "54 km/h",
+    "explanation": "By the standard crossover theorem: When two bodies start simultaneously from opposite endpoints and cross each other at an intermediate point, the ratio of their speeds is given by: Speed_A / Speed_B = sqrt(Time_B_after_crossing / Time_A_after_crossing). Here Time_A = 4 hrs 48 min = 4 + 48/60 = 24/5 hours. Time_B = 3 hrs 20 min = 3 + 20/60 = 10/3 hours. Speed_A / Speed_B = sqrt( (10/3) / (24/5) ) = sqrt( (10/3) \u00d7 (5/24) ) = sqrt( 50 / 72 ) = sqrt( 25 / 36 ) = 5 / 6. Given Speed_A = 45 km/h: 45 / Speed_B = 5 / 6 => Speed_B = (45 \u00d7 6) / 5 = 9 \u00d7 6 = 54 km/h.",
+    "estimated_time_seconds": 135,
+    "tags": [
+      "crossover-theorem",
+      "post-meeting-time",
+      "train-speeds"
+    ]
+  }
+]

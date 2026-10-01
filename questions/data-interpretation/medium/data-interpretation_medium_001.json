@@ -1,0 +1,94 @@
+[
+  {
+    "id": "QA-DI-000004",
+    "subject": "quantitative_aptitude",
+    "topic": "data-interpretation",
+    "subtopic": "tabular_di",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "In a company of 2,400 employees, the gender distribution across four departments is: IT (30% employees, Male:Female = 3:2), HR (15% employees, Male:Female = 1:2), Finance (25% employees, Male:Female = 3:1), Sales (30% employees, Male:Female = 7:5). How many total female employees work in IT and HR combined?",
+    "options": [
+      "488",
+      "528",
+      "540",
+      "564"
+    ],
+    "answer": "528",
+    "explanation": "IT Department: 30% of 2,400 = 720 employees. Male:Female = 3:2 => Female in IT = (2/5) \u00d7 720 = 288. HR Department: 15% of 2,400 = 360 employees. Male:Female = 1:2 => Female in HR = (2/3) \u00d7 360 = 240. Total female employees in IT and HR combined = 288 + 240 = 528.",
+    "estimated_time_seconds": 60,
+    "tags": [
+      "tabular-di",
+      "ratio-distribution",
+      "workforce-demographics"
+    ]
+  },
+  {
+    "id": "QA-DI-000005",
+    "subject": "quantitative_aptitude",
+    "topic": "data-interpretation",
+    "subtopic": "line_graphs",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A line graph plots export revenues of a manufacturer over 4 quarters: Q1: \u20b912.5M, Q2: \u20b915.0M, Q3: \u20b918.0M, Q4: \u20b922.5M. What is the Compound Quarterly Growth Rate (approximate percentage increase each quarter) from Q1 to Q4?",
+    "options": [
+      "18.5%",
+      "21.6%",
+      "25.0%",
+      "28.4%"
+    ],
+    "answer": "21.6%",
+    "explanation": "Let growth multiplier be g over 3 quarterly transitions (Q1->Q2, Q2->Q3, Q3->Q4): 12.5 \u00d7 g^3 = 22.5 => g^3 = 22.5 / 12.5 = 1.8. g = (1.8)^(1/3) \u2248 1.2164, which corresponds to a growth rate of 21.6% per quarter.",
+    "estimated_time_seconds": 55,
+    "tags": [
+      "line-graphs",
+      "geometric-growth",
+      "quarterly-rates"
+    ]
+  },
+  {
+    "id": "QA-DI-000006",
+    "subject": "quantitative_aptitude",
+    "topic": "data-interpretation",
+    "subtopic": "pie_charts",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A publisher's total expenditure of \u20b9600,000 is distributed as: Printing (25%), Paper Cost (20%), Royalty (15%), Binding (20%), Marketing (10%), Logistics (10%). If royalty paid to authors is \u20b990,000, how much more is spent on Printing and Paper Cost combined compared to Binding and Marketing combined?",
+    "options": [
+      "\u20b960,000",
+      "\u20b975,000",
+      "\u20b990,000",
+      "\u20b9120,000"
+    ],
+    "answer": "\u20b990,000",
+    "explanation": "Printing + Paper Cost = 25% + 20% = 45%. Binding + Marketing = 20% + 10% = 30%. Difference = 45% - 30% = 15% of total expenditure. Monetary difference = 15% of \u20b9600,000 = 0.15 \u00d7 600,000 = \u20b990,000.",
+    "estimated_time_seconds": 50,
+    "tags": [
+      "pie-charts",
+      "percentage-delta",
+      "cost-structure"
+    ]
+  },
+  {
+    "id": "QA-DI-000007",
+    "subject": "quantitative_aptitude",
+    "topic": "data-interpretation",
+    "subtopic": "bar_graphs",
+    "difficulty": "medium",
+    "question_type": "single_choice",
+    "question": "A clustered bar chart displays student enrollment in Arts, Science, and Commerce across three colleges P, Q, and R. In College P, enrollments are Arts: 300, Science: 450, Commerce: 250. In College Q: Arts: 400, Science: 350, Commerce: 450. What is the ratio of total Science students in P and Q combined to total Commerce students in P and Q combined?",
+    "options": [
+      "7 : 6",
+      "8 : 7",
+      "9 : 8",
+      "10 : 9"
+    ],
+    "answer": "8 : 7",
+    "explanation": "Total Science students in P and Q = 450 + 350 = 800. Total Commerce students in P and Q = 250 + 450 = 700. Ratio = 800 : 700 = 8 : 7.",
+    "estimated_time_seconds": 40,
+    "tags": [
+      "clustered-bars",
+      "comparative-ratio",
+      "enrollment"
+    ]
+  }
+]

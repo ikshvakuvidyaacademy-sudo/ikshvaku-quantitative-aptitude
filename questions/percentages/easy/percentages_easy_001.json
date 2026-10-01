@@ -1,0 +1,71 @@
+[
+  {
+    "id": "QA-PERCENTAGE-000001",
+    "subject": "quantitative_aptitude",
+    "topic": "percentages",
+    "subtopic": "percentage_increase",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "A student's marks increase from 240 to 300. What is the percentage increase?",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "35%"
+    ],
+    "answer": "25%",
+    "explanation": "Absolute increase = 300 - 240 = 60. Percentage increase = (Absolute increase / Original value) \u00d7 100 = (60 / 240) \u00d7 100 = 1/4 \u00d7 100 = 25%.",
+    "estimated_time_seconds": 30,
+    "tags": [
+      "percentage-increase",
+      "basic-arithmetic",
+      "marks"
+    ]
+  },
+  {
+    "id": "QA-PERCENTAGE-000002",
+    "subject": "quantitative_aptitude",
+    "topic": "percentages",
+    "subtopic": "percentage_basics",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "If 45% of a number is 135, what is 70% of that same number?",
+    "options": [
+      "190",
+      "210",
+      "225",
+      "240"
+    ],
+    "answer": "210",
+    "explanation": "Let the number be x. 0.45x = 135 => x = 135 / 0.45 = 300. Now 70% of 300 = 0.70 \u00d7 300 = 210.",
+    "estimated_time_seconds": 30,
+    "tags": [
+      "percentage-basics",
+      "linear-evaluation",
+      "arithmetic"
+    ]
+  },
+  {
+    "id": "QA-PERCENTAGE-000003",
+    "subject": "quantitative_aptitude",
+    "topic": "percentages",
+    "subtopic": "percentage_decrease",
+    "difficulty": "easy",
+    "question_type": "single_choice",
+    "question": "If the price of a commodity decreases from \u20b980 per kg to \u20b964 per kg, what is the percentage reduction in price?",
+    "options": [
+      "16%",
+      "20%",
+      "25%",
+      "30%"
+    ],
+    "answer": "20%",
+    "explanation": "Price reduction = 80 - 64 = \u20b916. Percentage reduction = (16 / 80) \u00d7 100 = 1/5 \u00d7 100 = 20%.",
+    "estimated_time_seconds": 30,
+    "tags": [
+      "percentage-decrease",
+      "price-reduction",
+      "arithmetic"
+    ]
+  }
+]
