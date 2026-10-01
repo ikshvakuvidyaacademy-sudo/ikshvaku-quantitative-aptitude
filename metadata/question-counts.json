@@ -1,272 +1,273 @@
 {
   "repository": "ikshvaku-quantitative-aptitude",
   "system": "Ikshvaku Aptitude Arena Question Bank",
-  "total_questions": 170,
+  "total_questions": 500106,
   "difficulty_distribution": {
-    "easy": 51,
-    "hard": 34,
-    "medium": 68,
-    "very_hard": 17
+    "easy": 125035,
+    "hard": 125018,
+    "medium": 125052,
+    "very_hard": 125001
   },
   "question_type_distribution": {
-    "single_choice": 170
+    "single_choice": 500106
   },
   "topic_distribution": {
-    "algebra": 10,
-    "averages": 10,
-    "data-interpretation": 10,
-    "geometry": 10,
-    "mensuration": 10,
-    "miscellaneous": 10,
-    "mixtures-alligation": 10,
-    "number-system": 10,
-    "partnership": 10,
-    "percentages": 10,
-    "permutation-combination": 10,
-    "probability": 10,
-    "profit-loss": 10,
-    "ratio-proportion": 10,
-    "simple-compound-interest": 10,
-    "time-speed-distance": 10,
-    "time-work": 10
+    "algebra": 29418,
+    "averages": 29418,
+    "data-interpretation": 29418,
+    "geometry": 29418,
+    "mensuration": 29418,
+    "miscellaneous": 29418,
+    "mixtures-alligation": 29418,
+    "number-system": 29418,
+    "partnership": 29418,
+    "percentages": 29418,
+    "permutation-combination": 29418,
+    "probability": 29418,
+    "profit-loss": 29418,
+    "ratio-proportion": 29418,
+    "simple-compound-interest": 29418,
+    "time-speed-distance": 29418,
+    "time-work": 29418
   },
   "topic_difficulty_matrix": {
     "algebra": {
-      "easy": 3,
-      "hard": 2,
-      "medium": 4,
-      "very_hard": 1
+      "easy": 7355,
+      "hard": 7354,
+      "medium": 7356,
+      "very_hard": 7353
     },
     "averages": {
-      "easy": 3,
-      "hard": 2,
-      "medium": 4,
-      "very_hard": 1
+      "easy": 7355,
+      "hard": 7354,
+      "medium": 7356,
+      "very_hard": 7353
     },
     "data-interpretation": {
-      "easy": 3,
-      "hard": 2,
-      "medium": 4,
-      "very_hard": 1
+      "easy": 7355,
+      "hard": 7354,
+      "medium": 7356,
+      "very_hard": 7353
     },
     "geometry": {
-      "easy": 3,
-      "hard": 2,
-      "medium": 4,
-      "very_hard": 1
+      "easy": 7355,
+      "hard": 7354,
+      "medium": 7356,
+      "very_hard": 7353
     },
     "mensuration": {
-      "easy": 3,
-      "hard": 2,
-      "medium": 4,
-      "very_hard": 1
+      "easy": 7355,
+      "hard": 7354,
+      "medium": 7356,
+      "very_hard": 7353
     },
     "miscellaneous": {
-      "easy": 3,
-      "hard": 2,
-      "medium": 4,
-      "very_hard": 1
+      "easy": 7355,
+      "hard": 7354,
+      "medium": 7356,
+      "very_hard": 7353
     },
     "mixtures-alligation": {
-      "easy": 3,
-      "hard": 2,
-      "medium": 4,
-      "very_hard": 1
+      "easy": 7355,
+      "hard": 7354,
+      "medium": 7356,
+      "very_hard": 7353
     },
     "number-system": {
-      "easy": 3,
-      "hard": 2,
-      "medium": 4,
-      "very_hard": 1
+      "easy": 7355,
+      "hard": 7354,
+      "medium": 7356,
+      "very_hard": 7353
     },
     "partnership": {
-      "easy": 3,
-      "hard": 2,
-      "medium": 4,
-      "very_hard": 1
+      "easy": 7355,
+      "hard": 7354,
+      "medium": 7356,
+      "very_hard": 7353
     },
     "percentages": {
-      "easy": 3,
-      "hard": 2,
-      "medium": 4,
-      "very_hard": 1
+      "easy": 7355,
+      "hard": 7354,
+      "medium": 7356,
+      "very_hard": 7353
     },
     "permutation-combination": {
-      "easy": 3,
-      "hard": 2,
-      "medium": 4,
-      "very_hard": 1
+      "easy": 7355,
+      "hard": 7354,
+      "medium": 7356,
+      "very_hard": 7353
     },
     "probability": {
-      "easy": 3,
-      "hard": 2,
-      "medium": 4,
-      "very_hard": 1
+      "easy": 7355,
+      "hard": 7354,
+      "medium": 7356,
+      "very_hard": 7353
     },
     "profit-loss": {
-      "easy": 3,
-      "hard": 2,
-      "medium": 4,
-      "very_hard": 1
+      "easy": 7355,
+      "hard": 7354,
+      "medium": 7356,
+      "very_hard": 7353
     },
     "ratio-proportion": {
-      "easy": 3,
-      "hard": 2,
-      "medium": 4,
-      "very_hard": 1
+      "easy": 7355,
+      "hard": 7354,
+      "medium": 7356,
+      "very_hard": 7353
     },
     "simple-compound-interest": {
-      "easy": 3,
-      "hard": 2,
-      "medium": 4,
-      "very_hard": 1
+      "easy": 7355,
+      "hard": 7354,
+      "medium": 7356,
+      "very_hard": 7353
     },
     "time-speed-distance": {
-      "easy": 3,
-      "hard": 2,
-      "medium": 4,
-      "very_hard": 1
+      "easy": 7355,
+      "hard": 7354,
+      "medium": 7356,
+      "very_hard": 7353
     },
     "time-work": {
-      "easy": 3,
-      "hard": 2,
-      "medium": 4,
-      "very_hard": 1
+      "easy": 7355,
+      "hard": 7354,
+      "medium": 7356,
+      "very_hard": 7353
     }
   },
   "subtopic_distribution": {
     "algebra": {
-      "linear_equations": 2,
-      "quadratic_equations": 3,
-      "algebraic_identities": 3,
-      "inequalities": 1,
-      "polynomials_roots": 1
+      "linear_equations": 5896,
+      "quadratic_equations": 5928,
+      "algebraic_identities": 5935,
+      "polynomials_roots": 5846,
+      "inequalities": 5813
     },
     "averages": {
-      "basic_averages": 3,
-      "replacement_addition_removal": 3,
-      "batting_bowling_averages": 2,
-      "weighted_average": 1,
+      "basic_averages": 7286,
+      "replacement_addition_removal": 7418,
+      "batting_bowling_averages": 7385,
+      "weighted_average": 7328,
       "average_speed_groups": 1
     },
     "data-interpretation": {
-      "pie_charts": 2,
-      "bar_graphs": 2,
-      "tabular_di": 3,
-      "mixed_graphs_caselets": 2,
-      "line_graphs": 1
+      "pie_charts": 5908,
+      "bar_graphs": 5885,
+      "tabular_di": 5921,
+      "line_graphs": 5934,
+      "mixed_graphs_caselets": 5770
     },
     "geometry": {
-      "triangles_properties": 3,
-      "polygons_quadrilaterals": 2,
-      "circles_tangents": 3,
-      "similarity_triangles": 1,
-      "coordinate_geometry": 1
+      "triangles_properties": 6000,
+      "polygons_quadrilaterals": 5754,
+      "circles_tangents": 5908,
+      "coordinate_geometry": 5943,
+      "similarity_triangles": 5813
     },
     "mensuration": {
-      "2d_perimeter_area": 3,
-      "cylinder_cone_sphere": 3,
-      "shape_melting_recasting": 2,
-      "3d_surface_area_volume": 2
+      "2d_perimeter_area": 7318,
+      "cylinder_cone_sphere": 7285,
+      "shape_melting_recasting": 7397,
+      "3d_surface_area_volume": 7418
     },
     "miscellaneous": {
-      "clock_problems": 3,
-      "calendar_problems": 3,
-      "set_theory_venn": 3,
-      "cryptarithmetic_puzzles": 1
+      "clock_problems": 7209,
+      "calendar_problems": 7416,
+      "set_theory_venn": 7392,
+      "cryptarithmetic_puzzles": 7401
     },
     "mixtures-alligation": {
-      "rule_of_alligation": 3,
-      "simple_mixtures": 2,
-      "successive_replacement": 2,
-      "multi_component_mixtures": 3
+      "rule_of_alligation": 7459,
+      "simple_mixtures": 7362,
+      "successive_replacement": 7340,
+      "multi_component_mixtures": 7257
     },
     "number-system": {
-      "divisibility_rules": 1,
-      "unit_digit_cyclicity": 1,
-      "factors_multiples": 2,
-      "remainders_modular_arithmetic": 2,
-      "hcf_lcm": 1,
+      "divisibility_rules": 5810,
+      "unit_digit_cyclicity": 5936,
+      "factors_multiples": 5823,
+      "remainders_modular_arithmetic": 5860,
+      "hcf_lcm": 5986,
       "surds_indices": 1,
       "series_progressions": 1,
       "base_conversion": 1
     },
     "partnership": {
-      "simple_partnership": 2,
-      "compound_partnership": 3,
-      "capital_adjustment": 3,
-      "active_sleeping_partner": 2
+      "simple_partnership": 7347,
+      "compound_partnership": 7319,
+      "active_sleeping_partner": 7417,
+      "capital_adjustment": 7335
     },
     "percentages": {
-      "percentage_increase": 1,
-      "percentage_basics": 1,
-      "percentage_decrease": 1,
+      "percentage_increase": 4814,
+      "percentage_basics": 4839,
+      "percentage_decrease": 4947,
+      "successive_percentage": 4943,
+      "salary_problems": 4855,
+      "expenditure_problems": 5017,
       "marks_problems": 2,
-      "expenditure_problems": 2,
-      "successive_percentage": 1,
-      "population_problems": 1,
-      "salary_problems": 1
+      "population_problems": 1
     },
     "permutation-combination": {
-      "permutations_arrangements": 4,
-      "combinations_selections": 3,
-      "fundamental_counting_principle": 1,
-      "distribution_identical_distinct": 1,
-      "circular_permutations": 1
+      "permutations_arrangements": 7515,
+      "combinations_selections": 7365,
+      "fundamental_counting_principle": 7149,
+      "circular_permutations": 7388,
+      "distribution_identical_distinct": 1
     },
     "probability": {
-      "dice_cards_coins": 4,
-      "conditional_probability": 3,
-      "independent_events": 2,
+      "dice_cards_coins": 7486,
+      "conditional_probability": 7256,
+      "classical_probability": 7365,
+      "independent_events": 7310,
       "geometric_probability": 1
     },
     "profit-loss": {
-      "profit_loss_percentage": 1,
-      "cost_selling_price": 4,
-      "successive_discount": 1,
-      "marked_price_discount": 2,
-      "dishonest_trader": 2
+      "profit_loss_percentage": 5983,
+      "cost_selling_price": 5888,
+      "successive_discount": 5867,
+      "dishonest_trader": 5823,
+      "marked_price_discount": 5857
     },
     "ratio-proportion": {
-      "ratio_basics": 2,
-      "proportion_variation": 3,
-      "distribution_division": 3,
-      "coin_currency_problems": 1,
-      "age_problems": 1
+      "ratio_basics": 5929,
+      "proportion_variation": 5939,
+      "distribution_division": 5912,
+      "age_problems": 5888,
+      "coin_currency_problems": 5750
     },
     "simple-compound-interest": {
-      "simple_interest": 3,
-      "compound_interest_annual": 4,
-      "installment_schemes": 1,
-      "difference_si_ci": 1,
-      "compound_interest_subannual": 1
+      "simple_interest": 5913,
+      "compound_interest_annual": 5900,
+      "installment_schemes": 5888,
+      "difference_si_ci": 5928,
+      "compound_interest_subannual": 5789
     },
     "time-speed-distance": {
-      "basic_speed": 2,
-      "trains": 2,
-      "average_speed": 1,
-      "circular_tracks": 1,
-      "boats_and_streams": 1,
-      "relative_speed": 2,
+      "basic_speed": 4967,
+      "trains": 4865,
+      "average_speed": 4811,
+      "relative_speed": 4896,
+      "boats_and_streams": 4959,
+      "circular_tracks": 4919,
       "races_and_games": 1
     },
     "time-work": {
-      "combined_work": 2,
-      "pipes_and_cisterns": 3,
-      "individual_efficiency": 1,
-      "alternate_days": 1,
-      "work_wages": 1,
+      "combined_work": 5980,
+      "pipes_and_cisterns": 5823,
+      "individual_efficiency": 5876,
+      "work_wages": 5796,
+      "alternate_days": 5941,
       "man_days_equivalence": 2
     }
   },
   "time_metrics": {
-    "total_estimated_seconds": 9500,
-    "average_estimated_seconds_overall": 55.9,
+    "total_estimated_seconds": 41254220,
+    "average_estimated_seconds_overall": 82.5,
     "average_estimated_seconds_by_difficulty": {
-      "easy": 27.0,
-      "hard": 76.0,
-      "medium": 49.6,
-      "very_hard": 127.4
+      "easy": 30.0,
+      "hard": 90.0,
+      "medium": 60.0,
+      "very_hard": 150.0
     }
   }
 }

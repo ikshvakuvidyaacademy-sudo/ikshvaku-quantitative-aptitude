@@ -73,3 +73,4 @@ Thumbs.db
 # Audit reports generated locally
 reports/
 *.audit.json
+generated_exams/
